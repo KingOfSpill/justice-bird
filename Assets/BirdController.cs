@@ -5,8 +5,11 @@ using UnityEngine;
 public class BirdController : MonoBehaviour {
 
     // Variables for movement speed
-    public float movspeed = 2;
-    public float rotspeed = 60;
+    public float movSpeed = 2;
+    public float rotSpeed = 60;
+
+    // This holds the banking container object, which allows us to visually show banking without effecting the whole shapes angle around its z-axis
+    public Transform bankingContainer;
 
     // Use this for initialization
     void Start () {
@@ -17,24 +20,30 @@ public class BirdController : MonoBehaviour {
     void Update() {
 
         // Convert the user input into the amount of rotation wo want to do
-        float vertical = Input.GetAxis("Vertical") * Time.deltaTime * rotspeed;
-        float horizontal = Input.GetAxis("Horizontal") * Time.deltaTime * rotspeed;
+        float verticalMov = Input.GetAxisRaw("Vertical") * Time.deltaTime * movSpeed;
+        float vertical = Input.GetAxisRaw("Vertical") * Time.deltaTime * rotSpeed;
+        float horizontal = Input.GetAxis("Horizontal") * Time.deltaTime * rotSpeed;
 
         // Perform the rotation
-        transform.Rotate(new Vector3(vertical, horizontal , -0.2f * horizontal) );
+        transform.Rotate( new Vector3(vertical, 0, 0) );
+        transform.RotateAround( transform.position ,Vector3.up, horizontal);
 
-        //Rotate back to horizontal if there's no input
-        /*if (Input.GetAxisRaw("Horizontal") == 0) {
+        // Let's store these values to make the code below more readable
+        float bankXAngle = bankingContainer.eulerAngles.x;
+        float bankYAngle = bankingContainer.eulerAngles.y;
 
-            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z - System.Math.Abs(transform.rotation.eulerAngles.z/20)*(rotspeed*Time.deltaTime) );
+        // We want to rotate to preset angles depending on the input we are receiving on the horizontal axis right now
+        if ( Input.GetAxisRaw("Horizontal") > 0)
+            bankingContainer.rotation = Quaternion.Slerp( bankingContainer.rotation, Quaternion.Euler( bankXAngle, bankYAngle, 320 ), 0.1f );
 
-        }*/
+        else if (Input.GetAxisRaw("Horizontal") < 0)
+            bankingContainer.rotation = Quaternion.Slerp( bankingContainer.rotation, Quaternion.Euler( bankXAngle, bankYAngle, 40 ), 0.1f);
+
+        else
+            bankingContainer.rotation = Quaternion.Slerp( bankingContainer.rotation, Quaternion.Euler( bankXAngle, bankYAngle, 0 ), 0.1f);
 
         // Move the bird forward
-        transform.position += transform.forward * movspeed;
-
-        // Doing this to keep the  camera level to the ground
-        Camera.main.transform.rotation = Quaternion.Euler(Camera.main.transform.rotation.eulerAngles.x, Camera.main.transform.rotation.eulerAngles.y, 0);
+        transform.position += transform.forward * movSpeed;
 
 	}
 }
