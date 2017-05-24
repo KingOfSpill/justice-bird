@@ -577,6 +577,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movSpeed: 2
   rotSpeed: 60
+  maxVerticalAngle: -30
+  bankAngle: 40
   bankingContainer: {fileID: 589937604}
 --- !u!1 &1704089542
 GameObject:
