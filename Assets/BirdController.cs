@@ -6,15 +6,20 @@ public class BirdController : MonoBehaviour {
 
     // Variables for movement/rotation speed and for preset angles
     public float movSpeed = 2;
+    public float movSpeedFast = 3;
     public float rotSpeed = 60;
     public float maxVerticalAngle = 30;
     public float bankAngle = 40;
+
+    private float curSpeed;
 
     // This holds the banking container object, which allows us to visually show banking without effecting the whole shapes angle around its z-axis
     public Transform bankingContainer;
 
     // Use this for initialization
     void Start () {
+
+        curSpeed = movSpeed;
 		
 	}
 
@@ -49,17 +54,13 @@ public class BirdController : MonoBehaviour {
         float bankYAngle = bankingContainer.eulerAngles.y;
 
         // We want to bank to preset angles depending on the input we are receiving on the horizontal axis right now
-        if ( Input.GetAxis("Horizontal") > 0)
-            bankingContainer.rotation = Quaternion.Slerp( bankingContainer.rotation, Quaternion.Euler( bankXAngle, bankYAngle, mainZAngle + 360 - bankAngle ), 0.1f );
+        bankingContainer.rotation = Quaternion.Slerp( bankingContainer.rotation, Quaternion.Euler( bankXAngle, bankYAngle, mainZAngle - (bankAngle * Input.GetAxis("Horizontal")) ), 0.1f);
 
-        else if (Input.GetAxis("Horizontal") < 0)
-            bankingContainer.rotation = Quaternion.Slerp( bankingContainer.rotation, Quaternion.Euler( bankXAngle, bankYAngle, mainZAngle + bankAngle ), 0.1f);
-
-        else
-            bankingContainer.rotation = Quaternion.Slerp( bankingContainer.rotation, Quaternion.Euler( bankXAngle, bankYAngle, mainZAngle ), 0.1f);
+        // This will interpolate back and forth between the two speeds smoothly
+        curSpeed = Input.GetButton("Speed Up") ? Mathf.Lerp(curSpeed, movSpeedFast, 0.05f) : Mathf.Lerp(curSpeed, movSpeed, 0.05f);
 
         // Move the bird forward
-        transform.position += transform.forward * movSpeed;
+        transform.position += transform.forward * curSpeed;
 
 	}
 }
