@@ -4,12 +4,22 @@ using UnityEngine;
 
 public class BirdController : MonoBehaviour {
 
-    // Variables for movement speed
-    public float movspeed = 2;
-    public float rotspeed = 60;
+    // Variables for movement/rotation speed and for preset angles
+    public float movSpeed = 2;
+    public float movSpeedFast = 3;
+    public float rotSpeed = 60;
+    public float maxVerticalAngle = 30;
+    public float bankAngle = 40;
+
+    private float curSpeed;
+
+    // This holds the banking container object, which allows us to visually show banking without effecting the whole shapes angle around its z-axis
+    public Transform bankingContainer;
 
     // Use this for initialization
     void Start () {
+
+        curSpeed = movSpeed;
 		
 	}
 
@@ -17,24 +27,40 @@ public class BirdController : MonoBehaviour {
     void Update() {
 
         // Convert the user input into the amount of rotation wo want to do
-        float vertical = Input.GetAxis("Vertical") * Time.deltaTime * rotspeed;
-        float horizontal = Input.GetAxis("Horizontal") * Time.deltaTime * rotspeed;
+        float verticalMov = Input.GetAxis("Vertical") * Time.deltaTime * movSpeed;
+        float vertical = Input.GetAxis("Vertical") * Time.deltaTime * rotSpeed;
+        float horizontal = Input.GetAxis("Horizontal") * Time.deltaTime * rotSpeed;
 
-        // Perform the rotation
-        transform.Rotate(new Vector3(vertical, horizontal , -0.2f * horizontal) );
+        // Perform rotations
+        transform.Rotate(new Vector3(vertical, 0, 0));
 
-        //Rotate back to horizontal if there's no input
-        /*if (Input.GetAxisRaw("Horizontal") == 0) {
+        // Let's store these values to make the code below more readable
+        float mainXAngle = transform.eulerAngles.x;
+        float mainYAngle = transform.eulerAngles.y;
+        float mainZAngle = transform.eulerAngles.z;
 
-            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z - System.Math.Abs(transform.rotation.eulerAngles.z/20)*(rotspeed*Time.deltaTime) );
+        // Clamping the rotation keeps the bird from flying too steeply
+        if( mainXAngle > maxVerticalAngle && mainXAngle < 180 )
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler( maxVerticalAngle, mainYAngle, mainZAngle ), 0.1f);
 
-        }*/
+        if (mainXAngle < 360 - maxVerticalAngle && mainXAngle >= 180)
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler( 360 - maxVerticalAngle, mainYAngle, mainZAngle), 0.1f);
+
+        // We're doing the rotation around the world up vector to avoid horizontal input effecting vertical rotation
+        transform.RotateAround( transform.position, Vector3.up, horizontal);
+
+        // Let's store these values to make the code below more readable
+        float bankXAngle = bankingContainer.eulerAngles.x;
+        float bankYAngle = bankingContainer.eulerAngles.y;
+
+        // We want to bank to preset angles depending on the input we are receiving on the horizontal axis right now
+        bankingContainer.rotation = Quaternion.Slerp( bankingContainer.rotation, Quaternion.Euler( bankXAngle, bankYAngle, mainZAngle - (bankAngle * Input.GetAxis("Horizontal")) ), 0.1f);
+
+        // This will interpolate back and forth between the two speeds smoothly
+        curSpeed = Input.GetButton("Speed Up") ? Mathf.Lerp(curSpeed, movSpeedFast, 0.05f) : Mathf.Lerp(curSpeed, movSpeed, 0.05f);
 
         // Move the bird forward
-        transform.position += transform.forward * movspeed;
-
-        // Doing this to keep the  camera level to the ground
-        Camera.main.transform.rotation = Quaternion.Euler(Camera.main.transform.rotation.eulerAngles.x, Camera.main.transform.rotation.eulerAngles.y, 0);
+        transform.position += transform.forward * curSpeed;
 
 	}
 }
