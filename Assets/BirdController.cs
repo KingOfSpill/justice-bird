@@ -17,14 +17,14 @@ public class BirdController : MonoBehaviour {
     public Transform bankingContainer;
 
     // Use this for initialization
-    void Start () {
-
+    void Start ()
+    {
         curSpeed = movSpeed;
-		
 	}
 
     // Update is called once per frame
-    void Update() {
+    void Update()
+    {
 
         // Convert the user input into the amount of rotation wo want to do
         float verticalMov = Input.GetAxis("Vertical") * Time.deltaTime * movSpeed;
@@ -63,4 +63,10 @@ public class BirdController : MonoBehaviour {
         transform.position += transform.forward * curSpeed;
 
 	}
+
+    // Simple Method of collision handling
+    void OnTriggerEnter(Collider other)
+    {
+        curSpeed = -movSpeedFast;
+    }
 }
