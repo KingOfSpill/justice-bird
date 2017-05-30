@@ -42,3 +42,5 @@
   |---:|--------------:|:--------|:------:|:------:|
   | 00 | 01            | The game shall allow the player to pause the game | Not Started | Unassigned |
   | 01 | 01            | The game shall allow the player to un-pause the game | Not Started | Unassigned |
+  | 02 | 09            | The game shall allow the player to control the bird’s flight | In Progress | @kingofspill |
+  | 03 | 09            | The game shall allow the player to control the bird’s pooping | Not Started | @mohammadh94 |
