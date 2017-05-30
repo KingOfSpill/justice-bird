@@ -44,3 +44,6 @@
   | 01 | 01            | The game shall allow the player to un-pause the game | Not Started | Unassigned |
   | 02 | 09            | The game shall allow the player to control the bird’s flight | In Progress | @kingofspill |
   | 03 | 09            | The game shall allow the player to control the bird’s pooping | Not Started | @mohammadh94 |
+  | 04 | 09            | The game shall generate terrain pseudo-randomly | Not Started| @3alanhdez|
+  | 05 | 09            |The game shall generate buildings pseudo-randomly | Not Started| @3alanhdez|
+
