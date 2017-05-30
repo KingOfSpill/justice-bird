@@ -26,7 +26,8 @@
   | 03 | “As a player, I want a way to track the progress of my nest, so I can visualize my accomplishment." |
   | 04 | “As a player, I want a way to view the interesting objects in my nest, so I can visualize my collection.”|
   | 05 | “As a player, I want to be able to adjust graphics settings so I can ensure good performance on my device.” |
-
+  | 06 | “As a player, I want a way to see a score, so that I can compare myself with other players.” |
+  | 07 | “As a player, I want to be able to save my progress on exiting the game, so that I can return later.” |
   
   ## Functional Requirements
 
