@@ -24,6 +24,8 @@
   | 01 | “As a player, I want to be able to pause the game, so that I can take breaks from it.” |
   | 02 | "As a player, I want a way to measure my ability, so that I know how well I’m doing in the game.” |
   | 03 | “As a player, I want a way to track the progress of my nest, so I can visualize my accomplishment." |
+  | 04 | “As a player, I want a way to view the interesting objects in my nest, so I can visualize my collection.”|
+  | 05 | “As a player, I want to be able to adjust graphics settings so I can ensure good performance on my device.” |
 
   
   ## Functional Requirements
