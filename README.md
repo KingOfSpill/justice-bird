@@ -28,6 +28,13 @@
   | 05 | “As a player, I want to be able to adjust graphics settings so I can ensure good performance on my device.” |
   | 06 | “As a player, I want a way to see a score, so that I can compare myself with other players.” |
   | 07 | “As a player, I want to be able to save my progress on exiting the game, so that I can return later.” |
+  | 08 | "As a player, I want to be able to exit the game, so that I can do other things." |
+  | 09 | "As a player, I want to be able to control the bird, so I can explore and interact with the game world." |
+  | 10 | "As a bird, I want to collect materials, so that I can build my nest." |
+  | 11 | "As a bird, I want to be able to eat worms so that I am able to poop." |
+  | 12 | "As a bird, I want to be able to change the type of poop, so I can interact differently with the game world." |
+  | 13 | "As a player, I want to be able to gain power ups, to keep the game exciting." |
+  | 14 | "As a player, I want to be able to customize my bird, so I can feel ownership over my game" | 
   
   ## Functional Requirements
 
