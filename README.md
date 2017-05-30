@@ -48,4 +48,6 @@
   | 05 | 09            | The game shall generate buildings pseudo-randomly | Not Started| @3alanhdez|
   | 06 | 04            | The game shall allow the player to view collectable items | Not Started | @marcburrell |
   | 07 | 06            | The game shall display a score, dependant on the player's actions | Not Started| @marcburrell |
+  | 08 | 08            | The game shall allow the player to exit the game | Not Started | Not Assigned |
+  | 09 | 09            | The game shall generate non playable characters pseudo-randomly | Not Started | Not Assigned |
 
