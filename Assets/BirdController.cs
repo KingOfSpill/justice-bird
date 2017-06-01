@@ -10,6 +10,7 @@ public class BirdController : MonoBehaviour {
     public float maxVerticalAngle = 30;
     public float maxHorizontalAngle = 30;
     public float bankAngle = 40;
+    public float screenMargin = 0.1f;
 
     private float curSpeed;
 
@@ -54,7 +55,13 @@ public class BirdController : MonoBehaviour {
         // We want to bank to preset angles depending on the input we are receiving on the horizontal axis right now
         bankingContainer.rotation = Quaternion.Slerp( bankingContainer.rotation, Quaternion.Euler( bankXAngle, bankYAngle, mainZAngle - (bankAngle * Input.GetAxis("Horizontal")) ), 0.1f);
 
-        transform.position = transform.position + new Vector3( horizontalMov, verticalMov, 0 );
+        transform.localPosition = transform.localPosition + new Vector3( horizontalMov, verticalMov, 0 );
 
-	}
+        // This will keep the bird on-screen
+        Vector3 position = Camera.main.WorldToViewportPoint(transform.position);
+        position.x = Mathf.Clamp(position.x, 0.0f + screenMargin, 1.0f - screenMargin );
+        position.y = Mathf.Clamp(position.y, 0.0f + screenMargin, 1.0f - screenMargin);
+        transform.position = Camera.main.ViewportToWorldPoint(position);
+
+    }
 }
