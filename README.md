@@ -17,7 +17,7 @@
   Justice Pigeon, a game which allows you to fly across various terrains as a bird while also avoiding obstacles and gaining points
   along the way. The best part of our game however is the ability to defecate on the heads of those who you are tired of seeing on the
   news every single week. On the contrary of what you may be thinking, our birds are bipartisan so everybody has an equal oppurtunity to
-  get pooped on; no matter their political views. Our game is a fun way to unwind and can even provide a method of relief from the daily
+  get pooped on, no matter their political views. Our game is a fun way to unwind and can even provide a method of relief from the daily
   news. This supports our company’s strategy to release games which are not only exciting but also relevant to the current times.
   
 
