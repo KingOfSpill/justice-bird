@@ -64,4 +64,15 @@ public class BirdController : MonoBehaviour {
         transform.position = Camera.main.ViewportToWorldPoint(position);
 
     }
+
+	// Food trigger
+	void OnTriggerEnter(Collider other){
+
+		if (other.gameObject.CompareTag ("Food")) {
+
+			other.gameObject.SetActive (false);
+
+		}
+
+	}
 }
