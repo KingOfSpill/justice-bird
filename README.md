@@ -61,8 +61,8 @@ We are living in a time of history where it seems like every time you hear about
   |----:|:------:|:------:|
   | 02  | In Progress | @kingofspill |
   | 03  | Not Started | @mohammadh94 |
-  | 04  | Not Started | @3alanhdez   |
-  | 05  | Not Started | @3alanhdez   |
+  | 04  | In Progress | @3alanhdez   |
+  | 05  | In Progress | @3alanhdez   |
   | 06  | Not Started | @marcburrell |
   | 07  | Not Started | @marcburrell |
 
