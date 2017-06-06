@@ -47,8 +47,8 @@ We are living in a time of history where it seems like every time you hear about
   | 01 | 01            | The game shall allow the player to un-pause the game             | Not Started | Unassigned   |
   | 02 | 09            | The game shall allow the player to control the bird’s flight     | In Progress | @kingofspill |
   | 03 | 09            | The game shall allow the player to control the bird’s pooping    | Not Started | @mohammadh94 |
-  | 04 | 09            | The game shall generate terrain pseudo-randomly                  | Not Started | @3alanhdez   |
-  | 05 | 09            | The game shall generate buildings pseudo-randomly                | Not Started | @3alanhdez   |
+  | 04 | 09            | The game shall generate terrain pseudo-randomly                  | In Progress | @3alanhdez   |
+  | 05 | 09            | The game shall generate buildings pseudo-randomly                | In Progress | @3alanhdez   |
   | 06 | 04            | The game shall allow the player to view collectable items        | Not Started | @marcburrell |
   | 07 | 06            | The game shall display a score, dependant on the player's actions| Not Started | @marcburrell |
   | 08 | 08            | The game shall allow the player to exit the game                 | Not Started | Unassigned   |
