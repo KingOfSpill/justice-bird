@@ -55,3 +55,6 @@ We are living in a time of history where it seems like every time you hear about
   | 09 | 09            | The game shall generate non playable characters pseudo-randomly  | Not Started | Unassigned   |
   | 10 | 10            | The game shall allow the player to collect collectable items     | Not Started | Unassigned   |
 
+## Design Specification
+
+![Very UML!](Documentation/DesignDoc.png)
