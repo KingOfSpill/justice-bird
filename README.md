@@ -55,6 +55,17 @@ We are living in a time of history where it seems like every time you hear about
   | 09 | 09            | The game shall generate non playable characters pseudo-randomly  | Not Started | Unassigned   |
   | 10 | 10            | The game shall allow the player to collect collectable items     | Not Started | Unassigned   |
 
+  ### Sprint Backlog
+  
+  | RID | Status | Person |
+  |----:|:------:|:------:|
+  | 02  | In Progress | @kingofspill |
+  | 03  | Not Started | @mohammadh94 |
+  | 04  | Not Started | @3alanhdez   |
+  | 05  | Not Started | @3alanhdez   |
+  | 06  | Not Started | @marcburrell |
+  | 07  | Not Started | @marcburrell |
+
 ## Design Specification
 
 ![Very UML!](Documentation/DesignDoc.png)
