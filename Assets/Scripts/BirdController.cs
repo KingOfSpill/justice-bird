@@ -21,7 +21,7 @@ public class BirdController : MonoBehaviour {
     void Start () {
 
         curSpeed = movSpeed;
-		
+
 	}
 
     // Update is called once per frame
@@ -68,9 +68,12 @@ public class BirdController : MonoBehaviour {
 	// Food trigger
 	void OnTriggerEnter(Collider other){
 
+		AudioSource aud = GetComponent<AudioSource>();
+
 		if (other.gameObject.CompareTag ("Food")) {
 
 			other.gameObject.SetActive (false);
+			aud.Play ();
 
 		}
 
