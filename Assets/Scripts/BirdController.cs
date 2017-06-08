@@ -10,8 +10,24 @@ public class BirdController : MonoBehaviour {
     public float maxVerticalAngle = 30;
     public float maxHorizontalAngle = 30;
     public float bankAngle = 40;
-    public float screenMargin = 0.1f;
 
+    // Stores the percent of the screen that should be off-limits
+    public float screenMargin = 0.0f;
+
+    // The size of the grid the bird lives on
+    public int gridHeight = 3;
+    public int gridWidth = 3;
+
+    // The bird's current position on the grid
+    public int gridX;
+    public int gridY;
+    private float horizontalTarget;
+    private float verticalTarget;
+
+    private float unitWidth;
+    private float unitHeight;
+
+    // The bird's current speed
     private float curSpeed;
 
     // This holds the banking container object, which allows us to visually show banking without effecting the whole shapes angle around its z-axis
@@ -21,15 +37,29 @@ public class BirdController : MonoBehaviour {
     void Start () {
 
         curSpeed = movSpeed;
+
+        unitWidth = (1.0f - ( 2.0f * screenMargin ))/(gridWidth);
+        unitHeight = (1.0f - ( 2.0f * screenMargin ))/(gridHeight);
+
+        gridX = 0;
+        gridY = 0;
 		
 	}
 
     // Update is called once per frame
     void Update() {
 
-        // Convert the user input into the amount of rotation wo want to do
-        float verticalMov = Input.GetAxis("Vertical") * Time.deltaTime * movSpeed;
-        float horizontalMov = Input.GetAxis("Horizontal") * Time.deltaTime * movSpeed;
+    	updateRotation();
+
+    	updateTargetPosition();
+
+    	updatePosition();
+
+    }
+
+    void updateRotation() {
+
+    	// Convert the user input into the amount of rotation wo want to do
         float vertical = Input.GetAxis("Vertical") * Time.deltaTime * rotSpeed;
         float horizontal = Input.GetAxis("Horizontal") * Time.deltaTime * rotSpeed;
 
@@ -55,13 +85,36 @@ public class BirdController : MonoBehaviour {
         // We want to bank to preset angles depending on the input we are receiving on the horizontal axis right now
         bankingContainer.rotation = Quaternion.Slerp( bankingContainer.rotation, Quaternion.Euler( bankXAngle, bankYAngle, mainZAngle - (bankAngle * Input.GetAxis("Horizontal")) ), 0.1f);
 
-        transform.localPosition = transform.localPosition + new Vector3( horizontalMov, verticalMov, 0 );
+    }
 
-        // This will keep the bird on-screen
-        Vector3 position = Camera.main.WorldToViewportPoint(transform.position);
-        position.x = Mathf.Clamp(position.x, 0.0f + screenMargin, 1.0f - screenMargin );
-        position.y = Mathf.Clamp(position.y, 0.0f + screenMargin, 1.0f - screenMargin);
-        transform.position = Camera.main.ViewportToWorldPoint(position);
+    void updateTargetPosition(){
+
+    	Vector3 viewPortPos = Camera.main.WorldToViewportPoint(transform.position);
+
+    	if( Vector3.Distance( transform.position, Camera.main.ViewportToWorldPoint(new Vector3( horizontalTarget, verticalTarget, viewPortPos.z ) ) ) < 1f ){
+
+    		if( !Mathf.Approximately( Input.GetAxis("Horizontal"), 0.0f ) )
+				gridX += Mathf.RoundToInt( Mathf.Sign( Input.GetAxis("Horizontal") ) );
+
+    		gridX = Mathf.Clamp(gridX, -(gridWidth/2), (gridWidth/2) );
+
+    		if( !Mathf.Approximately( Input.GetAxis("Vertical"), 0.0f ) )
+    			gridY += Mathf.RoundToInt( Mathf.Sign( Input.GetAxis("Vertical") ) );
+
+    		gridY = Mathf.Clamp(gridY, -(gridWidth/2), (gridWidth/2) );
+
+    		horizontalTarget =  0.5f + (gridX * unitWidth);
+    		verticalTarget =  0.5f + (gridY * unitHeight);
+
+    	}
+
+    }
+
+    void updatePosition() {
+
+    	Vector3 viewPortPos = Camera.main.WorldToViewportPoint(transform.position);
+
+        transform.position = Vector3.Lerp( transform.position, Camera.main.ViewportToWorldPoint(new Vector3( horizontalTarget, verticalTarget, viewPortPos.z ) ), 0.1f) ;
 
     }
 
