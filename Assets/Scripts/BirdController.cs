@@ -38,8 +38,11 @@ public class BirdController : MonoBehaviour {
 
         curSpeed = movSpeed;
 
+<<<<<<< HEAD
 	//<<<<<<< HEAD
 	//=======
+=======
+>>>>>>> 98deaa4eefa973952939ec1f0f1a4028782ea4c6
         unitWidth = (1.0f - ( 2.0f * screenMargin ))/(gridWidth);
         unitHeight = (1.0f - ( 2.0f * screenMargin ))/(gridHeight);
 
@@ -100,6 +103,7 @@ public class BirdController : MonoBehaviour {
 				gridX += Mathf.RoundToInt( Mathf.Sign( Input.GetAxis("Horizontal") ) );
 
     		gridX = Mathf.Clamp(gridX, -(gridWidth/2), (gridWidth/2) );
+<<<<<<< HEAD
 
     		if( !Mathf.Approximately( Input.GetAxis("Vertical"), 0.0f ) )
     			gridY += Mathf.RoundToInt( Mathf.Sign( Input.GetAxis("Vertical") ) );
@@ -110,6 +114,26 @@ public class BirdController : MonoBehaviour {
     		verticalTarget =  0.5f + (gridY * unitHeight);
 
     	}
+=======
+
+    		if( !Mathf.Approximately( Input.GetAxis("Vertical"), 0.0f ) )
+    			gridY += Mathf.RoundToInt( Mathf.Sign( Input.GetAxis("Vertical") ) );
+
+    		gridY = Mathf.Clamp(gridY, -(gridWidth/2), (gridWidth/2) );
+
+    		horizontalTarget =  0.5f + (gridX * unitWidth);
+    		verticalTarget =  0.5f + (gridY * unitHeight);
+
+    	}
+
+    }
+
+    void updatePosition() {
+
+    	Vector3 viewPortPos = Camera.main.WorldToViewportPoint(transform.position);
+
+        transform.position = Vector3.Lerp( transform.position, Camera.main.ViewportToWorldPoint(new Vector3( horizontalTarget, verticalTarget, viewPortPos.z ) ), 0.1f) ;
+>>>>>>> 98deaa4eefa973952939ec1f0f1a4028782ea4c6
 
     }
 
