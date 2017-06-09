@@ -42,12 +42,12 @@
   |---:|--------------:|:--------|:------:|:------:|:-----:|
   | 00 | 01            | The game shall allow the player to pause the game                | Not Started | Unassigned   |1|
   | 01 | 01            | The game shall allow the player to un-pause the game             | Not Started | Unassigned   |1|
-  | 02 | 09            | The game shall allow the player to control the bird’s flight     | In Progress | @kingofspill |2|
+  | 02 | 09            | The game shall allow the player to control the bird’s flight     | Complete | @kingofspill |2|
   | 03 | 09            | The game shall allow the player to control the bird’s pooping    | Not Started | @mohammadh94 |3|
   | 04 | 02            | The game shall generate terrain pseudo-randomly                  | In Progress | @3alanhdez   |5, 8|
-  | 05 | 02            | The game shall generate buildings pseudo-randomly                | In Progress | @3alanhdez   |5, 8|
-  | 06 | 04            | The game shall allow the player to view collectable items        | Not Started | @marcburrell |2|
-  | 07 | 06            | The game shall display a score, dependant on the player's actions| Not Started | @marcburrell |2|
+  | 05 | 02            | The game shall generate buildings pseudo-randomly                | Complete | @3alanhdez   |5, 8|
+  | 06 | 04            | The game shall allow the player to view collectable items        | Complete | @marcburrell |2|
+  | 07 | 06            | The game shall display a score, dependant on the player's actions| Complete | @marcburrell |2|
   | 08 | 08            | The game shall allow the player to exit the game                 | Not Started | Unassigned   |1|
   | 09 | 02            | The game shall generate non playable characters pseudo-randomly  | Not Started | Unassigned   |5|
   | 10 | 10            | The game shall allow the player to collect collectable items     | Not Started | Unassigned   |5|
@@ -67,9 +67,9 @@
   |:----:|:------:|:------:|:----:|
   | 02  | Complete | @kingofspill | 2 |
   | 04  | In Progress | @3alanhdez   | 5 |
-  | 05  | In Progress | @3alanhdez   | 5 |
-  | 06  | Not Started | @marcburrell | 2 |
-  | 07  | Not Started | @marcburrell | 2 |
+  | 05  | Complete | @3alanhdez   | 5 |
+  | 06  | Complete | @marcburrell | 2 |
+  | 07  | Complete | @marcburrell | 2 |
   
   ### Sprint 1 Burndown Chart
  
