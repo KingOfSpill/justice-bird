@@ -64,7 +64,7 @@
   
   | RID | Status | Person |
   |----:|:------:|:------:|
-  | 02  | In Progress | @kingofspill |
+  | 02  | Complete | @kingofspill |
   | 03  | Not Started | @mohammadh94 |
   | 04  | In Progress | @3alanhdez   |
   | 05  | In Progress | @3alanhdez   |
