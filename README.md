@@ -42,7 +42,7 @@
   |---:|--------------:|:--------|:------:|:------:|:-----:|
   | 00 | 01            | The game shall allow the player to pause the game                | Not Started | Unassigned   |1|
   | 01 | 01            | The game shall allow the player to un-pause the game             | Not Started | Unassigned   |1|
-  | 02 | 09            | The game shall allow the player to control the bird’s flight     | In Progress | @kingofspill |2,8|
+  | 02 | 09            | The game shall allow the player to control the bird’s flight     | In Progress | @kingofspill |2|
   | 03 | 09            | The game shall allow the player to control the bird’s pooping    | Not Started | @mohammadh94 |3,,,,|
   | 04 | 02            | The game shall generate terrain pseudo-randomly                  | In Progress | @3alanhdez   |5,,,,|
   | 05 | 02            | The game shall generate buildings pseudo-randomly                | In Progress | @3alanhdez   |5,,,,|
@@ -59,6 +59,7 @@
   | 16 | 12            | The game shall allow the player to change the bird's pooping     | Not Started | Unassigned   |2,3|
   | 17 | 13            | The game shall allow the player collect items which change the bird's interaction  with the game world | Not Started | Unassigned   |8,5|
   | 18 | 14            | The game shall allow players to spend in-game currency on alternative skins for the bird | Not Started | Unassigned   |5,8|
+  | 19 | 09            | The game shall allow the bird to interact with its environment/surroundings | Not Started | Unassigned   |5,|
 
   ### Sprint 1
   
@@ -84,6 +85,7 @@
   | 13  | Not Started | Unassigned |
   | 16  | Not Started | Unassigned |
   | 17  | Not Started | Unassigned |
+  | 19  | Not Started | Unassigned |
   
   
   ### Sprint 3 Backlog
