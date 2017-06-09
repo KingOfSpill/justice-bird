@@ -65,7 +65,6 @@
   | RID | Status | Person |
   |----:|:------:|:------:|
   | 02  | Complete | @kingofspill |
-  | 03  | Not Started | @mohammadh94 |
   | 04  | In Progress | @3alanhdez   |
   | 05  | In Progress | @3alanhdez   |
   | 06  | Not Started | @marcburrell |
@@ -78,24 +77,26 @@
   
   | RID | Status | Person |
   |----:|:------:|:------:|
-  | 00  | In Progress | @kingofspill |
-  | 00  | Not Started | @mohammadh94 |
-  | 00  | In Progress | @3alanhdez   |
-  | 00  | In Progress | @3alanhdez   |
-  | 00  | Not Started | @marcburrell |
-  | 00  | Not Started | @marcburrell | 
+  | 03  | Not Started | Unassigned |
+  | 09  | Not Started | Unassigned |
+  | 10  | Not Started | Unassigned |
+  | 11  | Not Started | Unassigned |
+  | 13  | Not Started | Unassigned |
+  | 16  | Not Started | Unassigned |
+  | 17  | Not Started | Unassigned |
   
   
   ### Sprint 3 Backlog
   
   | RID | Status | Person |
   |----:|:------:|:------:|
-  | 00  | In Progress | @kingofspill |
-  | 00  | Not Started | @mohammadh94 |
-  | 00  | In Progress | @3alanhdez   |
-  | 00  | In Progress | @3alanhdez   |
-  | 00  | Not Started | @marcburrell |
-  | 00  | Not Started | @marcburrell |  
+  | 00  | Not Started | Unassigned |
+  | 01  | Not Started | Unassigned |
+  | 08  | Not Started | Unassigned |
+  | 12  | Not Started | Unassigned |
+  | 14  | Not Started | Unassigned |
+  | 15  | Not Started | Unassigned |
+  | 18  | Not Started | Unassigned |
   
   
   
