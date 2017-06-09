@@ -38,38 +38,67 @@
   
   ### Functional Requirements
 
-  | RID | UID | Feature | Status | Person |
-  |---:|--------------:|:--------|:------:|:------:|
-  | 00 | 01            | The game shall allow the player to pause the game                | Not Started | Unassigned   |
-  | 01 | 01            | The game shall allow the player to un-pause the game             | Not Started | Unassigned   |
-  | 02 | 09            | The game shall allow the player to control the bird’s flight     | In Progress | @kingofspill |
-  | 03 | 09            | The game shall allow the player to control the bird’s pooping    | Not Started | @mohammadh94 |
-  | 04 | 02            | The game shall generate terrain pseudo-randomly                  | In Progress | @3alanhdez   |
-  | 05 | 02            | The game shall generate buildings pseudo-randomly                | In Progress | @3alanhdez   |
-  | 06 | 04            | The game shall allow the player to view collectable items        | Not Started | @marcburrell |
-  | 07 | 06            | The game shall display a score, dependant on the player's actions| Not Started | @marcburrell |
-  | 08 | 08            | The game shall allow the player to exit the game                 | Not Started | Unassigned   |
-  | 09 | 02            | The game shall generate non playable characters pseudo-randomly  | Not Started | Unassigned   |
-  | 10 | 10            | The game shall allow the player to collect collectable items     | Not Started | Unassigned   |
-  | 11 | 11            | The game shall generate worms pseudo-randomly                    | Not Started | Unassigned   |
-  | 12 | 05            | The game shall provide a method for changing common graphical settings | Not Started | Unassigned   |
-  | 13 | 03            | The game shall allow the player to see the total amount of items collected | Not Started | Unassigned   |
-  | 14 | 07            | The game shall store player progress                             | Not Started | Unassigned   |
-  | 15 | 07            | The game shall allow the player to load previously stored progress | Not Started | Unassigned   |
-  | 16 | 12            | The game shall allow the player to change the bird's pooping     | Not Started | Unassigned   |
-  | 17 | 13            | The game shall allow the player collect items which change the bird's interaction  with the game world | Not Started | Unassigned   |
-  | 18 | 14            | The game shall allow players to spend in-game currency on alternative skins for the bird | Not Started | Unassigned   |
+  | RID | UID | Feature | Status | Assigned To | Points |
+  |---:|--------------:|:--------|:------:|:------:|:-----:|
+  | 00 | 01            | The game shall allow the player to pause the game                | Not Started | Unassigned   |,,,,,|
+  | 01 | 01            | The game shall allow the player to un-pause the game             | Not Started | Unassigned   |,,,,,|
+  | 02 | 09            | The game shall allow the player to control the bird’s flight     | In Progress | @kingofspill |,,,,,|
+  | 03 | 09            | The game shall allow the player to control the bird’s pooping    | Not Started | @mohammadh94 |,,,,,|
+  | 04 | 02            | The game shall generate terrain pseudo-randomly                  | In Progress | @3alanhdez   |,,,,,|
+  | 05 | 02            | The game shall generate buildings pseudo-randomly                | In Progress | @3alanhdez   |,,,,,|
+  | 06 | 04            | The game shall allow the player to view collectable items        | Not Started | @marcburrell |,,,,,|
+  | 07 | 06            | The game shall display a score, dependant on the player's actions| Not Started | @marcburrell |,,,,,|
+  | 08 | 08            | The game shall allow the player to exit the game                 | Not Started | Unassigned   |,,,,,|
+  | 09 | 02            | The game shall generate non playable characters pseudo-randomly  | Not Started | Unassigned   |,,,,,|
+  | 10 | 10            | The game shall allow the player to collect collectable items     | Not Started | Unassigned   |,,,,,|
+  | 11 | 11            | The game shall generate worms pseudo-randomly                    | Not Started | Unassigned   |,,,,,|
+  | 12 | 05            | The game shall provide a method for changing common graphical settings | Not Started | Unassigned   |,,,,,|
+  | 13 | 03            | The game shall allow the player to see the total amount of items collected | Not Started | Unassigned   |,,,,,|
+  | 14 | 07            | The game shall store player progress                             | Not Started | Unassigned   |,,,,,|
+  | 15 | 07            | The game shall allow the player to load previously stored progress | Not Started | Unassigned   |,,,,,|
+  | 16 | 12            | The game shall allow the player to change the bird's pooping     | Not Started | Unassigned   |,,,,,|
+  | 17 | 13            | The game shall allow the player collect items which change the bird's interaction  with the game world | Not Started | Unassigned   |,,,,,|
+  | 18 | 14            | The game shall allow players to spend in-game currency on alternative skins for the bird | Not Started | Unassigned   |,,,,,|
 
-  ### Sprint Backlog
+  ### Sprint 1
   
   | RID | Status | Person |
   |----:|:------:|:------:|
-  | 02  | Complete | @kingofspill |
+  | 02  | In Progress | @kingofspill |
   | 03  | Not Started | @mohammadh94 |
   | 04  | In Progress | @3alanhdez   |
   | 05  | In Progress | @3alanhdez   |
   | 06  | Not Started | @marcburrell |
   | 07  | Not Started | @marcburrell |
+  
+  ### Sprint 1 Burndown Chart
+  
+  
+  ### Sprint 2 Backlog
+  
+  | RID | Status | Person |
+  |----:|:------:|:------:|
+  | 00  | In Progress | @kingofspill |
+  | 00  | Not Started | @mohammadh94 |
+  | 00  | In Progress | @3alanhdez   |
+  | 00  | In Progress | @3alanhdez   |
+  | 00  | Not Started | @marcburrell |
+  | 00  | Not Started | @marcburrell | 
+  
+  
+  ### Sprint 3 Backlog
+  
+  | RID | Status | Person |
+  |----:|:------:|:------:|
+  | 00  | In Progress | @kingofspill |
+  | 00  | Not Started | @mohammadh94 |
+  | 00  | In Progress | @3alanhdez   |
+  | 00  | In Progress | @3alanhdez   |
+  | 00  | Not Started | @marcburrell |
+  | 00  | Not Started | @marcburrell |  
+  
+  
+  
 
 ## Design Specification
 
