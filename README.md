@@ -43,33 +43,33 @@
   | 00 | 01            | The game shall allow the player to pause the game                | Not Started | Unassigned   |1|
   | 01 | 01            | The game shall allow the player to un-pause the game             | Not Started | Unassigned   |1|
   | 02 | 09            | The game shall allow the player to control the bird’s flight     | In Progress | @kingofspill |2|
-  | 03 | 09            | The game shall allow the player to control the bird’s pooping    | Not Started | @mohammadh94 |3,,,,|
-  | 04 | 02            | The game shall generate terrain pseudo-randomly                  | In Progress | @3alanhdez   |5,,,,|
-  | 05 | 02            | The game shall generate buildings pseudo-randomly                | In Progress | @3alanhdez   |5,,,,|
-  | 06 | 04            | The game shall allow the player to view collectable items        | Not Started | @marcburrell |2,,,,|
-  | 07 | 06            | The game shall display a score, dependant on the player's actions| Not Started | @marcburrell |2,,,,|
-  | 08 | 08            | The game shall allow the player to exit the game                 | Not Started | Unassigned   |1,1|
-  | 09 | 02            | The game shall generate non playable characters pseudo-randomly  | Not Started | Unassigned   |5,5|
-  | 10 | 10            | The game shall allow the player to collect collectable items     | Not Started | Unassigned   |3,5|
+  | 03 | 09            | The game shall allow the player to control the bird’s pooping    | Not Started | @mohammadh94 |3|
+  | 04 | 02            | The game shall generate terrain pseudo-randomly                  | In Progress | @3alanhdez   |5|
+  | 05 | 02            | The game shall generate buildings pseudo-randomly                | In Progress | @3alanhdez   |5|
+  | 06 | 04            | The game shall allow the player to view collectable items        | Not Started | @marcburrell |2|
+  | 07 | 06            | The game shall display a score, dependant on the player's actions| Not Started | @marcburrell |2|
+  | 08 | 08            | The game shall allow the player to exit the game                 | Not Started | Unassigned   |1|
+  | 09 | 02            | The game shall generate non playable characters pseudo-randomly  | Not Started | Unassigned   |5|
+  | 10 | 10            | The game shall allow the player to collect collectable items     | Not Started | Unassigned   |5|
   | 11 | 11            | The game shall generate worms pseudo-randomly                    | Not Started | Unassigned   |5|
-  | 12 | 05            | The game shall provide a method for changing common graphical settings | Not Started | Unassigned   |3,3|
-  | 13 | 03            | The game shall allow the player to see the total amount of items collected | Not Started | Unassigned   |5,,,,|
-  | 14 | 07            | The game shall store player progress                             | Not Started | Unassigned   |5,8|
-  | 15 | 07            | The game shall allow the player to load previously stored progress | Not Started | Unassigned   |5,5|
-  | 16 | 12            | The game shall allow the player to change the bird's pooping     | Not Started | Unassigned   |2,3|
-  | 17 | 13            | The game shall allow the player collect items which change the bird's interaction  with the game world | Not Started | Unassigned   |8,5|
-  | 18 | 14            | The game shall allow players to spend in-game currency on alternative skins for the bird | Not Started | Unassigned   |5,8|
-  | 19 | 09            | The game shall allow the bird to interact with its environment/surroundings | Not Started | Unassigned   |5,|
+  | 12 | 05            | The game shall provide a method for changing common graphical settings | Not Started | Unassigned   |3|
+  | 13 | 03            | The game shall allow the player to see the total amount of items collected | Not Started | Unassigned   |5|
+  | 14 | 07            | The game shall store player progress                             | Not Started | Unassigned   |8|
+  | 15 | 07            | The game shall allow the player to load previously stored progress | Not Started | Unassigned   |5|
+  | 16 | 12            | The game shall allow the player to change the bird's pooping     | Not Started | Unassigned   |3|
+  | 17 | 13            | The game shall allow the player collect items which change the bird's interaction  with the game world | Not Started | Unassigned   |8|
+  | 18 | 14            | The game shall allow players to spend in-game currency on alternative skins for the bird | Not Started | Unassigned   |5|
+  | 19 | 09            | The game shall allow the bird to interact with its environment/surroundings | Not Started | Unassigned   |5|
 
   ### Sprint 1
   
-  | RID | Status | Person |
-  |----:|:------:|:------:|
-  | 02  | Complete | @kingofspill |
-  | 04  | In Progress | @3alanhdez   |
-  | 05  | In Progress | @3alanhdez   |
-  | 06  | Not Started | @marcburrell |
-  | 07  | Not Started | @marcburrell |
+  | Feature RID | Status | Assigned To | Points |
+  |:----:|:------:|:------:|:----:|
+  | 02  | Complete | @kingofspill | 2 |
+  | 04  | In Progress | @3alanhdez   | 5 |
+  | 05  | In Progress | @3alanhdez   | 5 |
+  | 06  | Not Started | @marcburrell | 2 |
+  | 07  | Not Started | @marcburrell | 2 |
   
   ### Sprint 1 Burndown Chart
  
@@ -77,29 +77,29 @@
   
   ### Sprint 2 Backlog
   
-  | RID | Status | Person |
-  |----:|:------:|:------:|
-  | 03  | Not Started | Unassigned |
-  | 09  | Not Started | Unassigned |
-  | 10  | Not Started | Unassigned |
-  | 11  | Not Started | Unassigned |
-  | 13  | Not Started | Unassigned |
-  | 16  | Not Started | Unassigned |
-  | 17  | Not Started | Unassigned |
-  | 19  | Not Started | Unassigned |
+  | Feature RID | Status | Assigned To | Points |
+  |:----:|:------:|:------:|:----:|
+  | 03  | Not Started | Unassigned | __ |
+  | 09  | Not Started | Unassigned | __ |
+  | 10  | Not Started | Unassigned | __ |
+  | 11  | Not Started | Unassigned | __ |
+  | 13  | Not Started | Unassigned | __ |
+  | 16  | Not Started | Unassigned | __ |
+  | 17  | Not Started | Unassigned | __ |
+  | 19  | Not Started | Unassigned | __ |
   
   
   ### Sprint 3 Backlog
   
-  | RID | Status | Person |
-  |----:|:------:|:------:|
-  | 00  | Not Started | Unassigned |
-  | 01  | Not Started | Unassigned |
-  | 08  | Not Started | Unassigned |
-  | 12  | Not Started | Unassigned |
-  | 14  | Not Started | Unassigned |
-  | 15  | Not Started | Unassigned |
-  | 18  | Not Started | Unassigned |
+  | Feature RID | Status | Assigned To | Points |
+  |:----:|:------:|:------:|:----:|
+  | 00  | Not Started | Unassigned | __ |
+  | 01  | Not Started | Unassigned | __ |
+  | 08  | Not Started | Unassigned | __ |
+  | 12  | Not Started | Unassigned | __ |
+  | 14  | Not Started | Unassigned | __ |
+  | 15  | Not Started | Unassigned | __ |
+  | 18  | Not Started | Unassigned | __ |
   
   
   
