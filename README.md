@@ -42,23 +42,23 @@
   |---:|--------------:|:--------|:------:|:------:|:-----:|
   | 00 | 01            | The game shall allow the player to pause the game                | Not Started | Unassigned   |1|
   | 01 | 01            | The game shall allow the player to un-pause the game             | Not Started | Unassigned   |1|
-  | 02 | 09            | The game shall allow the player to control the bird’s flight     | In Progress | @kingofspill |2|
-  | 03 | 09            | The game shall allow the player to control the bird’s pooping    | Not Started | @mohammadh94 |,,,,,|
-  | 04 | 02            | The game shall generate terrain pseudo-randomly                  | In Progress | @3alanhdez   |,,,,,|
-  | 05 | 02            | The game shall generate buildings pseudo-randomly                | In Progress | @3alanhdez   |,,,,,|
-  | 06 | 04            | The game shall allow the player to view collectable items        | Not Started | @marcburrell |,,,,,|
-  | 07 | 06            | The game shall display a score, dependant on the player's actions| Not Started | @marcburrell |,,,,,|
-  | 08 | 08            | The game shall allow the player to exit the game                 | Not Started | Unassigned   |1|
-  | 09 | 02            | The game shall generate non playable characters pseudo-randomly  | Not Started | Unassigned   |5|
-  | 10 | 10            | The game shall allow the player to collect collectable items     | Not Started | Unassigned   |3|
+  | 02 | 09            | The game shall allow the player to control the bird’s flight     | In Progress | @kingofspill |2,8|
+  | 03 | 09            | The game shall allow the player to control the bird’s pooping    | Not Started | @mohammadh94 |3,,,,|
+  | 04 | 02            | The game shall generate terrain pseudo-randomly                  | In Progress | @3alanhdez   |5,,,,|
+  | 05 | 02            | The game shall generate buildings pseudo-randomly                | In Progress | @3alanhdez   |5,,,,|
+  | 06 | 04            | The game shall allow the player to view collectable items        | Not Started | @marcburrell |2,,,,|
+  | 07 | 06            | The game shall display a score, dependant on the player's actions| Not Started | @marcburrell |2,,,,|
+  | 08 | 08            | The game shall allow the player to exit the game                 | Not Started | Unassigned   |1,1|
+  | 09 | 02            | The game shall generate non playable characters pseudo-randomly  | Not Started | Unassigned   |5,5|
+  | 10 | 10            | The game shall allow the player to collect collectable items     | Not Started | Unassigned   |3,5|
   | 11 | 11            | The game shall generate worms pseudo-randomly                    | Not Started | Unassigned   |5|
-  | 12 | 05            | The game shall provide a method for changing common graphical settings | Not Started | Unassigned   |3|
-  | 13 | 03            | The game shall allow the player to see the total amount of items collected | Not Started | Unassigned   |,,,,,|
-  | 14 | 07            | The game shall store player progress                             | Not Started | Unassigned   |5|
-  | 15 | 07            | The game shall allow the player to load previously stored progress | Not Started | Unassigned   |5|
-  | 16 | 12            | The game shall allow the player to change the bird's pooping     | Not Started | Unassigned   |3|
-  | 17 | 13            | The game shall allow the player collect items which change the bird's interaction  with the game world | Not Started | Unassigned   |5|
-  | 18 | 14            | The game shall allow players to spend in-game currency on alternative skins for the bird | Not Started | Unassigned   |8|
+  | 12 | 05            | The game shall provide a method for changing common graphical settings | Not Started | Unassigned   |3,3|
+  | 13 | 03            | The game shall allow the player to see the total amount of items collected | Not Started | Unassigned   |5,,,,|
+  | 14 | 07            | The game shall store player progress                             | Not Started | Unassigned   |5,8|
+  | 15 | 07            | The game shall allow the player to load previously stored progress | Not Started | Unassigned   |5,5|
+  | 16 | 12            | The game shall allow the player to change the bird's pooping     | Not Started | Unassigned   |2,3|
+  | 17 | 13            | The game shall allow the player collect items which change the bird's interaction  with the game world | Not Started | Unassigned   |8,5|
+  | 18 | 14            | The game shall allow players to spend in-game currency on alternative skins for the bird | Not Started | Unassigned   |5,8|
 
   ### Sprint 1
   
