@@ -72,7 +72,8 @@
   | 07  | Not Started | @marcburrell |
   
   ### Sprint 1 Burndown Chart
-  
+ 
+ ![Very UML!](Documentation/burndown1.PNG)
   
   ### Sprint 2 Backlog
   
