@@ -23,18 +23,19 @@
   | 00 | “As a player, I want to be able to start the game, so I can play.” |
   | 01 | “As a player, I want to be able to pause the game, so that I can take breaks from it.” |
   | 02 | "As a player, I want the world to change each time I play, so that the game stays fun over time" |
-  | 03 | “As a player, I want a way to track the progress of my nest, so I can visualize my accomplishment." |
+  | 03 | “As a player, I want a way to track my progress, so I can visualize my accomplishment." |
   | 04 | “As a player, I want a way to view the interesting objects in my nest, so I can visualize my collection.”|
   | 05 | “As a player, I want to be able to adjust graphics settings, so I can ensure good performance on my device.” |
-  | 06 | “As a player, I want a way to measure my ability, so that I can compare myself with other players.” |
+  | 06 | “As a player, I want a way to score my ability, so that I can compare myself with other players.” |
   | 07 | “As a player, I want to be able to save my progress on exiting the game, so that I can return later.” |
   | 08 | "As a player, I want to be able to exit the game, so that I can do other things." |
   | 09 | "As a player, I want to be able to control the bird, so I can explore and interact with the game world." |
-  | 10 | "As a bird,   I want to collect materials, so that I can build my nest." |
-  | 11 | "As a bird,   I want to be able to eat worms, so that I am able to poop." |
-  | 12 | "As a bird,   I want to be able to change the type of poop, so I can interact differently with the game world." |
-  | 13 | "As a player, I want to be able to gain power ups, so that the game stays exciting." |
+  | 10 | "As a player, I want to collect coins, so that I can buy things." |
+  | 11 | "As a bird,   I want to be able to eat food, so that I can poop on things." |
+  | 12 | "As a player, I want to be able to change how my poop looks, so I can feel ownership over my game." |
+  | 13 | "As a bird,   I want to be able to poop on things, so that I can eat more food." |
   | 14 | "As a player, I want to be able to customize my bird, so I can feel ownership over my game" | 
+  | 15 | "As a player, I want a central location that displays my choices, so I can choose what to do." |
   
   ### Functional Requirements
 
@@ -43,23 +44,35 @@
   | 00 | 01            | The game shall allow the player to pause the game                | Not Started | Unassigned   |1|
   | 01 | 01            | The game shall allow the player to un-pause the game             | Not Started | Unassigned   |1|
   | 02 | 09            | The game shall allow the player to control the bird’s flight     | Complete | @kingofspill |2|
-  | 03 | 09            | The game shall allow the player to control the bird’s pooping    | Not Started | @mohammadh94 |3|
-  | 04 | 02            | The game shall generate terrain pseudo-randomly                  | In Progress | @3alanhdez   |5|
-  | 05 | 02            | The game shall generate buildings pseudo-randomly                | Complete | @3alanhdez   |5|
-  | 06 | 04            | The game shall allow the player to view collectable items        | Complete | @marcburrell |2|
-  | 07 | 06            | The game shall display a score, dependant on the player's actions| Complete | @marcburrell |2|
-  | 08 | 08            | The game shall allow the player to exit the game                 | Not Started | Unassigned   |1|
-  | 09 | 02            | The game shall generate non playable characters pseudo-randomly  | Not Started | Unassigned   |5|
+  | 03 | 09            | The game shall allow the player to make the bird poop            | Not Started | @mohammadh94 |3|
+  | 04 | 02            | The game shall generate a cityscape modularly                    | In Progress | @kingofspill |8|
+  | 05 | 02            | The game shall have a set of modular city tiles                  | In Progress | @3alanhdez   |8|
+  | 06 | 04            | The game shall allow the player to view total collected coins    | In Progress | @marcburrell |3|
+  | 07 | 06            | The game shall display a score, dependant on the player's actions| Not Completed | @marcburrell |2|
+  | 08 | 08            | The game shall allow the player to exit the application          | Not Started | Unassigned   |1|
+  | 09 | 02            | The game shall generate non playable characters pseudo-randomly  | Not Started | Unassigned   |8|
   | 10 | 10            | The game shall allow the player to collect collectable items     | Not Started | Unassigned   |5|
-  | 11 | 11            | The game shall generate worms pseudo-randomly                    | Not Started | Unassigned   |5|
-  | 12 | 05            | The game shall provide a method for changing common graphical settings | Not Started | Unassigned   |3|
-  | 13 | 03            | The game shall allow the player to see the total amount of items collected | Not Started | Unassigned   |5|
-  | 14 | 07            | The game shall store player progress                             | Not Started | Unassigned   |8|
+  | 11 | 11            | The game shall generate food pseudo-randomly                     | Not Started | Unassigned   |8|
+  | 12 | 05            | The game shall provide a method for changing common graphical settings | Not Started | Unassigned   |1|
+  | 13 | 03            | The game shall allow the player to see the available poop | Not Started | Unassigned   |5|
+  | 14 | 07            | The game shall store persistent player progress                  | Not Started | Unassigned   |8|
   | 15 | 07            | The game shall allow the player to load previously stored progress | Not Started | Unassigned   |5|
-  | 16 | 12            | The game shall allow the player to change the bird's pooping     | Not Started | Unassigned   |3|
-  | 17 | 13            | The game shall allow the player collect items which change the bird's interaction  with the game world | Not Started | Unassigned   |8|
-  | 18 | 14            | The game shall allow players to spend in-game currency on alternative skins for the bird | Not Started | Unassigned   |5|
-  | 19 | 09            | The game shall allow the bird to interact with its environment/surroundings | Not Started | Unassigned   |5|
+  | 16 | 12            | The game shall allow the player to change the bird's poop cosmetically | Not Started | Unassigned   |5|
+  | 17 | 03            | The game shall track the total number of coins the player has collected | Not Started | Unassigned   |1|
+  | 18 | 14            | The game shall allow players to spend in-game currency on alternative skins for the bird and poop | Not Started | Unassigned   |13|
+  | 19 | 09            | The game shall end play when the bird collides with environment objects | Not Started | Unassigned   |3|
+  | 20 | 08 | The pause screen shall give a way to exit the game | Not Started | Unassigned | 3 |
+  | 21 | 01 | The pause screen shall allow the player to quit to a main menu | Not Started | Unassigned | 3 |
+  | 22 | 15 | The game shall have a main menu | Not Started | Unassigned | 3 |
+  | 23 | 00 | The main menu shall allow the player to start the game | Unassigned | 3 |
+  | 24 | 08 | The main menu shall allow the player to quit the game | Unassigned | 3 |
+  | 25 | 14 | The main menu shall allow the player to go to a customization page | Unassigned | 3 |
+  | 26 | 13 | The game shall add poop as the bird collects food | Unassigned | 3 |
+  | 27 | 10 | The game shall spawn coins when poop hits non-playable characters | Unassigned | 5 |
+  | 28 | 06 | The game shall increse score as the player survives longer | Unassigned | 2 |
+  | 29 | 13 | The game shall have a set of non-playable characters to spawn | Unassigned | 5 |
+  | 30 | 11 | The game shall have food models to spawn | Unassigned | 3 |
+  
 
   ### Sprint 1
   
