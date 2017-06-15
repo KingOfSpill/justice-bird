@@ -52,7 +52,7 @@
   | 08 | 08            | The game shall allow the player to exit the application          | Not Started | Unassigned   |1|
   | 09 | 02            | The game shall generate non playable characters pseudo-randomly  | Not Started | Unassigned   |8|
   | 10 | 10            | The game shall allow the player to collect collectable items     | Not Started | Unassigned   |5|
-  | 11 | 11            | The game shall generate food pseudo-randomly                     | Not Started | Unassigned   |8|
+  | 11 | 11            | The game shall generate food pseudo-randomly                     | Not Started | @sustx |8|
   | 12 | 05            | The game shall provide a method for changing common graphical settings | Not Started | Unassigned   |1|
   | 13 | 03            | The game shall allow the player to see the available poop | Not Started | Unassigned   |5|
   | 14 | 07            | The game shall store persistent player progress                  | Not Started | Unassigned   |8|
