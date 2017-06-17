@@ -92,8 +92,8 @@
   
   | Feature RID | Status | Assigned To | Points |
   |:----:|:------:|:------:|:----:|
-  | 00  | Not Started | @kingofspill | 1  |
-  | 01  | Not Started | @kingofspill | 1  |
+  | 00  | Complete | @kingofspill | 1  |
+  | 01  | Complete | @kingofspill | 1  |
   | 03  | Not Started | @mohammadh | 3  |
   | 04  | In Progress | @kingofspill | 8  |
   | 05  | In Progress | @3alanhdez | 8  |
