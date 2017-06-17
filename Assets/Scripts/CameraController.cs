@@ -25,7 +25,7 @@ public class CameraController : MonoBehaviour {
         if (!Mathf.Approximately(rotChange, 0.0f))
         {
 
-            float toChange = rotSpeed * Mathf.Sign(rotChange);
+            float toChange = rotSpeed * Mathf.Sign(rotChange) * Time.timeScale;
    
             // Rotate and update the queued rotation
             transform.RotateAround(transform.position, Vector3.up, toChange );
@@ -34,7 +34,7 @@ public class CameraController : MonoBehaviour {
         }
 
         // This moves us forward constantly
-        transform.position += forwardFlat * movSpeed;
+        transform.position += forwardFlat * movSpeed * Time.timeScale;
 
     }
 
