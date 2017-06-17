@@ -39,39 +39,39 @@
   
   ### Functional Requirements
 
-  | RID | UID | Feature | Status | Assigned To | Points |
-  |---:|--------------:|:--------|:------:|:------:|:-----:|
-  | 00 | 01            | The game shall allow the player to pause the game                | Not Started | Unassigned   |1|
-  | 01 | 01            | The game shall allow the player to un-pause the game             | Not Started | Unassigned   |1|
-  | 02 | 09            | The game shall allow the player to control the bird’s flight     | Complete | @kingofspill |2|
-  | 03 | 09            | The game shall allow the player to make the bird poop            | Not Started | @mohammadh94 |3|
-  | 04 | 02            | The game shall generate a cityscape modularly                    | In Progress | @kingofspill |8|
-  | 05 | 02            | The game shall have a set of modular city tiles                  | In Progress | @3alanhdez   |8|
-  | 06 | 04            | The game shall allow the player to view total collected coins    | In Progress | @marcburrell |3|
-  | 07 | 06            | The game shall display a score, dependant on the player's actions| Not Completed | @marcburrell |2|
-  | 08 | 08            | The game shall allow the player to exit the application          | Not Started | Unassigned   |1|
-  | 09 | 02            | The game shall generate non playable characters pseudo-randomly  | Not Started | Unassigned   |8|
-  | 10 | 10            | The game shall allow the player to collect collectable items     | In Review | @suxstx   |5|
-  | 11 | 11            | The game shall generate food pseudo-randomly                     | Not Started | @sustx |8|
-  | 12 | 05            | The game shall provide a method for changing common graphical settings | Not Started | Unassigned   |1|
-  | 13 | 03            | The game shall allow the player to see the available poop | Not Started | Unassigned   |5|
-  | 14 | 07            | The game shall store persistent player progress                  | Not Started | Unassigned   |8|
-  | 15 | 07            | The game shall allow the player to load previously stored progress | Not Started | Unassigned   |5|
-  | 16 | 12            | The game shall allow the player to change the bird's poop cosmetically | Not Started | Unassigned   |5|
-  | 17 | 03            | The game shall track the total number of coins the player has collected | Not Started | @sustx |1|
-  | 18 | 14            | The game shall allow players to spend in-game currency on alternative skins for the bird and poop | Not Started | Unassigned   |13|
-  | 19 | 09            | The game shall end play when the bird collides with environment objects | Not Started | Unassigned   |3|
-  | 20 | 08 | The pause screen shall give a way to exit the game | Not Started | Unassigned | 3 |
-  | 21 | 01 | The pause screen shall allow the player to quit to a main menu | Not Started | Unassigned | 3 |
-  | 22 | 15 | The game shall have a main menu | Not Started | Unassigned | 3 |
-  | 23 | 00 | The main menu shall allow the player to start the game | Not Started | Unassigned | 1 |
-  | 24 | 08 | The main menu shall allow the player to quit the game | Not Started| Unassigned | 3 |
-  | 25 | 14 | The main menu shall allow the player to go to a customization page | Not Started | Unassigned | 3 |
-  | 26 | 13 | The game shall add poop as the bird collects food | Not Started | Unassigned | 3 |
-  | 27 | 10 | The game shall spawn coins when poop hits non-playable characters | Not Started | Unassigned | 5 |
-  | 28 | 06 | The game shall increase score as the player survives longer | Not Started | Unassigned | 2 |
-  | 29 | 13 | The game shall have a set of non-playable characters to spawn | Not Started | Unassigned | 5 |
-  | 30 | 11 | The game shall have food models to spawn | Not Started | @sustx | 3 |
+  | RID | UID | Feature | Assigned To | Points |
+  |---:|--------------:|:--------|:------:|:-----:|
+  | 00 | 01 | The game shall allow the player to pause the game                | @kingofspill |1|
+  | 01 | 01 | The game shall allow the player to un-pause the game             | @kingofspill |1|
+  | 02 | 09 | The game shall allow the player to control the bird’s flight     | @kingofspill |2|
+  | 03 | 09 | The game shall allow the player to make the bird poop            | @mohammadh94 |3|
+  | 04 | 02 | The game shall generate a cityscape modularly                    | @kingofspill |8|
+  | 05 | 02 | The game shall have a set of modular city tiles                  | @3alanhdez   |8|
+  | 06 | 04 | The game shall allow the player to view total collected coins    | @marcburrell |3|
+  | 07 | 06 | The game shall display a score, dependant on the player's actions| @marcburrell |2|
+  | 08 | 08 | The game shall allow the player to exit the application          | Unassigned   |1|
+  | 09 | 02 | The game shall generate non playable characters pseudo-randomly  | Unassigned   |8|
+  | 10 | 10 | The game shall allow the player to collect collectable items     | @suxstx   |5|
+  | 11 | 11 | The game shall generate food pseudo-randomly                     | @sustx |8|
+  | 12 | 05 | The game shall provide a method for changing common graphical settings | Unassigned   |1|
+  | 13 | 03 | The game shall allow the player to see the available poop | @mohammadh94 |5|
+  | 14 | 07 | The game shall store persistent player progress                  | Unassigned   |8|
+  | 15 | 07 | The game shall allow the player to load previously stored progress | Unassigned   |5|
+  | 16 | 12 | The game shall allow the player to change the bird's poop cosmetically | Unassigned   |5|
+  | 17 | 03 | The game shall track the total number of coins the player has collected | @sustx |1|
+  | 18 | 14 | The game shall allow players to spend in-game currency on alternative skins for the bird and poop | Unassigned   |13|
+  | 19 | 09 | The game shall end play when the bird collides with environment objects | Unassigned   |3|
+  | 20 | 08 | The pause screen shall give a way to exit the game | Unassigned | 3 |
+  | 21 | 01 | The pause screen shall allow the player to quit to a main menu | Unassigned | 3 |
+  | 22 | 15 | The game shall have a main menu | @kingofspill | 3 |
+  | 23 | 00 | The main menu shall allow the player to start the game | @kingofspill | 1 |
+  | 24 | 08 | The main menu shall allow the player to quit the game | Unassigned | 3 |
+  | 25 | 14 | The main menu shall allow the player to go to a customization page | Unassigned | 3 |
+  | 26 | 13 | The game shall add poop as the bird collects food | Unassigned | 3 |
+  | 27 | 10 | The game shall spawn coins when poop hits non-playable characters | @3alanhdez | 5 |
+  | 28 | 06 | The game shall increase score as the player survives longer | @marcburrell | 2 |
+  | 29 | 13 | The game shall have a set of non-playable characters to spawn | @3alanhdez | 5 |
+  | 30 | 11 | The game shall have food models to spawn | @sustx | 3 |
   
 
   ### Sprint 1
