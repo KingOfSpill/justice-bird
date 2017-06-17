@@ -92,13 +92,15 @@
   
   | Feature RID | Status | Assigned To | Points |
   |:----:|:------:|:------:|:----:|
-  | 04  | In Progress | @kingofspill | 8  |
-  | 05  | In Progress | @2alanhdez | 8  |
-  | 06  | In Progress | @marcburrell | 3  |
-  | 01  | Not Started | @kingofspill | 1  |
   | 00  | Not Started | @kingofspill | 1  |
-  | 29  | Not Started | @3alanhndez | 5  |
-  | 11  | Not Started | @sstx | 8  |
+  | 01  | Not Started | @kingofspill | 1  |
+  | 03  | Not Started | @mohammadh | 3  |
+  | 04  | In Progress | @kingofspill | 8  |
+  | 05  | In Progress | @3alanhdez | 8  |
+  | 06  | In Progress | @marcburrell | 3  |
+  | 07  | In Progress | @marcburrell | 2  |
+  | 09  | Not Started | Unassigned | 8  |
+  | 11  | Not Started | @sustx | 8  |
   | 13  | Not Started | @mohammadh | 5  |
   | 17  | Not Started | @sustx | 1  |
   | 19  | Not Started | Unassigned | 3  |
@@ -106,10 +108,9 @@
   | 23  | Not Started | @kingofspill | 1  |
   | 26  | Not Started | Unassigned | 3  |
   | 27  | Not Started | @3alanhndez | 5  |
-  | 03  | Not Started | @mohammadh | 3  |
   | 28  | Not Started | @marcburrell | 2  |
+  | 29  | Not Started | @3alanhndez | 5  |
   | 30  | Not Started | @sustx | 3  |
-  | 09  | Not Started | Unassigned | 8  |
   
   ### Sprint 3 Backlog
   
