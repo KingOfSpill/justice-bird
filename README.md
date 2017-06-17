@@ -64,7 +64,7 @@
   | 20 | 08 | The pause screen shall give a way to exit the game | Not Started | Unassigned | 3 |
   | 21 | 01 | The pause screen shall allow the player to quit to a main menu | Not Started | Unassigned | 3 |
   | 22 | 15 | The game shall have a main menu | Not Started | Unassigned | 3 |
-  | 23 | 00 | The main menu shall allow the player to start the game | Not Started | Unassigned | 3 |
+  | 23 | 00 | The main menu shall allow the player to start the game | Not Started | Unassigned | 1 |
   | 24 | 08 | The main menu shall allow the player to quit the game | Not Started| Unassigned | 3 |
   | 25 | 14 | The main menu shall allow the player to go to a customization page | Not Started | Unassigned | 3 |
   | 26 | 13 | The game shall add poop as the bird collects food | Not Started | Unassigned | 3 |
@@ -92,24 +92,24 @@
   
   | Feature RID | Status | Assigned To | Points |
   |:----:|:------:|:------:|:----:|
-  | 04  | Not Started | Unassigned | 8  |
-  | 05  | Not Started | Unassigned | 8  |
-  | 06  | Not Started | Unassigned | 3  |
-  | 01  | Not Started | Unassigned | 1  |
-  | 00  | Not Started | Unassigned | 1  |
-  | 29  | Not Started | Unassigned | 5  |
-  | 11  | @sstx  | Unassigned | 8  |
-  | 13  | Not Started | Unassigned | 5  |
-  | 17  | @sustx      | Unassigned | 1  |
+  | 04  | In Progress | @kingofspill | 8  |
+  | 05  | In Progress | @2alanhdez | 8  |
+  | 06  | In Progress | @marcburrell | 3  |
+  | 01  | Not Started | @kingofspill | 1  |
+  | 00  | Not Started | @kingofspill | 1  |
+  | 29  | Not Started | @3alanhndez | 5  |
+  | 11  | Not Started | @sstx | 8  |
+  | 13  | Not Started | @mohammadh | 5  |
+  | 17  | Not Started | @sustx | 1  |
   | 19  | Not Started | Unassigned | 3  |
-  | 22  | Not Started | Unassigned | 3  |
-  | 23  | Not Started | Unassigned | 3  |
+  | 22  | Not Started | @kingofspill | 3  |
+  | 23  | Not Started | @kingofspill | 1  |
   | 26  | Not Started | Unassigned | 3  |
-  | 27  | Not Started | Unassigned | 5  |
-  | 03  | @mohammadh | Unassigned | 3  |
-  | 28  | Not Started | Unassigned | 2  |
-  | 30  | @sustx      | Unassigned | 3  |
-  
+  | 27  | Not Started | @3alanhndez | 5  |
+  | 03  | Not Started | @mohammadh | 3  |
+  | 28  | Not Started | @marcburrell | 2  |
+  | 30  | Not Started | @sustx | 3  |
+  | 09  | Not Started | Unassigned | 8  |
   
   ### Sprint 3 Backlog
   
