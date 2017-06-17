@@ -51,7 +51,7 @@
   | 07 | 06            | The game shall display a score, dependant on the player's actions| Not Completed | @marcburrell |2|
   | 08 | 08            | The game shall allow the player to exit the application          | Not Started | Unassigned   |1|
   | 09 | 02            | The game shall generate non playable characters pseudo-randomly  | Not Started | Unassigned   |8|
-  | 10 | 10            | The game shall allow the player to collect collectable items     | Not Started | Unassigned   |5|
+  | 10 | 10            | The game shall allow the player to collect collectable items     | In Review | @suxstx   |5|
   | 11 | 11            | The game shall generate food pseudo-randomly                     | Not Started | @sustx |8|
   | 12 | 05            | The game shall provide a method for changing common graphical settings | Not Started | Unassigned   |1|
   | 13 | 03            | The game shall allow the player to see the available poop | Not Started | Unassigned   |5|
@@ -69,7 +69,7 @@
   | 25 | 14 | The main menu shall allow the player to go to a customization page | Not Started | Unassigned | 3 |
   | 26 | 13 | The game shall add poop as the bird collects food | Not Started | Unassigned | 3 |
   | 27 | 10 | The game shall spawn coins when poop hits non-playable characters | Not Started | Unassigned | 5 |
-  | 28 | 06 | The game shall increse score as the player survives longer | Not Started | Unassigned | 2 |
+  | 28 | 06 | The game shall increase score as the player survives longer | Not Started | Unassigned | 2 |
   | 29 | 13 | The game shall have a set of non-playable characters to spawn | Not Started | Unassigned | 5 |
   | 30 | 11 | The game shall have food models to spawn | Not Started | @sustx | 3 |
   
@@ -92,17 +92,27 @@
   
   | Feature RID | Status | Assigned To | Points |
   |:----:|:------:|:------:|:----:|
-  | 03  | Not Started | Unassigned | __ |
-  | 09  | Not Started | Unassigned | __ |
-  | 10  | Not Started | Unassigned | __ |
-  | 11  | Not Started | Unassigned | __ |
-  | 13  | Not Started | Unassigned | __ |
-  | 16  | Not Started | Unassigned | __ |
-  | 17  | Not Started | Unassigned | __ |
-  | 19  | Not Started | Unassigned | __ |
+  | 04  | Not Started | Unassigned | 8  |
+  | 05  | Not Started | Unassigned | 8  |
+  | 06  | Not Started | Unassigned | 3  |
+  | 01  | Not Started | Unassigned | 1  |
+  | 00  | Not Started | Unassigned | 1  |
+  | 29  | Not Started | Unassigned | 5  |
+  | 11  | @sstx  | Unassigned | 8  |
+  | 13  | Not Started | Unassigned | 5  |
+  | 17  | @sustx      | Unassigned | 1  |
+  | 19  | Not Started | Unassigned | 3  |
+  | 22  | Not Started | Unassigned | 3  |
+  | 23  | Not Started | Unassigned | 3  |
+  | 26  | Not Started | Unassigned | 3  |
+  | 27  | Not Started | Unassigned | 5  |
+  | 03  | @mohammadh | Unassigned | 3  |
+  | 28  | Not Started | Unassigned | 2  |
+  | 30  | @sustx      | Unassigned | 3  |
   
   
   ### Sprint 3 Backlog
+  
   
   | Feature RID | Status | Assigned To | Points |
   |:----:|:------:|:------:|:----:|
