@@ -358,10 +358,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 1396114113340858, guid: f54203c70bbc1b1439da140a447fb370, type: 2}
-      propertyPath: m_Name
-      value: PauseSystem
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f54203c70bbc1b1439da140a447fb370, type: 2}
   m_IsPrefabParent: 0

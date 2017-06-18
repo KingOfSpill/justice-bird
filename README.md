@@ -65,7 +65,7 @@
   | 21 | 01 | The pause screen shall allow the player to quit to a main menu | Unassigned | 3 |
   | 22 | 15 | The game shall have a main menu | @kingofspill | 3 |
   | 23 | 00 | The main menu shall allow the player to start the game | @kingofspill | 1 |
-  | 24 | 08 | The main menu shall allow the player to quit the game | Unassigned | 3 |
+  | 24 | 08 | The main menu shall allow the player to quit the game | @kingofspill | 3 |
   | 25 | 14 | The main menu shall allow the player to go to a customization page | Unassigned | 3 |
   | 26 | 13 | The game shall add poop as the bird collects food | Unassigned | 3 |
   | 27 | 10 | The game shall spawn coins when poop hits non-playable characters | @3alanhdez | 5 |
@@ -104,8 +104,9 @@
   | 13  | Not Started | @mohammadh | 5  |
   | 17  | Not Started | @sustx | 1  |
   | 19  | Not Started | Unassigned | 3  |
-  | 22  | Not Started | @kingofspill | 3  |
-  | 23  | Not Started | @kingofspill | 1  |
+  | 22  | Complete | @kingofspill | 3  |
+  | 23  | Complete | @kingofspill | 1  |
+  | 24  | Complete | @kingofspill | 3  |
   | 26  | Not Started | Unassigned | 3  |
   | 27  | Not Started | @3alanhndez | 5  |
   | 28  | Not Started | @marcburrell | 2  |
