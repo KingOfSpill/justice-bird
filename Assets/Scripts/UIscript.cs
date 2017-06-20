@@ -6,15 +6,20 @@ using UnityEngine.UI;
 public class UIscript : MonoBehaviour {
 
     public Text scoreText;
+    public Text coinText;
     public Button testpoopbutton;
+    public Button testCoinButton;
 
     private int score = 0;
     private int delay = 0;
+    private int coins = 0;
     
 	// Use this for initialization
 	void Start () {
         //Button poohit = testpoopbutton.GetComponent<Button>();
         testpoopbutton.onClick.AddListener(poopHit);
+        testCoinButton.onClick.AddListener(getCoin);
+        coinText.text = "X " + coins.ToString();
         printScore();
 	}
 	
@@ -38,5 +43,11 @@ void printScore()
     void poopHit()
     {
         score += 100;
+    }
+
+    void getCoin()
+    {
+        coins++;
+        coinText.text = "X " + coins.ToString();
     }
 }
