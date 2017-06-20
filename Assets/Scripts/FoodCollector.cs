@@ -12,7 +12,9 @@ public class FoodCollector : MonoBehaviour {
 		if (other.gameObject.CompareTag ("Food")) {
 
 			other.gameObject.SetActive (false);
+			Destroy(other, .3f);
 			pickUp.Play ();
+
 
 		}
 

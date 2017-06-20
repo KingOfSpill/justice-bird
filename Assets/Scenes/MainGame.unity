@@ -108,6 +108,49 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &27000147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 27000149}
+  - component: {fileID: 27000148}
+  m_Layer: 0
+  m_Name: CoinSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &27000148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 27000147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da9ac16895c374959adc8679eb93f789, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coins: {fileID: 1334484053950198, guid: 5d43a6e0e4be7435c847cebb59030e8a, type: 2}
+  delay: 10
+  active: 1
+--- !u!4 &27000149
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 27000147}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 392593150}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &31645771
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,11 +598,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4327268686918720, guid: 5d43a6e0e4be7435c847cebb59030e8a, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.5051117
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4327268686918720, guid: 5d43a6e0e4be7435c847cebb59030e8a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 5.875969
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4327268686918720, guid: 5d43a6e0e4be7435c847cebb59030e8a, type: 2}
       propertyPath: m_LocalPosition.z
@@ -585,13 +628,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4327268686918720, guid: 5d43a6e0e4be7435c847cebb59030e8a, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: 4327268686918720, guid: 5d43a6e0e4be7435c847cebb59030e8a, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.50000024
+    - target: {fileID: 1334484053950198, guid: 5d43a6e0e4be7435c847cebb59030e8a, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5d43a6e0e4be7435c847cebb59030e8a, type: 2}
@@ -653,6 +692,11 @@ Prefab:
 --- !u!1 &392593149 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1995541204621190, guid: 4a9d0c094f39d01498eb52ce8ec47147,
+    type: 2}
+  m_PrefabInternal: {fileID: 648620060}
+--- !u!4 &392593150 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4871839388571614, guid: 4a9d0c094f39d01498eb52ce8ec47147,
     type: 2}
   m_PrefabInternal: {fileID: 648620060}
 --- !u!54 &392593153
@@ -761,6 +805,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac8a1fa47639a4f0da6f88a0da93df78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &392593156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 392593149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da9ac16895c374959adc8679eb93f789, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coins: {fileID: 1334484053950198, guid: 5d43a6e0e4be7435c847cebb59030e8a, type: 2}
+  delay: 2
+  active: 1
 --- !u!1001 &457841113
 Prefab:
   m_ObjectHideFlags: 0
@@ -958,7 +1016,7 @@ Prefab:
     - target: {fileID: 114377030639328488, guid: 4a9d0c094f39d01498eb52ce8ec47147,
         type: 2}
       propertyPath: movSpeed
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 136127967684732694, guid: 4a9d0c094f39d01498eb52ce8ec47147,
         type: 2}
@@ -985,6 +1043,14 @@ Prefab:
     - target: {fileID: 4871839388571614, guid: 4a9d0c094f39d01498eb52ce8ec47147, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4871839388571614, guid: 4a9d0c094f39d01498eb52ce8ec47147, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4141907830973358, guid: 4a9d0c094f39d01498eb52ce8ec47147, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4a9d0c094f39d01498eb52ce8ec47147, type: 2}
@@ -1373,7 +1439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &865462493
 Transform:
   m_ObjectHideFlags: 0
