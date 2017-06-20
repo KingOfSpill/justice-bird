@@ -5,7 +5,6 @@ using UnityEngine;
 public class CoinSpanner : MonoBehaviour {
 
 	public GameObject coins;
-	//public GameObject bird;
 	public float delay = 10.0f;
 	public bool active = true;
 
@@ -20,7 +19,7 @@ public class CoinSpanner : MonoBehaviour {
 
 		if (active) {
 
-			for (int i = 0; i < 8; i++) {
+			for (int i = 0; i < 5; i++) {
 
 				Instantiate (coins, transform.position + (transform.forward * (10) * i) + transform.up * 2 * -i, 
 					Quaternion.identity);

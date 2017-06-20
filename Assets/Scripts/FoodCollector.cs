@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FoodCollector : MonoBehaviour {
 
-	public int coinScore = 0;
+	public UIscript ui;
 
 	// Food trigger
 	void OnTriggerEnter(Collider other){
@@ -13,10 +13,13 @@ public class FoodCollector : MonoBehaviour {
 
 		if (other.gameObject.CompareTag ("Food")) {
 
+			other.gameObject.SetActive (false);
 			Destroy(other.gameObject);
 			pickUp.Play ();
-	
+			ui.getCoin ();
+
 		}
 
 	}
+
 }

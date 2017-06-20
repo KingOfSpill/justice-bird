@@ -45,7 +45,7 @@ void printScore()
         score += 100;
     }
 
-    void getCoin()
+    public void getCoin()
     {
         coins++;
         coinText.text = "X " + coins.ToString();
