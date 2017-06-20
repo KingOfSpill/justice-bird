@@ -27,7 +27,7 @@ public class UIscript : MonoBehaviour {
 	void Update () {
         if(delay % 100 == 0)
         {
-            score++;
+            score += 1 * (int)Time.timeScale;
         }
  
         printScore();
