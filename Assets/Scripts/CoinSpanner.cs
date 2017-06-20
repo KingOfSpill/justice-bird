@@ -6,7 +6,7 @@ public class CoinSpanner : MonoBehaviour {
 
 	public GameObject coins;
 	//public GameObject bird;
-	public float delay = 5.0f;
+	public float delay = 10.0f;
 	public bool active = true;
 
 	void Start () {
@@ -21,9 +21,12 @@ public class CoinSpanner : MonoBehaviour {
 		if (active) {
 
 			for (int i = 0; i < 8; i++) {
+
 				Instantiate (coins, transform.position + (transform.forward * (10) * i) + transform.up * 2 * -i, 
 					Quaternion.identity);
+			
 			}
+
 		}
 
 		StartCoroutine (CoinGenerator ());

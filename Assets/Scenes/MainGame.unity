@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coins: {fileID: 1334484053950198, guid: 5d43a6e0e4be7435c847cebb59030e8a, type: 2}
-  delay: 10
+  delay: 100
   active: 1
 --- !u!4 &27000149
 Transform:
