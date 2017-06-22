@@ -11,24 +11,11 @@ public class BirdController : MonoBehaviour {
     public float maxHorizontalAngle = 30;
     public float bankAngle = 40;
 
-    // Stores the percent of the screen that should be off-limits
-    public float screenMargin = 0.0f;
-
-    // The size of the grid the bird lives on
-    public int gridHeight = 3;
-    public int gridWidth = 3;
+    public Grid grid;
 
     // The bird's current position on the grid
     public int gridX;
     public int gridY;
-    private float horizontalTarget;
-    private float verticalTarget;
-
-    private float unitWidth;
-    private float unitHeight;
-
-    // The bird's current speed
-    private float curSpeed;
 
     // This holds the banking container object, which allows us to visually show banking without effecting the whole shapes angle around its z-axis
     public Transform bankingContainer;
@@ -36,12 +23,8 @@ public class BirdController : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
-        curSpeed = movSpeed;
-        unitWidth = (1.0f - ( 2.0f * screenMargin ))/(gridWidth);
-        unitHeight = (1.0f - ( 2.0f * screenMargin ))/(gridHeight);
-
-        gridX = 0;
-        gridY = 0;
+        gridX = grid.getXCenter();
+        gridY = grid.getYCenter();
 	}
 
     // Update is called once per frame
@@ -49,7 +32,7 @@ public class BirdController : MonoBehaviour {
 
     	updateRotation();
 
-    	updateTargetPosition();
+    	updateGridPosition();
 
     	updatePosition();
 
@@ -59,7 +42,6 @@ public class BirdController : MonoBehaviour {
 
     	// Convert the user input into the amount of rotation wo want to do
         float vertical = Input.GetAxis("Vertical") * Time.deltaTime * rotSpeed;
-        float horizontal = Input.GetAxis("Horizontal") * Time.deltaTime * rotSpeed;
 
         // Perform rotations
         transform.Rotate(new Vector3(-vertical, 0, 0));
@@ -85,42 +67,31 @@ public class BirdController : MonoBehaviour {
 
     }
 
-    void updateTargetPosition(){
+    void updateGridPosition(){
 
-    	Vector3 viewPortPos = Camera.main.WorldToViewportPoint(transform.position);
+    	Vector3 targetPosition = grid.gridToWorldPosition(gridX, gridY);
 
-    	if( Vector3.Distance( transform.position, Camera.main.ViewportToWorldPoint(new Vector3( horizontalTarget, verticalTarget, viewPortPos.z ) ) ) < 1f ){
+    	if( Vector3.Distance( transform.position, targetPosition ) < 1f ){
 
     		if( !Mathf.Approximately( Input.GetAxis("Horizontal"), 0.0f ) )
 				gridX += Mathf.RoundToInt( Mathf.Sign( Input.GetAxis("Horizontal") ) );
 
-    		gridX = Mathf.Clamp(gridX, -(gridWidth/2), (gridWidth/2) );
+    		gridX = grid.clampXToGrid( gridX );
 
     		if( !Mathf.Approximately( Input.GetAxis("Vertical"), 0.0f ) )
     			gridY += Mathf.RoundToInt( Mathf.Sign( Input.GetAxis("Vertical") ) );
 
-    		gridY = Mathf.Clamp(gridY, -(gridWidth/2), (gridWidth/2) );
-
-    		horizontalTarget =  0.5f + (gridX * unitWidth);
-    		verticalTarget =  0.5f + (gridY * unitHeight);
+    		gridY = grid.clampYToGrid( gridY );
 
     	}
-
-    		if( !Mathf.Approximately( Input.GetAxis("Vertical"), 0.0f ) )
-    			gridY += Mathf.RoundToInt( Mathf.Sign( Input.GetAxis("Vertical") ) );
-
-    		gridY = Mathf.Clamp(gridY, -(gridWidth/2), (gridWidth/2) );
-
-    		horizontalTarget =  0.5f + (gridX * unitWidth);
-    		verticalTarget =  0.5f + (gridY * unitHeight);
 
     }
 
     void updatePosition() {
 
-    	Vector3 viewPortPos = Camera.main.WorldToViewportPoint(transform.position);
+        Vector3 targetPosition = grid.gridToWorldPosition(gridX, gridY);
 
-        transform.position = Vector3.Lerp( transform.position, Camera.main.ViewportToWorldPoint(new Vector3( horizontalTarget, verticalTarget, viewPortPos.z ) ), 0.1f) ;
+        transform.position = Vector3.Lerp( transform.position, targetPosition, 0.1f) ;
 
     }
 
