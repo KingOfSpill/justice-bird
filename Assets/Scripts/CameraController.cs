@@ -5,8 +5,12 @@ using UnityEngine;
 public class CameraController : MonoBehaviour {
 
 	public float movSpeed = 2;
-    public float rotChange = 0;
-    public float rotSpeed = 10;
+
+
+    private float rotationSpeed = 0;
+    private float rotationAmountRemaining = 0;
+    private Vector3 rotationCenter;
+    private Vector3 rotationAxis;
 
 	// Use this for initialization
 	void Start () {
@@ -22,19 +26,27 @@ public class CameraController : MonoBehaviour {
         Vector3 forwardFlat = new Vector3(transform.forward.x, 0, transform.forward.z);
 
         // If there is a change queued up
-        if (!Mathf.Approximately(rotChange, 0.0f))
+        if (!Mathf.Approximately(rotationAmountRemaining, 0.0f))
         {
-
-            float toChange = rotSpeed * Mathf.Sign(rotChange) * Time.timeScale;
-   
             // Rotate and update the queued rotation
-            transform.RotateAround(transform.position, Vector3.up, toChange );
-            rotChange -= toChange;
+            if ( Mathf.Abs(rotationAmountRemaining) >= Mathf.Abs(rotationSpeed))
+            {
+                transform.RotateAround(rotationCenter, rotationAxis, rotationSpeed * Time.timeScale);
+                rotationAmountRemaining -= rotationSpeed * Time.timeScale;
+            } else
+            {
+                transform.RotateAround(rotationCenter, rotationAxis, rotationAmountRemaining * Time.timeScale);
+                rotationAmountRemaining -= rotationAmountRemaining * Time.timeScale;
+            }
 
         }
+        else
+        {
+            // This moves us forward constantly
+            transform.position += forwardFlat * movSpeed * Time.timeScale;
+        }
 
-        // This moves us forward constantly
-        transform.position += forwardFlat * movSpeed * Time.timeScale;
+        
 
     }
 
@@ -49,7 +61,15 @@ public class CameraController : MonoBehaviour {
             TrackChangeTrigger trigger = other.GetComponent<TrackChangeTrigger>();
 
             if (trigger != null)
-                rotChange = trigger.directionChange;
+            {
+
+                rotationAmountRemaining = trigger.rotationAmount;
+                rotationCenter = trigger.getRotationCenter(transform.position);
+                rotationAxis = trigger.rotationAxis;
+
+                rotationSpeed = Mathf.Sign(rotationAmountRemaining) * (movSpeed * 360) / (2 * Mathf.PI * Vector3.Distance(transform.position, rotationCenter));
+
+            }
 
         }
 
