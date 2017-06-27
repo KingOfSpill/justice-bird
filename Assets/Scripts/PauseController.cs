@@ -5,7 +5,7 @@ using UnityEngine;
 public class PauseController : MonoBehaviour {
 
     public GameObject pauseScreen;
-    private bool isPaused = false;
+    public bool isPaused = false;
 
     // Use this for initialization
     void Start () {
@@ -19,15 +19,17 @@ public class PauseController : MonoBehaviour {
 	void Update () {
 
         if (Input.GetKeyDown("escape"))
-        {
+            switchPause();
 
-            isPaused = !isPaused;
+    }
 
-            // Set the pause screen visibility and set the timeu scale
-            pauseScreen.SetActive(isPaused);
-            Time.timeScale = (isPaused) ? 0.0f : 1.0f;
+    public void switchPause( ){
 
-        }
+        isPaused = !isPaused;
+
+        // Set the pause screen visibility and set the timeu scale
+        pauseScreen.SetActive(isPaused);
+        Time.timeScale = (isPaused) ? 0.0f : 1.0f;
 
     }
 }

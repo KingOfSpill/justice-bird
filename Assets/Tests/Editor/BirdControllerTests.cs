@@ -2,7 +2,6 @@
 using UnityEditor;
 using UnityEngine.TestTools;
 using NUnit.Framework;
-//using NSubstisute;
 using System.Collections;
 
 public class BirdControllerTests {
