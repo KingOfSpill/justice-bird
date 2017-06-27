@@ -30,18 +30,24 @@ public class BirdController : MonoBehaviour {
     // Update is called once per frame
     void Update() {
 
-    	updateRotation();
+        float verticalInput = Input.GetAxis("Vertical");
+        float horizontalInput = Input.GetAxis("Horizontal");
 
-    	updateGridPosition();
+    	updateRotation(verticalInput, horizontalInput);
+
+        Vector3 targetPosition = grid.gridToWorldPosition(gridX, gridY);
+
+        if( Vector3.Distance( transform.position, targetPosition ) < 1f )
+    	   updateGridPosition(verticalInput, horizontalInput);
 
     	updatePosition();
 
     }
 
-    void updateRotation() {
+    void updateRotation(float verticalInput, float horizontalInput) {
 
     	// Convert the user input into the amount of rotation wo want to do
-        float vertical = Input.GetAxis("Vertical") * Time.deltaTime * rotSpeed;
+        float vertical = verticalInput * Time.deltaTime * rotSpeed;
 
         // Perform rotations
         transform.Rotate(new Vector3(-vertical, 0, 0));
@@ -63,31 +69,25 @@ public class BirdController : MonoBehaviour {
         float bankYAngle = bankingContainer.eulerAngles.y;
 
         // We want to bank to preset angles depending on the input we are receiving on the horizontal axis right now
-        bankingContainer.rotation = Quaternion.Slerp( bankingContainer.rotation, Quaternion.Euler( bankXAngle, bankYAngle, mainZAngle - (bankAngle * Input.GetAxis("Horizontal")) ), 0.1f);
+        bankingContainer.rotation = Quaternion.Slerp( bankingContainer.rotation, Quaternion.Euler( bankXAngle, bankYAngle, mainZAngle - (bankAngle * horizontalInput) ), 0.1f);
 
     }
 
-    void updateGridPosition(){
+    public void updateGridPosition(float verticalInput, float horizontalInput){
 
-    	Vector3 targetPosition = grid.gridToWorldPosition(gridX, gridY);
+		if( !Mathf.Approximately( horizontalInput, 0.0f ) )
+			gridX += Mathf.RoundToInt( Mathf.Sign( horizontalInput ) );
 
-    	if( Vector3.Distance( transform.position, targetPosition ) < 1f ){
+		gridX = grid.clampXToGrid( gridX );
 
-    		if( !Mathf.Approximately( Input.GetAxis("Horizontal"), 0.0f ) )
-				gridX += Mathf.RoundToInt( Mathf.Sign( Input.GetAxis("Horizontal") ) );
+		if( !Mathf.Approximately( verticalInput, 0.0f ) )
+			gridY += Mathf.RoundToInt( Mathf.Sign( verticalInput ) );
 
-    		gridX = grid.clampXToGrid( gridX );
-
-    		if( !Mathf.Approximately( Input.GetAxis("Vertical"), 0.0f ) )
-    			gridY += Mathf.RoundToInt( Mathf.Sign( Input.GetAxis("Vertical") ) );
-
-    		gridY = grid.clampYToGrid( gridY );
-
-    	}
-
+		gridY = grid.clampYToGrid( gridY );
+        
     }
 
-    void updatePosition() {
+    public void updatePosition() {
 
         Vector3 targetPosition = grid.gridToWorldPosition(gridX, gridY);
 
