@@ -115,9 +115,9 @@
   | 06  | Complete | @marcburrell | 3  |
   | 07  | Complete | @marcburrell | 2  |
   | 09  | Not Started | Unassigned | 8  |
-  | 11  | Not Started | @sustx | 8  |
+  | 11  | In Progress | @sustx | 8  |
   | 13  | Not Started | @mohammadh | 5  |
-  | 17  | Not Started | @sustx | 1  |
+  | 17  | Complete (06/20) | @sustx | 1  |
   | 19  | Not Started | @marcburrell | 3  |
   | 22  | Complete | @kingofspill | 3  |
   | 23  | Complete | @kingofspill | 1  |
@@ -126,7 +126,7 @@
   | 27  | Not Started | @3alanhndez | 5  |
   | 28  | Complete | @marcburrell | 2  |
   | 29  | Not Started | @3alanhndez | 5  |
-  | 30  | Not Started | @sustx | 3  |
+  | 30  | Complete (06/20) | @sustx | 3  |
   
   ### Sprint 3 Backlog
   
