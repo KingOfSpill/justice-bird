@@ -73,6 +73,21 @@
   | 29 | 13 | The game shall have a set of non-playable characters to spawn | @3alanhdez | 5 |
   | 30 | 11 | The game shall have food models to spawn | @sustx | 3 |
   
+  ### Unit Tests
+  | TID | Test Description | RID Being Tested |
+  |:---:|:-----------------|:----------------:|
+  | 00  | The pause button pauses the game | 00 |
+  | 01  | The unpause button unpauses the game | 01 |
+  | 02  | The bird moves up when you press 'up' button | 02 |
+  | 03  | The bird moves down when you press 'down' button | 02 |
+  | 04  | The bird moves left when you press 'left' button | 02 |
+  | 05  | The bird moves right when you press 'right' button | 02 |
+  | 06  | The bird doesn't move past the left edge | 02 |
+  | 07  | The bird doesn't move past the right edge | 02 |
+  | 08  | The bird doesn't move past the up edge | 02 |
+  | 09  | The bird doesn't move past the down edge | 02 |
+  
+  
 
   ### Sprint 1
   
