@@ -7,10 +7,22 @@ public class ModuleSpawnController : MonoBehaviour {
     public GameObject[] spawnableModules;
     public List<GameObject> spawnedModules;
 
+    public int[] continuousSumOfWeights;
+    public int totalSumOfWeights;
+
     // Use this for initialization
     void Start () {
 
         spawnableModules = Resources.LoadAll<GameObject>("Tiles");
+
+        continuousSumOfWeights = new int[spawnableModules.Length];
+
+        continuousSumOfWeights[0] = spawnableModules[0].GetComponent<ModuleWeightContainer>().weight;
+
+        for ( int i = 1; i < spawnableModules.Length; i++)
+            continuousSumOfWeights[i] = spawnableModules[i].GetComponent<ModuleWeightContainer>().weight + continuousSumOfWeights[i-1];
+
+        totalSumOfWeights = continuousSumOfWeights[continuousSumOfWeights.Length-1];
 
     }
 	
@@ -43,13 +55,25 @@ public class ModuleSpawnController : MonoBehaviour {
 
                 Quaternion nextModuleRotation =  transform.rotation *  Quaternion.Euler( trigger.rotationAxis * trigger.rotationAmount );
 
-                int randIndex = Random.Range(0, spawnableModules.Length);
-
-                spawnedModules.Add( Instantiate(spawnableModules[randIndex], other.transform.position, nextModuleRotation) );
+                spawnModule(other.transform.position, nextModuleRotation);
 
             }
 
         }
+
+    }
+
+    void spawnModule( Vector3 position, Quaternion rotation)
+    {
+
+        int randWeighted = Random.Range(0, totalSumOfWeights);
+
+        int randIndex = 0;
+
+        while (continuousSumOfWeights[randIndex] < randWeighted)
+            randIndex++;
+
+        spawnedModules.Add(Instantiate(spawnableModules[randIndex], position, rotation));
 
     }
 

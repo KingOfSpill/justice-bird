@@ -37,6 +37,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4762979105924962}
+  - component: {fileID: 114806660384746144}
   m_Layer: 0
   m_Name: Straight
   m_TagString: Untagged
@@ -290,6 +291,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationAmount: 0
   rotationAxis: {x: 0, y: 1, z: 0}
+--- !u!114 &114806660384746144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1544734965318378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c138d4a598128a44da800d40eae7357e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 10
 --- !u!135 &135816480648478314
 SphereCollider:
   m_ObjectHideFlags: 1
