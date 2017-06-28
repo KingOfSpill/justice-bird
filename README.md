@@ -114,7 +114,7 @@
   | 05  | In Progress | @3alanhdez | 8  |
   | 06  | Complete | @marcburrell | 3  |
   | 07  | Complete | @marcburrell | 2  |
-  | 09  | In Progress | @kingofspill | 8  |
+  | 09  | Complete (06/28) | @kingofspill | 8  |
   | 11  | In Progress | @sustx | 8  |
   | 13  | Not Started | @mohammadh | 5  |
   | 17  | Complete (06/20) | @sustx | 1  |
