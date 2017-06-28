@@ -10,12 +10,14 @@ public class Grid : MonoBehaviour {
 
     public GameObject[,] grid;
 
+    public Camera gridCamera;
+
 	// Use this for initialization
 	void Start () {
 		
 		grid = new GameObject[gridWidth,gridHeight];
 
-		Vector3 gridViewportPosition = Camera.main.WorldToViewportPoint( transform.position );		
+		Vector3 gridViewportPosition = gridCamera.WorldToViewportPoint( transform.position );		
 
 		for( int i = 0; i < gridWidth; i++ )
 		{
@@ -25,9 +27,9 @@ public class Grid : MonoBehaviour {
 				float xScreenPosition = (i + 0.5f)/gridWidth;
 				float yScreenPosition = (j + 0.5f)/gridHeight;
 
-				Vector3 position = Camera.main.ViewportToWorldPoint( new Vector3( xScreenPosition, yScreenPosition, gridViewportPosition.z ) );
+				Vector3 position = gridCamera.ViewportToWorldPoint( new Vector3( xScreenPosition, yScreenPosition, gridViewportPosition.z ) );
 
-				grid[i,j] = Instantiate( gridObject, position, Camera.main.transform.rotation, transform );
+				grid[i,j] = Instantiate( gridObject, position, gridCamera.transform.rotation, transform );
 
 			}
 		}

@@ -2,62 +2,50 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ModuleSpawnController : MonoBehaviour {
+public class NPCSpawnController : MonoBehaviour {
 
-    public GameObject[] spawnableModules;
+	public GameObject[] spawnableModules;
     public List<GameObject> spawnedModules;
 
     public int[] continuousSumOfWeights;
     public int totalSumOfWeights;
 
-    // Use this for initialization
-    void Start ()
-    {
+    public Grid spawnerGrid;
 
-        loadResources("Tiles");
-        calculateWeights();
-
-    }
+	// Use this for initialization
+	void Start ()
+	{
+		loadResources("NPCs");
+		calculateWeights();
+	}
 	
 	// Update is called once per frame
 	void Update ()
-    {
+	{
 
-        if (spawnedModules.Count > 3)
-        {
+		if( 0 == Random.Range(0,25) )
+		{
 
-            Destroy(spawnedModules[0], 0.0f);
+			int xAxis = Random.Range(0, spawnerGrid.gridWidth);
+
+			Vector3 offset = new Vector3( 0, -3, 0);
+
+			Quaternion rotOffset = Quaternion.Euler( 0, -90, 0 );
+
+			spawn( spawnerGrid.gridToWorldPosition(xAxis,0) + offset, transform.rotation * rotOffset );
+
+		}
+
+		if( spawnedModules.Count > 10 )
+		{
+			Destroy(spawnedModules[0], 0.0f);
 
             spawnedModules.RemoveAt(0);
+		}
+		
+	}
 
-        }
-
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-
-        // If we hit a track change, we want to queue a rotation
-        if (other.CompareTag("TrackChange"))
-        {
-
-            // Here we get the component and check if it actually has it before getting data from it
-            TrackChangeTrigger trigger = other.GetComponent<TrackChangeTrigger>();
-
-            if (trigger != null)
-            {
-
-                Quaternion nextModuleRotation =  transform.rotation *  Quaternion.Euler( trigger.rotationAxis * trigger.rotationAmount );
-
-                spawn(other.transform.position, nextModuleRotation);
-
-            }
-
-        }
-
-    }
-
-    void loadResources(string folder)
+	void loadResources(string folder)
     {
         spawnableModules = Resources.LoadAll<GameObject>(folder);
     }
