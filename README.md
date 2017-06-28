@@ -50,7 +50,7 @@
   | 06 | 04 | The game shall allow the player to view total collected coins    | @marcburrell |3|
   | 07 | 06 | The game shall display a score, dependant on the player's actions| @marcburrell |2|
   | 08 | 08 | The game shall allow the player to exit the application          | Unassigned   |1|
-  | 09 | 02 | The game shall generate non playable characters pseudo-randomly  | Unassigned   |8|
+  | 09 | 02 | The game shall generate non playable characters pseudo-randomly  | @kingofspill |8|
   | 10 | 10 | The game shall allow the player to collect collectable items     | @suxstx   |5|
   | 11 | 11 | The game shall generate food pseudo-randomly                     | @sustx |8|
   | 12 | 05 | The game shall provide a method for changing common graphical settings | Unassigned   |1|
@@ -107,21 +107,21 @@
   
   | Feature RID | Status | Assigned To | Points |
   |:----:|:------:|:------:|:----:|
-  | 00  | Complete | @kingofspill | 1  |
-  | 01  | Complete | @kingofspill | 1  |
+  | 00  | Complete (06/17) | @kingofspill | 1  |
+  | 01  | Complete (06/17) | @kingofspill | 1  |
   | 03  | Not Started | @mohammadh | 3  |
   | 04  | In Progress | @kingofspill | 8  |
   | 05  | In Progress | @3alanhdez | 8  |
   | 06  | Complete | @marcburrell | 3  |
   | 07  | Complete | @marcburrell | 2  |
-  | 09  | Not Started | Unassigned | 8  |
+  | 09  | In Progress | @kingofspill | 8  |
   | 11  | In Progress | @sustx | 8  |
   | 13  | Not Started | @mohammadh | 5  |
   | 17  | Complete (06/20) | @sustx | 1  |
   | 19  | Not Started | @marcburrell | 3  |
-  | 22  | Complete | @kingofspill | 3  |
-  | 23  | Complete | @kingofspill | 1  |
-  | 24  | Complete | @kingofspill | 3  |
+  | 22  | Complete (06/17) | @kingofspill | 3  |
+  | 23  | Complete (06/17) | @kingofspill | 1  |
+  | 24  | Complete (06/17) | @kingofspill | 3  |
   | 26  | Not Started | @marcburrell | 3  |
   | 27  | Not Started | @3alanhndez | 5  |
   | 28  | Complete | @marcburrell | 2  |
