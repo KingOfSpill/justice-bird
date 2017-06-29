@@ -110,7 +110,7 @@
   | 00  | Complete (06/17) | @kingofspill | 1  |
   | 01  | Complete (06/17) | @kingofspill | 1  |
   | 03  | Not Started | @mohammadh | 3  |
-  | 04  | In Progress | @kingofspill | 8  |
+  | 04  | Complete (06/29) | @kingofspill | 8  |
   | 05  | Complete | @3alanhdez | 8  |
   | 06  | Complete | @marcburrell | 3  |
   | 07  | Complete | @marcburrell | 2  |
