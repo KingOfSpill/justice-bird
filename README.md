@@ -115,7 +115,7 @@
   | 06  | Complete | @marcburrell | 3  |
   | 07  | Complete | @marcburrell | 2  |
   | 09  | Complete (06/28) | @kingofspill | 8  |
-  | 11  | In Progress | @sustx | 8  |
+  | 11  | Complete (06/29)| @sustx | 8  |
   | 13  | Not Started | @mohammadh | 5  |
   | 17  | Complete (06/20) | @sustx | 1  |
   | 19  | Not Started | @marcburrell | 3  |
