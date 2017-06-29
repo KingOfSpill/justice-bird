@@ -38,3 +38,5 @@ sysinfo.txt
 *.apk
 *.unitypackage
 Assets/Sounds.meta
+Assets/Scenes/MainGame.unity
+Assets/Scenes/MainGame.unity
