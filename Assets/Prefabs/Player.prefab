@@ -235,13 +235,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1361128629939532}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.026176924, y: 0, z: 0, w: 0.99965733}
+  m_LocalPosition: {x: 0, y: 0, z: 25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4384418907883806}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -3, y: 0, z: 0}
 --- !u!4 &4808294227592296
 Transform:
   m_ObjectHideFlags: 1
@@ -552,8 +552,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 100, y: 100, z: 50}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 100, y: 100, z: 10}
+  m_Center: {x: 0, y: 0, z: 70}
 --- !u!81 &81135267869449862
 AudioListener:
   m_ObjectHideFlags: 1
@@ -691,9 +691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d0e3f93b0aa0f4f869f9f07cfba564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movSpeed: 1
-  rotChange: 0
-  rotSpeed: 3
+  movSpeed: 2
 --- !u!114 &114718567719214980
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -722,6 +720,7 @@ MonoBehaviour:
   gridObject: {fileID: 1012066391685468, guid: f8211ab2381064db0a5a3a01c1038a55, type: 2}
   gridHeight: 3
   gridWidth: 3
+  gridCamera: {fileID: 20717846194307042}
 --- !u!124 &124132476612786534
 Behaviour:
   m_ObjectHideFlags: 1

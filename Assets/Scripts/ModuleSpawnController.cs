@@ -38,16 +38,16 @@ public class ModuleSpawnController : MonoBehaviour {
     {
 
         // If we hit a track change, we want to queue a rotation
-        if (other.CompareTag("TrackChange"))
+        if (other.CompareTag("ModuleEndNode"))
         {
 
             // Here we get the component and check if it actually has it before getting data from it
-            TrackChangeTrigger trigger = other.GetComponent<TrackChangeTrigger>();
+            ModuleEndController end = other.GetComponent<ModuleEndController>();
 
-            if (trigger != null)
+            if (end != null)
             {
 
-                Quaternion nextModuleRotation =  transform.rotation *  Quaternion.Euler( trigger.rotationAxis * trigger.rotationAmount );
+                Quaternion nextModuleRotation = transform.rotation;
 
                 spawn(other.transform.position, nextModuleRotation);
 

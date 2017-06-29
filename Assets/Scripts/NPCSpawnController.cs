@@ -23,7 +23,7 @@ public class NPCSpawnController : MonoBehaviour {
 	void Update ()
 	{
 
-		if( 0 == Random.Range(0,25) )
+		if( 0 == Random.Range(0,50) )
 		{
 
 			int xAxis = Random.Range(0, spawnerGrid.gridWidth);
@@ -36,7 +36,7 @@ public class NPCSpawnController : MonoBehaviour {
 
 		}
 
-		if( spawnedModules.Count > 10 )
+		if( spawnedModules.Count > 30 )
 		{
 			Destroy(spawnedModules[0], 0.0f);
 
