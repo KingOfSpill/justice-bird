@@ -83,7 +83,12 @@ public class ModuleSpawnController : MonoBehaviour {
         while (continuousSumOfWeights[randIndex] < randWeighted)
             randIndex++;
 
-        spawnedModules.Add(Instantiate(spawnableModules[randIndex], position, rotation));
+        GameObject newModule = Instantiate(spawnableModules[randIndex], position, rotation);
+
+        spawnedModules.Add(newModule);
+
+        newModule.GetComponent<BuildingSpawner>().spawnBuildings();
+
     }
 
 }
