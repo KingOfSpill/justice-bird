@@ -28,7 +28,7 @@ public class NPCSpawnController : MonoBehaviour {
 
 			int xAxis = Random.Range(0, spawnerGrid.gridWidth);
 
-			Vector3 offset = new Vector3( 0, -3, 0);
+			Vector3 offset = new Vector3( 0, 0, 0);
 
 			Quaternion rotOffset = Quaternion.Euler( 0, -90, 0 );
 

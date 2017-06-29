@@ -16,6 +16,7 @@ public class ModuleSpawnController : MonoBehaviour {
 
         loadResources("Tiles");
         calculateWeights();
+        spawnedModules[0].GetComponent<BuildingSpawner>().spawnBuildings();
 
     }
 	
