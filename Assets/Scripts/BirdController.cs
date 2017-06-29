@@ -98,11 +98,10 @@ public void updatePosition() {
 // spawn coin
 public void OnTriggerEnter(Collider other)
 {
-    CoinSpawnner sp;
+
     if(other.CompareTag("NPC"))
     {
-        sp = other.GetComponent<CoinSpawnner>();
-        sp.CreateCoin();
+            other.GetComponent<CoinSpawnner>().CreateCoin();
     }
 }
 

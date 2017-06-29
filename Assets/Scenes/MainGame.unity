@@ -1073,6 +1073,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &951619501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 951619494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17efe91ee607c864e8f20a7301d95317, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ui: {fileID: 874775782}
 --- !u!1 &1260774926
 GameObject:
   m_ObjectHideFlags: 0
