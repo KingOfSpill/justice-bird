@@ -112,8 +112,8 @@
   | 03  | Not Started | @mohammadh | 3  |
   | 04  | Complete (06/29) | @kingofspill | 8  |
   | 05  | Complete | @3alanhdez | 8  |
-  | 06  | Complete | @marcburrell | 3  |
-  | 07  | Complete | @marcburrell | 2  |
+  | 06  | Complete | @marcburrell (06/23) | 3  |
+  | 07  | Complete | @marcburrell (06/19) | 2  |
   | 09  | Complete (06/28) | @kingofspill | 8  |
   | 11  | Complete (06/29)| @sustx | 8  |
   | 13  | Not Started | @mohammadh | 5  |
@@ -122,9 +122,9 @@
   | 22  | Complete (06/17) | @kingofspill | 3  |
   | 23  | Complete (06/17) | @kingofspill | 1  |
   | 24  | Complete (06/17) | @kingofspill | 3  |
-  | 26  | Not Started | @marcburrell | 3  |
+  | 26  | Complete (06/29) | @marcburrell | 3  |
   | 27  | Not Started | @3alanhndez | 5  |
-  | 28  | Complete | @marcburrell | 2  |
+  | 28  | Complete (06/24) | @marcburrell | 2  |
   | 29  | Completed | @3alanhndez | 5  |
   | 30  | Complete (06/20) | @sustx | 3  |
   
