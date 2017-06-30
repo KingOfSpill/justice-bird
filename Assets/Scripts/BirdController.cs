@@ -91,7 +91,7 @@ public void updatePosition() {
 
     Vector3 targetPosition = grid.gridToWorldPosition(gridX, gridY);
 
-    transform.position = Vector3.Lerp( transform.position, targetPosition, 0.1f) ;
+    transform.position = Vector3.Lerp( transform.position, targetPosition, 0.1f * Time.timeScale) ;
 
 }
 
