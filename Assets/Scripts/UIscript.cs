@@ -14,15 +14,15 @@ public class UIscript : MonoBehaviour {
     private int score = 0;
     private int delay = 0;
     private int coins = 0;
-    private int pooAmount = 0;
+    public int pooAmount = 0;
     
 	// Use this for initialization
 	void Start () {
         //Button poohit = testpoopbutton.GetComponent<Button>();
         testpoopbutton.onClick.AddListener(poopHit);
         testpoopbutton.onClick.AddListener(foodCollected);
-        testCoinButton.onClick.AddListener(getCoin);
-        testCoinButton.onClick.AddListener(bowelMovement);
+        //testCoinButton.onClick.AddListener(getCoin);
+        //testCoinButton.onClick.AddListener(bowelMovement);
         coinText.text = "X " + coins.ToString();
         printScore();
 	}
@@ -77,11 +77,11 @@ public class UIscript : MonoBehaviour {
         }
     }
 
-    public void bowelMovement()
+    public bool bowelMovement()
     {
         if(pooAmount == 0)
         {
-            return;
+            return false;
         }
         else if(pooAmount == 1)
         {
@@ -95,6 +95,8 @@ public class UIscript : MonoBehaviour {
             poopFill.rectTransform.offsetMax = new Vector2(poopFill.rectTransform.offsetMax.x, poopFill.rectTransform.offsetMax.y - 19);
             pooAmount--;
         }
+
+        return true;
     }
 }
 

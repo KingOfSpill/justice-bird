@@ -17,12 +17,21 @@ public class PoopSpawner : MonoBehaviour
 
     void Update ()
     {
-        if ( (Input.GetButton("Fire1") || Input.GetKeyDown("space")) && ui.poopFill.enabled )
-        {
-            
-            Instantiate(Poop, transform.position, transform.rotation, transform.parent);
-            ui.bowelMovement();
-        }
+        if ((Input.GetButton("Fire1") || Input.GetKeyDown("space")))
+            spawnPoop();
+    }
+
+    public GameObject spawnPoop()
+    {
+        if (ui.bowelMovement())
+            return Instantiate(Poop, transform.position, transform.rotation, transform.parent);
+        else
+            return null;
+    }
+
+    public void test()
+    {
+        return;
     }
 
    /* void FixedUpdate ()

@@ -11,7 +11,7 @@
   | @sustx - William Tyback Rojas |
   
   ### Demo Video
-  Click [here](https://www.youtube.com/watch?v=gQmSUSPGisU)
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click [here](https://www.youtube.com/watch?v=gQmSUSPGisU)
 
 ## Vision Statement
 
@@ -89,6 +89,8 @@
   | 07  | The bird doesn't move past the right edge | 02 |
   | 08  | The bird doesn't move past the up edge | 02 |
   | 09  | The bird doesn't move past the down edge | 02 |
+  | 10  | The Poop Spawner can spawn poop | 03 |
+  | 11  | THe Poop Spawner does not spawn poop if the poop bar is empty | 03 |
   
   
 
