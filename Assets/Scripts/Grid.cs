@@ -29,7 +29,7 @@ public class Grid : MonoBehaviour {
 
 				Vector3 position = gridCamera.ViewportToWorldPoint( new Vector3( xScreenPosition, yScreenPosition, gridViewportPosition.z ) );
 
-				grid[i,j] = Instantiate( gridObject, position, gridCamera.transform.rotation, transform );
+				grid[i,j] = Instantiate( gridObject, position, transform.rotation, transform );
 
 			}
 		}

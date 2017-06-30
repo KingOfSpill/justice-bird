@@ -17,9 +17,7 @@ public class FoodCollector : MonoBehaviour {
 			Destroy(other.gameObject);
 			pickUp.Play ();
 			ui.getCoin ();
-
 		}
-
 	}
 
 }

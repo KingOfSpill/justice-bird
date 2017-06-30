@@ -10,6 +10,8 @@ TagManager:
   - ModuleStartNode
   - SpawnerCamera
   - ModuleEndNode
+  - NPC
+  - Coin
   layers:
   - Default
   - TransparentFX
