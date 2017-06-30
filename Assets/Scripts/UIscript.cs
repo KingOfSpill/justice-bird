@@ -39,7 +39,7 @@ public class UIscript : MonoBehaviour {
 
 	}
 
-void printScore()
+    void printScore()
     {
         scoreText.text = "Score: " + score.ToString();
     }
@@ -54,7 +54,8 @@ void printScore()
         coins++;
         coinText.text = "X " + coins.ToString();
     }
-void foodCollected()
+
+    public void foodCollected()
     {
         if(pooAmount == 0)
         {
@@ -74,7 +75,8 @@ void foodCollected()
             pooAmount++;
         }
     }
-void bowelMovement()
+
+    void bowelMovement()
     {
         if(pooAmount == 0)
         {
