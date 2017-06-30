@@ -20,7 +20,7 @@ public class CoinFlyToBird : MonoBehaviour {
 	public void Update()
     {
 
-        transform.position = Vector3.Lerp( transform.position, bird.transform.position, 0.1f) ;
+        transform.position = Vector3.Lerp( transform.position, bird.transform.position, 0.1f * Time.timeScale) ;
 
 	}
 }
