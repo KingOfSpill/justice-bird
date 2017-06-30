@@ -12,6 +12,7 @@ TagManager:
   - ModuleEndNode
   - NPC
   - Coin
+  - Building
   layers:
   - Default
   - TransparentFX
