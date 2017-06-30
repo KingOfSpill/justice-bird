@@ -9,6 +9,9 @@
   | @marcburrell - Marc Burrell |
   | @mohammadh94 - Mohammad Hammad |
   | @sustx - William Tyback Rojas |
+  
+  ### Demo Video
+    [Video](https://youtu.be/gQmSUSPGisU)
 
 ## Vision Statement
 
