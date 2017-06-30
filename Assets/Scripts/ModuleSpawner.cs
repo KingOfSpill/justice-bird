@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ModuleSpawnController : MonoBehaviour {
+public class ModuleSpawner : MonoBehaviour {
 
     public GameObject[] spawnableModules;
     public List<GameObject> spawnedModules;
@@ -50,7 +50,7 @@ public class ModuleSpawnController : MonoBehaviour {
 
                 Quaternion nextModuleRotation = transform.rotation;
 
-                spawn(other.transform.position, nextModuleRotation);
+                spawnedModules.Add(spawnModule(other.transform.position, nextModuleRotation));
 
             }
 
@@ -63,7 +63,7 @@ public class ModuleSpawnController : MonoBehaviour {
         spawnableModules = Resources.LoadAll<GameObject>(folder);
     }
 
-    void calculateWeights()
+    public void calculateWeights()
     {
         continuousSumOfWeights = new int[spawnableModules.Length];
 
@@ -75,7 +75,18 @@ public class ModuleSpawnController : MonoBehaviour {
         totalSumOfWeights = continuousSumOfWeights[continuousSumOfWeights.Length-1];
     }
 
-    void spawn( Vector3 position, Quaternion rotation)
+    public GameObject spawnModule(Vector3 position, Quaternion rotation)
+    {
+
+        GameObject newModule = spawnRandomModule(position, rotation);
+
+        newModule.GetComponent<BuildingSpawner>().spawnBuildings();
+
+        return newModule;
+
+    }
+
+    public GameObject spawnRandomModule( Vector3 position, Quaternion rotation)
     {
         int randWeighted = Random.Range(0, totalSumOfWeights);
 
@@ -84,11 +95,7 @@ public class ModuleSpawnController : MonoBehaviour {
         while (continuousSumOfWeights[randIndex] < randWeighted)
             randIndex++;
 
-        GameObject newModule = Instantiate(spawnableModules[randIndex], position, rotation);
-
-        spawnedModules.Add(newModule);
-
-        newModule.GetComponent<BuildingSpawner>().spawnBuildings();
+        return Instantiate(spawnableModules[randIndex], position, rotation);
 
     }
 
