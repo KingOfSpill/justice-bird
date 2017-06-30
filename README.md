@@ -95,9 +95,6 @@
   | 13  | The Module Spawner calculates total weight properly | 04 | "Assets/Tests/Editor/ModuleSpawnerTests.cs" |
   | 14  | The Module Spawner can spawn a module | 04 | "Assets/Tests/Editor/ModuleSpawnerTests.cs" |
   | 15  | There are a set of prefabs for the module spawner to spawn | 05 | Check if there are files in "Assets/Resources/Tiles" |
-  | 16  | The function getCoin increments the on-screen coin counter | 06 | "Assets/Tests/Editor/UIScriptTests.cs" |
-  | 17  | The function changeScore changes the on-screen score counter | 07 |  "Assets/Tests/Editor/UIScriptTests.cs" |
-  | 18  | The NPC Spawner can spawn NPCs | 09 | "Assets/Tests/Editor/NPCSpawnerTests.cs" |
   
   
 
@@ -149,17 +146,20 @@
  
   
   ### Sprint 3 Backlog
-  
-  
+   
   | Feature RID | Status | Assigned To | Points |
   |:----:|:------:|:------:|:----:|
-  | 00  | Not Started | Unassigned | __ |
-  | 01  | Not Started | Unassigned | __ |
-  | 08  | Not Started | Unassigned | __ |
-  | 12  | Not Started | Unassigned | __ |
-  | 14  | Not Started | Unassigned | __ |
-  | 15  | Not Started | Unassigned | __ |
-  | 18  | Not Started | Unassigned | __ |
+  | 08  | Not Started | Unassigned | 1 |
+  | 10  | Not Started | Unassigned | 5 |
+  | 12  | Not Started | Unassigned | 1 |
+  | 14  | Not Started | Unassigned | 8 |
+  | 15  | Not Started | Unassigned | 5 |
+  | 16  | Not Started | Unassigned | 5 |
+  | 18  | Not Started | Unassigned | 13 |
+  | 20  | Not Started | Unassigned | 3 |
+  | 21  | Not Started | Unassigned | 3 |
+  | 25  | Not Started | Unassigned | 3 |
+          *More to be added*
   
   
   
