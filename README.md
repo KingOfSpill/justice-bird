@@ -95,6 +95,8 @@
   | 13  | The Module Spawner calculates total weight properly | 04 | "Assets/Tests/Editor/ModuleSpawnerTests.cs" |
   | 14  | The Module Spawner can spawn a module | 04 | "Assets/Tests/Editor/ModuleSpawnerTests.cs" |
   | 15  | There are a set of prefabs for the module spawner to spawn | 05 | Check if there are files in "Assets/Resources/Tiles" |
+  | 16  | The function getCoin increments the on-screen coin counter | 06 | "Assets/Tests/Editor/UIScriptTests.cs" |
+  | 17  | The function changeScore changes the on-screen score counter | 07 |  "Assets/Tests/Editor/UIScriptTests.cs" |
   
   
 

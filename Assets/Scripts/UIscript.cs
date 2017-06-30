@@ -19,8 +19,8 @@ public class UIscript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         //Button poohit = testpoopbutton.GetComponent<Button>();
-        testpoopbutton.onClick.AddListener(poopHit);
-        testpoopbutton.onClick.AddListener(foodCollected);
+        //testpoopbutton.onClick.AddListener(poopHit);
+        //testpoopbutton.onClick.AddListener(foodCollected);
         //testCoinButton.onClick.AddListener(getCoin);
         //testCoinButton.onClick.AddListener(bowelMovement);
         coinText.text = "X " + coins.ToString();
@@ -31,10 +31,8 @@ public class UIscript : MonoBehaviour {
 	void Update () {
         if(delay % 100 == 0)
         {
-            score += 1 * (int)Time.timeScale;
+            changeScore(1 * (int)Time.timeScale);
         }
- 
-        printScore();
         delay++;
 
 	}
@@ -44,9 +42,15 @@ public class UIscript : MonoBehaviour {
         scoreText.text = "Score: " + score.ToString();
     }
 
+    public void changeScore( int scoreChange)
+    {
+        score += scoreChange;
+        printScore();
+    }
+
     void poopHit()
     {
-        score += 100;
+        changeScore(100);
     }
 
     public void getCoin()
