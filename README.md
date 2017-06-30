@@ -112,30 +112,38 @@
  
  ![Very UML!](Documentation/burndown1.PNG)
   
-  ### Sprint 2 Backlog
+  ### Sprint 2 
   
   | Feature RID | Status | Assigned To | Points |
   |:----:|:------:|:------:|:----:|
-  | 00  | Complete (06/17) | @kingofspill | 1  |
-  | 01  | Complete (06/17) | @kingofspill | 1  |
-  | 03  | Complete (06/30) | @mohammadh | 3  |
-  | 04  | Complete (06/29) | @kingofspill | 8  |
-  | 05  | Complete (06/24) | @3alanhdez | 8  |
-  | 06  | Complete (06/23) | @marcburrell | 3  |
-  | 07  | Complete (06/19) | @marcburrell | 2  |
-  | 09  | Complete (06/28) | @kingofspill | 8  |
-  | 11  | Complete (06/29)| @sustx | 8  |
-  | 13  | Complete (06/29) | @mohammadh | 5  |
-  | 17  | Complete (06/20) | @sustx | 1  |
-  | 19  | Complete (06/29) | @marcburrell | 3  |
-  | 22  | Complete (06/17) | @kingofspill | 3  |
-  | 23  | Complete (06/17) | @kingofspill | 1  |
-  | 24  | Complete (06/17) | @kingofspill | 3  |
-  | 26  | Complete (06/29) | @marcburrell | 3  |
-  | 27  | Complete (06/30) | @3alanhndez | 5  |
-  | 28  | Complete (06/24) | @marcburrell | 2  |
-  | 29  | Complete (06/24)| @3alanhndez | 5  |
-  | 30  | Complete (06/20) | @sustx | 3  |
+  | 00  | Complete  | @kingofspill | 1  |
+  | 01  | Complete  | @kingofspill | 1  |
+  | 03  | Complete  | @mohammadh | 3  |
+  | 04  | Complete  | @kingofspill | 8  |
+  | 05  | Complete  | @3alanhdez | 8  |
+  | 06  | Complete  | @marcburrell | 3  |
+  | 07  | Complete  | @marcburrell | 2  |
+  | 09  | Complete  | @kingofspill | 8  |
+  | 11  | Complete  | @sustx | 8  |
+  | 13  | Complete  | @mohammadh | 5  |
+  | 17  | Complete  | @sustx | 1  |
+  | 19  | Complete  | @marcburrell | 3  |
+  | 22  | Complete  | @kingofspill | 3  |
+  | 23  | Complete  | @kingofspill | 1  |
+  | 24  | Complete  | @kingofspill | 3  |
+  | 26  | Complete  | @marcburrell | 3  |
+  | 27  | Complete  | @3alanhndez | 5  |
+  | 28  | Complete  | @marcburrell | 2  |
+  | 29  | Complete  | @3alanhndez | 5  |
+  | 30  | Complete  | @sustx | 3  |
+  
+  
+  
+  ### Sprint 2 Burndown Chart
+ 
+ ![Very UML!](Documentation/sprintBurndown.PNG)
+ 
+ 
   
   ### Sprint 3 Backlog
   
