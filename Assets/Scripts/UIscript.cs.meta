@@ -1,10 +1,16 @@
 fileFormatVersion: 2
 guid: 811972f9a0a3d5b459fc0d85a5b3fa39
-timeCreated: 1497918740
+timeCreated: 1498772022
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - scoreText: {instanceID: 0}
+  - coinText: {instanceID: 0}
+  - testpoopbutton: {instanceID: 0}
+  - testCoinButton: {instanceID: 0}
+  - poopFill: {fileID: 114689439145475746, guid: dbaa458053d93844fb6e9db1d3f8692d,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
