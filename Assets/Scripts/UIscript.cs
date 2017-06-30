@@ -51,6 +51,7 @@ public class UIscript : MonoBehaviour {
 
     public void getCoin()
     {
+        GetComponent<AudioSource>().Play();
         coins++;
         coinText.text = "X " + coins.ToString();
     }
@@ -76,7 +77,7 @@ public class UIscript : MonoBehaviour {
         }
     }
 
-    void bowelMovement()
+    public void bowelMovement()
     {
         if(pooAmount == 0)
         {

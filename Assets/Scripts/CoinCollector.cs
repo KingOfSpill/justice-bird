@@ -6,16 +6,13 @@ public class CoinCollector : MonoBehaviour {
 
 	public UIscript ui;
 
-	// Coin fly to bird trigger
-	void OnTriggerEnter(Collider other){
-
-		//AudioSource pickUp = GetComponent<AudioSource>();
+    // Coin fly to bird trigger
+    void OnTriggerEnter(Collider other){
 
 		if (other.gameObject.CompareTag ("Coin")) {
 
-			other.gameObject.SetActive (false);
+            other.gameObject.SetActive (false);
 			Destroy(other.gameObject);
-			//pickUp.Play ();
 			ui.getCoin ();
 
 		}

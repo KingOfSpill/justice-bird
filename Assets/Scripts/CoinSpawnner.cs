@@ -8,7 +8,7 @@ public class CoinSpawnner : MonoBehaviour {
     // Use this for initialization
     public void CreateCoin ()
     {
-        Instantiate(coin, transform.position, transform.rotation);
+        Instantiate(coin, transform.position, transform.rotation * Quaternion.Euler(90, 0, 0));
        
     }
 	

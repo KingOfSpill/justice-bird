@@ -9,6 +9,7 @@ public class PoopSpawner : MonoBehaviour
     public float tilt;
 
     public GameObject Poop;
+    public UIscript ui;
     //public Transform buttHole;
     public float fireRate;
 
@@ -16,10 +17,11 @@ public class PoopSpawner : MonoBehaviour
 
     void Update ()
     {
-        if (Input.GetButton("Fire1") || Input.GetKeyDown("space"))
+        if ( (Input.GetButton("Fire1") || Input.GetKeyDown("space")) && ui.poopFill.enabled )
         {
             
-            Instantiate(Poop, transform.position, transform.rotation);
+            Instantiate(Poop, transform.position, transform.rotation, transform.parent);
+            ui.bowelMovement();
         }
     }
 

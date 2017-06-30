@@ -4,14 +4,23 @@ using UnityEngine;
 
 // reference BirdController scriptfor moving 
 // coin position to bird
+
 public class CoinFlyToBird : MonoBehaviour {
-	/*
-	public void updatePosition() {
 
-    Vector3 targetPosition = grid.gridToWorldPosition(gridX, gridY);
+    public GameObject bird;
 
-    transform.position = Vector3.Lerp( transform.position, targetPosition, 0.1f) ;
+    public void Start()
+    {
+
+        bird = GameObject.Find("/Main Camera/Bird");
+        transform.SetParent(bird.transform.parent, true);
+
+    }
+
+	public void Update()
+    {
+
+        transform.position = Vector3.Lerp( transform.position, bird.transform.position, 0.1f) ;
 
 	}
-	*/
 }
