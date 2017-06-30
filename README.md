@@ -112,8 +112,8 @@
   | 03  | Not Started | @mohammadh | 3  |
   | 04  | Complete (06/29) | @kingofspill | 8  |
   | 05  | Complete | @3alanhdez | 8  |
-  | 06  | Complete | @marcburrell (06/23) | 3  |
-  | 07  | Complete | @marcburrell (06/19) | 2  |
+  | 06  | Complete (06/23) | @marcburrell | 3  |
+  | 07  | Complete (06/19) | @marcburrell | 2  |
   | 09  | Complete (06/28) | @kingofspill | 8  |
   | 11  | Complete (06/29)| @sustx | 8  |
   | 13  | Not Started | @mohammadh | 5  |
