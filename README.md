@@ -99,6 +99,17 @@
   | 17  | The function changeScore changes the on-screen score counter | 07 |  "Assets/Tests/Editor/UIScriptTests.cs" | 
   | 18  | The NPC Spawner can spawn NPCs | 09 | "Assets/Tests/Editor/NPCSpawnerTests.cs" | 
   | 19  | The Food Spawner can spawn food | 11 | "Assets/Tests/Editor/FoodSpawnerTests.cs" |
+  | 20  | Collect poop in the game and the poop bar grows | 13 | Performed Manually |
+  | 21  | Collect poop in the game and the poop bar shrinks | 13 | Performed Manually |
+  | 22	| Collect a coin in the game and the coin counter increments | 17 | Performed Manually |
+  | 23  | Run into an NPC in the game and the death screen appears | 19 | Performed Manually |
+  | 24  | There is a scene in the game with the title of the game | 22 | Performed Manually |
+  | 25  | In the main menu scene, press the start button and the game scene loads | 23 | Performed Manually |
+  | 26  | In the main menu scene, press the quit button and the application closes | 24 | Performed Manually |
+  | 27  | Collect poop in the game and the poop bar grows | 26 | Performed Manually |
+  | 28  | Play the game and over time the score counter increases | 28 | Performed Manually
+  | 29  | There are a set of prefabs for the NPC spawner to spawn | 29 | Check if there are files in "Assets/Resources/NPCs" |
+  | 30  | There is a file Food.prefab | 30 |  Check if there are files in "Assets/Prefabs" |
   
   
 
