@@ -11,7 +11,7 @@
   | @sustx - William Tyback Rojas |
   
   ### Demo Video
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click [here](https://www.youtube.com/watch?v=gQmSUSPGisU)
+    https://www.youtube.com/watch?v=gQmSUSPGisU (Link formatting will not work)
 
 ## Vision Statement
 
