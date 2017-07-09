@@ -39,6 +39,7 @@
   | 13 | "As a bird,   I want to be able to poop on things, so that I can eat more food." |
   | 14 | "As a player, I want to be able to customize my bird, so I can feel ownership over my game" | 
   | 15 | "As a player, I want a central location that displays my choices, so I can choose what to do." |
+  | 16 | "As a player, I want to hear music while I play, so I don't get bored." |
   
   ### Functional Requirements
 
@@ -75,6 +76,15 @@
   | 28 | 06 | The game shall increase score as the player survives longer | @marcburrell | 2 |
   | 29 | 13 | The game shall have a set of non-playable characters to spawn | @3alanhdez | 5 |
   | 30 | 11 | The game shall have food models to spawn | @sustx | 3 |
+  | 31 | 14 | The customization page shall have list of skin options for the bird | Unassigned | 3 |
+  | 32 | 12 | The customization page shall have list of skin options for the poop | Unassigned | 3 |
+  | 33 | 15 | The game shall have a customization page | Unassigned | 1 |
+  | 34 | 02 | The game shall have a set of obstacles to spawn | Unassigned | 8 |
+  | 35 | 02 | The game shall spawn obstacles pseudo-randomly | Unassigned | 3 |
+  | 36 | 15 | The customization page shall allow the player to spend coins on locked customization options | Unassigned | 5 |
+  | 37 | 16 | The game shall play music during gameplay | Unassigned | 5 |
+  | 38 | 17 | The game shall have a set of buildings to make up the city tiles | Unassigned | 5 |
+  
   
   ### Unit Tests
   | TID | Test Description | RID Being Tested | Method Of Testing |
@@ -174,7 +184,16 @@
   | 20  | Not Started | Unassigned | 3 |
   | 21  | Not Started | Unassigned | 3 |
   | 25  | Not Started | Unassigned | 3 |
-          *More to be added*
+  | 29  | Not Started | @3alanhdez | 5 |
+  | 30  | Not Started | @sustx     | 3 |
+  | 31  | Not Started | Unassigned | 3 |
+  | 32  | Not Started | Unassigned | 3 |
+  | 33  | Not Started | Unassigned | 1 |
+  | 34  | Not Started | Unassigned | 8 |
+  | 35  | Not Started | Unassigned | 3 |
+  | 36  | Not Started | Unassigned | 5 |
+  | 37  | Not Started | Unassigned | 5 |
+  | 38  | Not Started | Unassigned | 5 |
   
   
   
