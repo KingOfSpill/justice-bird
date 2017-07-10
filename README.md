@@ -63,25 +63,25 @@
   | 15 | 07 | The game shall allow the player to load previously stored progress | Unassigned   |5|
   | 16 | 12 | The game shall allow the player to change the bird's poop cosmetically | Unassigned   |5|
   | 17 | 03 | The game shall track the total number of coins the player has collected | @sustx |1|
-  | 18 | 14 | The game shall allow players to spend in-game currency on alternative skins for the bird and poop | Unassigned   |13|
+  | 18 | 14 | The game shall allow players to spend in-game currency on alternative skins for the bird and poop | unassigned |13|
   | 19 | 09 | The game shall end play when the bird collides with environment objects | @marcburrell   |3|
   | 20 | 08 | The pause screen shall give a way to exit the game | Unassigned | 3 |
   | 21 | 01 | The pause screen shall allow the player to quit to a main menu | Unassigned | 3 |
   | 22 | 15 | The game shall have a main menu | @kingofspill | 3 |
   | 23 | 00 | The main menu shall allow the player to start the game | @kingofspill | 1 |
   | 24 | 08 | The main menu shall allow the player to quit the game | @kingofspill | 3 |
-  | 25 | 14 | The main menu shall allow the player to go to a customization page | Unassigned | 3 |
+  | 25 | 14 | The main menu shall allow the player to go to a customization page | @marcburrell | 3 |
   | 26 | 13 | The game shall add poop as the bird collects food | @marcburrell | 3 |
   | 27 | 10 | The game shall spawn coins when poop hits non-playable characters | @3alanhdez | 5 |
   | 28 | 06 | The game shall increase score as the player survives longer | @marcburrell | 2 |
   | 29 | 13 | The game shall have a set of non-playable characters to spawn | @3alanhdez | 5 |
   | 30 | 11 | The game shall have food models to spawn | @sustx | 3 |
-  | 31 | 14 | The customization page shall have list of skin options for the bird | Unassigned | 3 |
-  | 32 | 12 | The customization page shall have list of skin options for the poop | Unassigned | 3 |
-  | 33 | 15 | The game shall have a customization page | Unassigned | 1 |
+  | 31 | 14 | The customization page shall have list of skin options for the bird | @marcburrell | 3 |
+  | 32 | 12 | The customization page shall have list of skin options for the poop | @marcburrell | 3 |
+  | 33 | 15 | The game shall have a customization page | @marcburrell | 1 |
   | 34 | 02 | The game shall have a set of obstacles to spawn | Unassigned | 8 |
   | 35 | 02 | The game shall spawn obstacles pseudo-randomly | Unassigned | 3 |
-  | 36 | 15 | The customization page shall allow the player to spend coins on locked customization options | Unassigned | 5 |
+  | 36 | 15 | The customization page shall allow the player to spend coins on locked customization options | @marcburrell | 5 |
   | 37 | 16 | The game shall play music during gameplay | Unassigned | 5 |
   | 38 | 17 | The game shall have a set of buildings to make up the city tiles | Unassigned | 5 |
   
@@ -184,15 +184,15 @@
   | 18  | Not Started | Unassigned | 13 |
   | 20  | Not Started | Unassigned | 3 |
   | 21  | Not Started | Unassigned | 3 |
-  | 25  | Not Started | Unassigned | 3 |
+  | 25  | Not Started | @marcburrell | 3 |
   | 29  | Not Started | @3alanhdez, @kingofspill | 5 |
   | 30  | Not Started | @sustx     | 3 |
-  | 31  | Not Started | Unassigned | 3 |
-  | 32  | Not Started | Unassigned | 3 |
-  | 33  | Not Started | Unassigned | 1 |
+  | 31  | Not Started | @marcburrell | 3 |
+  | 32  | Not Started | @marcburrell | 3 |
+  | 33  | Not Started | @marcburrell | 1 |
   | 34  | Not Started | @3alanhdez, @kingofspill | 8 |
   | 35  | Not Started | Unassigned | 3 |
-  | 36  | Not Started | Unassigned | 5 |
+  | 36  | Not Started | @marcburrell | 5 |
   | 37  | Not Started | Unassigned | 5 |
   | 38  | Not Started | @3alanhdez, @kingofspill | 5 |
   
