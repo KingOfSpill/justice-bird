@@ -50,7 +50,7 @@
   | 02 | 09 | The game shall allow the player to control the bird’s flight     | @kingofspill |2|
   | 03 | 09 | The game shall allow the player to make the bird poop            | @mohammadh94 |3|
   | 04 | 02 | The game shall generate a cityscape modularly                    | @kingofspill |8|
-  | 05 | 02 | The game shall have a set of modular city tiles                  | @3alanhdez   |8|
+  | 05 | 02 | The game shall have a set of modular city tiles                  | @3alanhdez, @kingofspill   |8|
   | 06 | 04 | The game shall allow the player to view total collected coins    | @marcburrell |3|
   | 07 | 06 | The game shall display a score, dependant on the player's actions| @marcburrell |2|
   | 08 | 08 | The game shall allow the player to exit the application          | Unassigned   |1|
@@ -59,8 +59,8 @@
   | 11 | 11 | The game shall generate food pseudo-randomly                     | @sustx |8|
   | 12 | 05 | The game shall provide a method for changing common graphical settings | Unassigned   |1|
   | 13 | 03 | The game shall allow the player to see the available poop | @mohammadh94 |5|
-  | 14 | 07 | The game shall store persistent player progress                  | Unassigned   |8|
-  | 15 | 07 | The game shall allow the player to load previously stored progress | Unassigned   |5|
+  | 14 | 07 | The game shall store persistent player progress                  | @kingofspill   |8|
+  | 15 | 07 | The game shall allow the player to load previously stored progress | @kingofspill   |5|
   | 16 | 12 | The game shall allow the player to change the bird's poop cosmetically | Unassigned   |5|
   | 17 | 03 | The game shall track the total number of coins the player has collected | @sustx |1|
   | 18 | 14 | The game shall allow players to spend in-game currency on alternative skins for the bird and poop | unassigned |13|
@@ -74,16 +74,16 @@
   | 26 | 13 | The game shall add poop as the bird collects food | @marcburrell | 3 |
   | 27 | 10 | The game shall spawn coins when poop hits non-playable characters | @3alanhdez | 5 |
   | 28 | 06 | The game shall increase score as the player survives longer | @marcburrell | 2 |
-  | 29 | 13 | The game shall have a set of non-playable characters to spawn | @3alanhdez | 5 |
+  | 29 | 13 | The game shall have a set of non-playable characters to spawn | @3alanhdez, @kingofspill | 5 |
   | 30 | 11 | The game shall have food models to spawn | @sustx | 3 |
   | 31 | 14 | The customization page shall have list of skin options for the bird | @marcburrell | 3 |
   | 32 | 12 | The customization page shall have list of skin options for the poop | @marcburrell | 3 |
   | 33 | 15 | The game shall have a customization page | @marcburrell | 1 |
-  | 34 | 02 | The game shall have a set of obstacles to spawn | Unassigned | 8 |
-  | 35 | 02 | The game shall spawn obstacles pseudo-randomly | Unassigned | 3 |
+  | 34 | 02 | The game shall have a set of obstacles to spawn | @kingofspill | 8 |
+  | 35 | 02 | The game shall spawn obstacles pseudo-randomly | @kingofspill | 3 |
   | 36 | 15 | The customization page shall allow the player to spend coins on locked customization options | @marcburrell | 5 |
   | 37 | 16 | The game shall play music during gameplay | Unassigned | 5 |
-  | 38 | 17 | The game shall have a set of buildings to make up the city tiles | Unassigned | 5 |
+  | 38 | 17 | The game shall have a set of buildings to make up the city tiles | @3alanhdez, @kingofspill | 5 |
   
   
   ### Unit Tests
@@ -178,8 +178,8 @@
   | 08  | Not Started | Unassigned | 1 |
   | 10  | Not Started | Unassigned | 5 |
   | 12  | Not Started | Unassigned | 1 |
-  | 14  | Not Started | Unassigned | 8 |
-  | 15  | Not Started | Unassigned | 5 |
+  | 14  | Not Started | @kingofspill | 8 |
+  | 15  | Not Started | @kingofspill | 5 |
   | 16  | Not Started | Unassigned | 5 |
   | 18  | Not Started | Unassigned | 13 |
   | 20  | Not Started | Unassigned | 3 |
@@ -191,7 +191,7 @@
   | 32  | Not Started | @marcburrell | 3 |
   | 33  | Not Started | @marcburrell | 1 |
   | 34  | Not Started | @3alanhdez, @kingofspill | 8 |
-  | 35  | Not Started | Unassigned | 3 |
+  | 35  | Not Started | @kingofspill | 3 |
   | 36  | Not Started | @marcburrell | 5 |
   | 37  | Not Started | Unassigned | 5 |
   | 38  | Not Started | @3alanhdez, @kingofspill | 5 |
