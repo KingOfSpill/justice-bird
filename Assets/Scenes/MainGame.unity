@@ -540,7 +540,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 294307913}
---- !u!1001 &648620060
+--- !u!1001 &675953580
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -579,16 +579,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1287965358191422, guid: 4a9d0c094f39d01498eb52ce8ec47147, type: 2}
-      propertyPath: m_Name
-      value: Main Camera
-      objectReference: {fileID: 0}
-    - target: {fileID: 114512766277515052, guid: 4a9d0c094f39d01498eb52ce8ec47147,
-        type: 2}
-      propertyPath: ui
-      value: 
-      objectReference: {fileID: 874775782}
-    - target: {fileID: 114445526188917094, guid: 4a9d0c094f39d01498eb52ce8ec47147,
+    - target: {fileID: 114011013132327898, guid: 4a9d0c094f39d01498eb52ce8ec47147,
         type: 2}
       propertyPath: ui
       value: 
@@ -598,21 +589,25 @@ Prefab:
       propertyPath: deadScreen
       value: 
       objectReference: {fileID: 1299128509}
-    - target: {fileID: 114011013132327898, guid: 4a9d0c094f39d01498eb52ce8ec47147,
+    - target: {fileID: 114445526188917094, guid: 4a9d0c094f39d01498eb52ce8ec47147,
         type: 2}
       propertyPath: ui
       value: 
       objectReference: {fileID: 874775782}
-    - target: {fileID: 20717846194307042, guid: 4a9d0c094f39d01498eb52ce8ec47147,
+    - target: {fileID: 114512766277515052, guid: 4a9d0c094f39d01498eb52ce8ec47147,
         type: 2}
-      propertyPath: field of view
-      value: 60
+      propertyPath: ui
+      value: 
+      objectReference: {fileID: 874775782}
+    - target: {fileID: 1287965358191422, guid: 4a9d0c094f39d01498eb52ce8ec47147, type: 2}
+      propertyPath: m_Name
+      value: Main Camera
       objectReference: {fileID: 0}
-    - target: {fileID: 20717846194307042, guid: 4a9d0c094f39d01498eb52ce8ec47147,
+    - target: {fileID: 23433550565935522, guid: 4a9d0c094f39d01498eb52ce8ec47147,
         type: 2}
-      propertyPath: far clip plane
-      value: 10000
-      objectReference: {fileID: 0}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 87ad7aebb2f27a24c9ae6a463c62316f, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4a9d0c094f39d01498eb52ce8ec47147, type: 2}
   m_IsPrefabParent: 0
