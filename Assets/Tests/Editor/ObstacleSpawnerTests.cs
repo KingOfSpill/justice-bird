@@ -4,7 +4,7 @@ using UnityEngine.TestTools;
 using NUnit.Framework;
 using System.Collections;
 
-public class NPCSpawnerTests {
+public class ObstacleSpawnerTests {
 
     [Test]
     public void spawnSpawnsNPC()
@@ -19,11 +19,11 @@ public class NPCSpawnerTests {
         }
 
         GameObject spawnerHolder = new GameObject();
-        NPCSpawner spawnController = spawnerHolder.AddComponent<NPCSpawner>();
+        ObstacleSpawner spawnController = spawnerHolder.AddComponent<ObstacleSpawner>();
 
-        spawnController.spawnableModules = spawnableModules;
+        spawnController.spawnableObstacles = spawnableModules;
 
-        GameObject newNPC = spawnController.spawn(spawnerHolder.transform.position, spawnerHolder.transform.rotation);
+        GameObject newNPC = spawnController.spawn( spawnerHolder.transform.rotation);
 
         Assert.IsNotNull(newNPC);
 

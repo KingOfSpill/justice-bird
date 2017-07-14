@@ -740,8 +740,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea14e298b7194e1db8069c15b6dddbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnableModules: []
-  spawnedModules: []
+  spawnableObstacles: []
+  spawnedObstacles: []
   spawnerGrid: {fileID: 733062141}
 --- !u!114 &733062143
 MonoBehaviour:
