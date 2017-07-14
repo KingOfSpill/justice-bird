@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fallSpeed: 5
+  splat: {fileID: 8300000, guid: 775b81f2a57ed0349b2eae32c2b3b616, type: 3}
 --- !u!135 &135230202365530062
 SphereCollider:
   m_ObjectHideFlags: 1

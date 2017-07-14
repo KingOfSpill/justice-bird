@@ -579,7 +579,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 114011013132327898, guid: 4a9d0c094f39d01498eb52ce8ec47147,
+    - target: {fileID: 114512766277515052, guid: 4a9d0c094f39d01498eb52ce8ec47147,
+        type: 2}
+      propertyPath: ui
+      value: 
+      objectReference: {fileID: 874775782}
+    - target: {fileID: 114445526188917094, guid: 4a9d0c094f39d01498eb52ce8ec47147,
         type: 2}
       propertyPath: ui
       value: 
@@ -589,12 +594,7 @@ Prefab:
       propertyPath: deadScreen
       value: 
       objectReference: {fileID: 1299128509}
-    - target: {fileID: 114445526188917094, guid: 4a9d0c094f39d01498eb52ce8ec47147,
-        type: 2}
-      propertyPath: ui
-      value: 
-      objectReference: {fileID: 874775782}
-    - target: {fileID: 114512766277515052, guid: 4a9d0c094f39d01498eb52ce8ec47147,
+    - target: {fileID: 114011013132327898, guid: 4a9d0c094f39d01498eb52ce8ec47147,
         type: 2}
       propertyPath: ui
       value: 
@@ -603,11 +603,6 @@ Prefab:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
-    - target: {fileID: 23433550565935522, guid: 4a9d0c094f39d01498eb52ce8ec47147,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 87ad7aebb2f27a24c9ae6a463c62316f, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4a9d0c094f39d01498eb52ce8ec47147, type: 2}
   m_IsPrefabParent: 0

@@ -5,10 +5,13 @@ using UnityEngine;
 public class PoopController : MonoBehaviour {
 
     public int fallSpeed;
+    public AudioClip splat;
+    private AudioSource source;
 
 	// Use this for initialization
 	void Start () {
-		
+        source = this.gameObject.AddComponent<AudioSource>();
+        source.clip = splat;
 	}
 	
 	// Update is called once per frame
@@ -24,6 +27,8 @@ public class PoopController : MonoBehaviour {
         if (other.CompareTag("NPC"))
         {
             other.GetComponent<CoinSpawnner>().CreateCoin();
+            source.Play();
+            
         }
     }
 

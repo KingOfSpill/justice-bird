@@ -222,7 +222,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: c917c631c99e2ee48852e067e906acd2, type: 2}
+  - {fileID: 2100000, guid: 87ad7aebb2f27a24c9ae6a463c62316f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -306,9 +306,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: dc821158ad1df4959b1a7e3545a4c17d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 74a90ebfb50071b45b7f2244aa7a366b, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.523
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -397,6 +397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   tilt: 0
+  fart: {fileID: 8300000, guid: b4e4aa694d08adf47ac0e2fe654e576e, type: 3}
   Poop: {fileID: 1098651368567908, guid: afa75ae37c6e3f5448dd4633368fba3e, type: 2}
   ui: {fileID: 0}
   fireRate: 0
