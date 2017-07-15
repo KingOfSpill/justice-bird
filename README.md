@@ -174,7 +174,7 @@
    
   | Feature RID | Status | Assigned To | Points |
   |:----:|:------:|:------:|:----:|
-  | 05  | Not Started | @3alanhdez, @kingofspill | 8 |
+  | 05  | In Progress | @3alanhdez, @kingofspill | 8 |
   | 08  | Not Started | Unassigned | 1 |
   | 10  | Not Started | Unassigned | 5 |
   | 12  | Not Started | Unassigned | 1 |
@@ -185,7 +185,7 @@
   | 20  | Not Started | Unassigned | 3 |
   | 21  | Not Started | Unassigned | 3 |
   | 25  | Not Started | @marcburrell | 3 |
-  | 29  | Not Started | @3alanhdez, @kingofspill | 5 |
+  | 29  | In Progress | @3alanhdez, @kingofspill | 5 |
   | 30  | Not Started | @sustx     | 3 |
   | 31  | Not Started | @marcburrell | 3 |
   | 32  | Not Started | @marcburrell | 3 |
@@ -194,7 +194,7 @@
   | 35  | Complete 07/14 | @kingofspill | 3 |
   | 36  | Not Started | @marcburrell | 5 |
   | 37  | Not Started | Unassigned | 5 |
-  | 38  | Not Started | @3alanhdez, @kingofspill | 5 |
+  | 38  | In Progress | @3alanhdez, @kingofspill | 5 |
   
   
   
