@@ -178,8 +178,8 @@
   | 08  | Not Started | Unassigned | 1 |
   | 10  | Not Started | Unassigned | 5 |
   | 12  | Not Started | Unassigned | 1 |
-  | 14  | Not Started | @kingofspill | 8 |
-  | 15  | Not Started | @kingofspill | 5 |
+  | 14  | Complete 07/15 | @kingofspill | 8 |
+  | 15  | Complete 07/15 | @kingofspill | 5 |
   | 16  | Not Started | Unassigned | 5 |
   | 18  | Not Started | Unassigned | 13 |
   | 20  | Not Started | Unassigned | 3 |
@@ -191,7 +191,7 @@
   | 32  | Not Started | @marcburrell | 3 |
   | 33  | Not Started | @marcburrell | 1 |
   | 34  | In Progress | @3alanhdez, @kingofspill | 8 |
-  | 35  | Complete | @kingofspill | 3 |
+  | 35  | Complete 07/14 | @kingofspill | 3 |
   | 36  | Not Started | @marcburrell | 5 |
   | 37  | Not Started | Unassigned | 5 |
   | 38  | Not Started | @3alanhdez, @kingofspill | 5 |
