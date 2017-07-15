@@ -9,10 +9,14 @@ public class ObstacleSpawner : MonoBehaviour {
 
     public Grid spawnerGrid;
 
-	// Use this for initialization
-	void Start ()
+    public int[] continuousSumOfWeights;
+    public int totalSumOfWeights;
+
+    // Use this for initialization
+    void Start ()
 	{
 		loadResources("Obstacles");
+        calculateWeights();
 	}
 
     // Update is called once per frame
@@ -21,10 +25,6 @@ public class ObstacleSpawner : MonoBehaviour {
 
         if (0 == Random.Range(0, 50))
         {
-
-            int xAxis = Random.Range(0, spawnerGrid.gridWidth);
-
-            Vector3 offset = new Vector3(0, 0, 0);
 
             Quaternion rotOffset = Quaternion.Euler(0, -90, 0);
 
@@ -39,6 +39,18 @@ public class ObstacleSpawner : MonoBehaviour {
             spawnedObstacles.RemoveAt(0);
         }
 
+    }
+
+    public void calculateWeights()
+    {
+        continuousSumOfWeights = new int[spawnableObstacles.Length];
+
+        continuousSumOfWeights[0] = spawnableObstacles[0].GetComponent<ModuleWeightContainer>().weight;
+
+        for (int i = 1; i < spawnableObstacles.Length; i++)
+            continuousSumOfWeights[i] = spawnableObstacles[i].GetComponent<ModuleWeightContainer>().weight + continuousSumOfWeights[i - 1];
+
+        totalSumOfWeights = continuousSumOfWeights[continuousSumOfWeights.Length - 1];
     }
 
     public void deleteObstacle(GameObject obstacle)
@@ -56,7 +68,12 @@ public class ObstacleSpawner : MonoBehaviour {
 
     public GameObject spawn( Quaternion rotation)
     {
-        int randIndex = Random.Range(0, spawnableObstacles.Length);
+        int randWeighted = Random.Range(0, totalSumOfWeights);
+
+        int randIndex = 0;
+
+        while (continuousSumOfWeights[randIndex] < randWeighted)
+            randIndex++;
 
         GameObject objectToSpawn = spawnableObstacles[randIndex];
 

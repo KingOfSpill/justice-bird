@@ -22,9 +22,10 @@ GameObject:
   - component: {fileID: 33483835636229656}
   - component: {fileID: 23810944292589574}
   - component: {fileID: 95367273617459888}
+  - component: {fileID: 65594730289939588}
   m_Layer: 0
   m_Name: Street Lamp
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38,9 +39,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4541017266263794}
   - component: {fileID: 114564783313468386}
+  - component: {fileID: 114953761150329854}
   m_Layer: 0
   m_Name: Street Lamp
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +67,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1916034262699308}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -128.36395, y: 75.7022, z: 338.15186}
+  m_LocalPosition: {x: 597.0344, y: 427.77, z: 375.34503}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4273864773229914}
@@ -111,6 +113,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1751013434332502}
   m_Mesh: {fileID: 4300000, guid: 7b5fa6a3cfdca7c48b5ddb1902e8952a, type: 3}
+--- !u!65 &65594730289939588
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1751013434332502}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.1, z: 1.2}
+  m_Center: {x: 0.04, y: 0, z: 0.6}
 --- !u!95 &95367273617459888
 Animator:
   serializedVersion: 3
@@ -141,3 +155,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xPositions: 02000000
   yPositions: 01000000
+--- !u!114 &114953761150329854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1916034262699308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c138d4a598128a44da800d40eae7357e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 2
