@@ -190,8 +190,8 @@
   | 31  | Not Started | @marcburrell | 3 |
   | 32  | Not Started | @marcburrell | 3 |
   | 33  | Not Started | @marcburrell | 1 |
-  | 34  | Not Started | @3alanhdez, @kingofspill | 8 |
-  | 35  | Not Started | @kingofspill | 3 |
+  | 34  | In Progress | @3alanhdez, @kingofspill | 8 |
+  | 35  | Complete | @kingofspill | 3 |
   | 36  | Not Started | @marcburrell | 5 |
   | 37  | Not Started | Unassigned | 5 |
   | 38  | Not Started | @3alanhdez, @kingofspill | 5 |
