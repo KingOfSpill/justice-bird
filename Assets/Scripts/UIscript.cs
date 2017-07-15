@@ -102,6 +102,11 @@ public class UIscript : MonoBehaviour {
 
         return true;
     }
+
+    public void saveCoins()
+    {
+        SaveLoad.saveNumberOfCoins(SaveLoad.loadNumberOfCoins() + coins);
+    }
 }
 
 
