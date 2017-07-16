@@ -182,8 +182,8 @@
   | 15  | Complete 07/15 | @kingofspill | 5 |
   | 16  | Not Started | Unassigned | 5 |
   | 18  | Not Started | Unassigned | 13 |
-  | 20  | In Progress | @kingofspill | 3 |
-  | 21  | In Progress | @kingofspill | 3 |
+  | 20  | Complete 07/16 | @kingofspill | 3 |
+  | 21  | Complete 07/16 | @kingofspill | 3 |
   | 25  | Not Started | @marcburrell | 3 |
   | 29  | In Progress | @3alanhdez, @kingofspill | 5 |
   | 30  | Not Started | @sustx     | 3 |
