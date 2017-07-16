@@ -65,8 +65,8 @@
   | 17 | 03 | The game shall track the total number of coins the player has collected | @sustx |1|
   | 18 | 14 | The game shall allow players to spend in-game currency on alternative skins for the bird and poop | unassigned |13|
   | 19 | 09 | The game shall end play when the bird collides with environment objects | @marcburrell   |3|
-  | 20 | 08 | The pause screen shall give a way to exit the game | Unassigned | 3 |
-  | 21 | 01 | The pause screen shall allow the player to quit to a main menu | Unassigned | 3 |
+  | 20 | 08 | The pause screen shall give a way to exit the game | @kingofspill | 3 |
+  | 21 | 01 | The pause screen shall allow the player to quit to a main menu | @kingofspill | 3 |
   | 22 | 15 | The game shall have a main menu | @kingofspill | 3 |
   | 23 | 00 | The main menu shall allow the player to start the game | @kingofspill | 1 |
   | 24 | 08 | The main menu shall allow the player to quit the game | @kingofspill | 3 |
@@ -182,8 +182,8 @@
   | 15  | Complete 07/15 | @kingofspill | 5 |
   | 16  | Not Started | Unassigned | 5 |
   | 18  | Not Started | Unassigned | 13 |
-  | 20  | Not Started | Unassigned | 3 |
-  | 21  | Not Started | Unassigned | 3 |
+  | 20  | In Progress | @kingofspill | 3 |
+  | 21  | In Progress | @kingofspill | 3 |
   | 25  | Not Started | @marcburrell | 3 |
   | 29  | In Progress | @3alanhdez, @kingofspill | 5 |
   | 30  | Not Started | @sustx     | 3 |
