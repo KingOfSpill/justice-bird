@@ -46,7 +46,7 @@ public class BirdController : MonoBehaviour {
 
     }
 
-    void updateRotation(float verticalInput, float horizontalInput)
+    public void updateRotation(float verticalInput, float horizontalInput)
     {
 
 	    // Convert the user input into the amount of rotation wo want to do

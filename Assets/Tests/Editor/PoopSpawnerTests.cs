@@ -23,7 +23,7 @@ public class PoopSpawnerTests {
         GameObject poop = new GameObject();
         poop.AddComponent<PoopController>();
 
-        spawner.Poop = poop;
+        spawner.poop = poop;
         spawner.ui = ui;
 
         GameObject newPoop = spawner.spawnPoop();
@@ -52,7 +52,7 @@ public class PoopSpawnerTests {
         GameObject poop = new GameObject();
         poop.AddComponent<PoopController>();
 
-        spawner.Poop = poop;
+        spawner.poop = poop;
         spawner.ui = ui;
 
         GameObject newPoop = spawner.spawnPoop();

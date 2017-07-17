@@ -5,17 +5,11 @@ using UnityEngine;
 
 public class PoopSpawner : MonoBehaviour {
 
-    public float speed;
-    public float tilt;
-
     public AudioClip fart;
     private AudioSource source;
 
-    public GameObject Poop;
+    public GameObject poop;
     public UIscript ui;
-    public float fireRate;
-
-    private float nextFire;
 
     void Start()
     {
@@ -34,15 +28,10 @@ public class PoopSpawner : MonoBehaviour {
         if (ui.bowelMovement())
         {
             source.Play();
-            return Instantiate(Poop, transform.position, transform.rotation, transform.parent);
+            return Instantiate(poop, transform.position, transform.rotation, transform.parent);
         }
         else
             return null;
-    }
-
-    public void test()
-    {
-        return;
     }
 
 }

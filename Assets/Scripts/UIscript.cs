@@ -7,8 +7,6 @@ public class UIscript : MonoBehaviour {
 
     public Text scoreText;
     public Text coinText;
-    public Button testpoopbutton;
-    public Button testCoinButton;
     public Image poopFill;
 
     private int score = 0;
