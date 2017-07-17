@@ -201,4 +201,4 @@
 
 ## Design Specification
 
-![Very UML!](Documentation/DesignDoc.png)
+[Class Diagram](https://raw.githubusercontent.com/KingOfSpill/justice-bird/master/Documentation/DesignDoc.png)
