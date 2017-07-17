@@ -13,22 +13,23 @@ public class BuildingSpawner : MonoBehaviour {
         loadResources("Buildings");
 
         foreach (GameObject obj in spawnPositions)
-        {
             spawn(obj.transform.position, obj.transform.rotation);
-        }
 
     }
 
     void loadResources(string folder)
     {
+
         spawnableBuildings = Resources.LoadAll<GameObject>(folder);
+
     }
 
     void spawn(Vector3 position, Quaternion rotation)
     {
-        int randIndex = Random.Range(0, spawnableBuildings.Length);
 
+        int randIndex = Random.Range(0, spawnableBuildings.Length);
         Instantiate(spawnableBuildings[randIndex], position, rotation, transform);
+
     }
 
 }

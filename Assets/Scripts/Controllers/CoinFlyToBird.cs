@@ -2,9 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// reference BirdController scriptfor moving 
-// coin position to bird
-
 public class CoinFlyToBird : MonoBehaviour {
 
     public GameObject bird;

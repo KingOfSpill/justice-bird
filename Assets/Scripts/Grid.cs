@@ -11,9 +11,9 @@ public class Grid : MonoBehaviour {
     public GameObject[,] grid;
 
     public Camera gridCamera;
-
-	// Use this for initialization
-	void Start () {
+    
+	void Start ()
+    {
 		
 		grid = new GameObject[gridWidth,gridHeight];
 
@@ -77,9 +77,5 @@ public class Grid : MonoBehaviour {
 		return (gridHeight/2);
 
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }

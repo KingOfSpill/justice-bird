@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenuButtonFunctions : MonoBehaviour {
+public class MenuButtonFunctions : MonoBehaviour {
 
     public void LoadLevel(int index)
     {

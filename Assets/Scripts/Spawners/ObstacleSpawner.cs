@@ -43,14 +43,15 @@ public class ObstacleSpawner : MonoBehaviour {
 
     public void calculateWeights()
     {
-        continuousSumOfWeights = new int[spawnableObstacles.Length];
 
+        continuousSumOfWeights = new int[spawnableObstacles.Length];
         continuousSumOfWeights[0] = spawnableObstacles[0].GetComponent<ModuleWeightContainer>().weight;
 
         for (int i = 1; i < spawnableObstacles.Length; i++)
             continuousSumOfWeights[i] = spawnableObstacles[i].GetComponent<ModuleWeightContainer>().weight + continuousSumOfWeights[i - 1];
 
         totalSumOfWeights = continuousSumOfWeights[continuousSumOfWeights.Length - 1];
+
     }
 
     public void deleteObstacle(GameObject obstacle)
@@ -68,8 +69,8 @@ public class ObstacleSpawner : MonoBehaviour {
 
     public GameObject spawn( Quaternion rotation)
     {
-        int randWeighted = Random.Range(0, totalSumOfWeights);
 
+        int randWeighted = Random.Range(0, totalSumOfWeights);
         int randIndex = 0;
 
         while (continuousSumOfWeights[randIndex] < randWeighted)
@@ -83,6 +84,7 @@ public class ObstacleSpawner : MonoBehaviour {
         Vector3 position = spawnerGrid.gridToWorldPosition(xAxis, yAxis);
 
         return Instantiate(objectToSpawn, position, rotation);
+
     }
 
 }

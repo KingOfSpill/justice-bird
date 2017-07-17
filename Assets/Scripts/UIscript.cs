@@ -16,23 +16,18 @@ public class UIscript : MonoBehaviour {
     private int coins = 0;
     public int pooAmount = 0;
     
-	// Use this for initialization
-	void Start () {
-        //Button poohit = testpoopbutton.GetComponent<Button>();
-        //testpoopbutton.onClick.AddListener(poopHit);
-        //testpoopbutton.onClick.AddListener(foodCollected);
-        //testCoinButton.onClick.AddListener(getCoin);
-        //testCoinButton.onClick.AddListener(bowelMovement);
+	void Start ()
+    {
         coinText.text = "X " + coins.ToString();
         printScore();
 	}
 	
-	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
+
         if(delay % 100 == 0)
-        {
             changeScore(1 * (int)Time.timeScale);
-        }
+
         delay++;
 
 	}
@@ -44,8 +39,10 @@ public class UIscript : MonoBehaviour {
 
     public void changeScore( int scoreChange)
     {
+
         score += scoreChange;
         printScore();
+
     }
 
     void poopHit()
@@ -55,13 +52,16 @@ public class UIscript : MonoBehaviour {
 
     public void getCoin()
     {
+
         GetComponent<AudioSource>().Play();
         coins++;
         coinText.text = "X " + coins.ToString();
+
     }
 
     public void foodCollected()
     {
+
         if(pooAmount == 0)
         {
             poopFill.enabled = true;
@@ -79,6 +79,7 @@ public class UIscript : MonoBehaviour {
             poopFill.rectTransform.offsetMax = new Vector2(poopFill.rectTransform.offsetMax.x, poopFill.rectTransform.offsetMax.y + 19);
             pooAmount++;
         }
+
     }
 
     public bool bowelMovement()

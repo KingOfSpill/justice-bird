@@ -6,19 +6,14 @@ public class CameraController : MonoBehaviour {
 
 	public float movSpeed = 2;
 
-
     private float rotationSpeed = 0;
     private float rotationAmountRemaining = 0;
     private Vector3 rotationCenter;
     private Vector3 rotationAxis;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-
     // Update is called once per frame
-    void Update() {
+    void Update()
+    {
 
         // Doing this to keep the  camera level to the ground
         // Camera.main.transform.rotation = Quaternion.Euler(Camera.main.transform.rotation.eulerAngles.x, Camera.main.transform.rotation.eulerAngles.y, 0);
@@ -33,7 +28,8 @@ public class CameraController : MonoBehaviour {
             {
                 transform.RotateAround(rotationCenter, rotationAxis, rotationSpeed * Time.timeScale);
                 rotationAmountRemaining -= rotationSpeed * Time.timeScale;
-            } else
+            }
+            else
             {
                 transform.RotateAround(rotationCenter, rotationAxis, rotationAmountRemaining * Time.timeScale);
                 rotationAmountRemaining -= rotationAmountRemaining * Time.timeScale;

@@ -3,19 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FoodSpawner : MonoBehaviour {
+
 	public GameObject food;
 	public float delay = 3.0f;
 	public bool active = true;
 	public Grid spawnerGrid;
 
-	void Start () {
+	void Start ()
+    {
 		StartCoroutine (FoodGenerator ());
 	}
 
-	IEnumerator FoodGenerator(){
+	IEnumerator FoodGenerator()
+    {
+
 		yield return new WaitForSeconds (delay);
 
-		if (active) {
+		if (active)
+        {
 
             int randX = Random.Range(0, spawnerGrid.gridWidth);
             int randY = Random.Range(0, spawnerGrid.gridWidth);

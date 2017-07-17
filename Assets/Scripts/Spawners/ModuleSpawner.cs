@@ -37,24 +37,9 @@ public class ModuleSpawner : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-
-        // If we hit a track change, we want to queue a rotation
+        // If we hit a module end, we want to spawn a new module
         if (other.CompareTag("ModuleEndNode"))
-        {
-
-            // Here we get the component and check if it actually has it before getting data from it
-            ModuleEndController end = other.GetComponent<ModuleEndController>();
-
-            if (end != null)
-            {
-
-                Quaternion nextModuleRotation = transform.rotation;
-
-                spawnedModules.Add(spawnModule(other.transform.position, nextModuleRotation));
-
-            }
-
-        }
+                spawnedModules.Add(spawnModule(other.transform.position, transform.rotation));
 
     }
 
