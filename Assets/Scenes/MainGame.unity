@@ -1409,8 +1409,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 708289483}
   coinText: {fileID: 2146379636}
-  testpoopbutton: {fileID: 31645772}
-  testCoinButton: {fileID: 763050657}
   poopFill: {fileID: 1313269034}
   pooAmount: 0
 --- !u!114 &874775783
