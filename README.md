@@ -174,14 +174,14 @@
    
   | Feature RID | Status | Assigned To | Points |
   |:----:|:------:|:------:|:----:|
-  | 05  | In Progress | @3alanhdez, @kingofspill | 8 |
-  | 08  | Not Started | Unassigned | 1 |
-  | 10  | Not Started | Unassigned | 5 |
-  | 12  | Not Started | Unassigned | 1 |
+  | 05  | Complete 7/18 | @3alanhdez, @kingofspill | 8 |
+  | 08  | Complete | @kingofspill | 1 |
+  | 10  | Complete | @sustx | 5 |
+  | 12  | Not Started | @mohammadh | 1 |
   | 14  | Complete 07/15 | @kingofspill | 8 |
   | 15  | Complete 07/15 | @kingofspill | 5 |
-  | 16  | Not Started | Unassigned | 5 |
-  | 18  | Not Started | Unassigned | 13 |
+  | 16  | Not Started | @mohammadh | 5 |
+  | 18  | In Progress | @kingofspill | 13 |
   | 20  | Complete 07/16 | @kingofspill | 3 |
   | 21  | Complete 07/16 | @kingofspill | 3 |
   | 25  | Not Started | @marcburrell | 3 |
@@ -190,11 +190,11 @@
   | 31  | Not Started | @marcburrell | 3 |
   | 32  | Not Started | @marcburrell | 3 |
   | 33  | Not Started | @marcburrell | 1 |
-  | 34  | In Progress | @3alanhdez, @kingofspill | 8 |
+  | 34  | Complete 7/18 | @3alanhdez, @kingofspill | 8 |
   | 35  | Complete 07/14 | @kingofspill | 3 |
   | 36  | Not Started | @marcburrell | 5 |
-  | 37  | Not Started | Unassigned | 5 |
-  | 38  | In Progress | @3alanhdez, @kingofspill | 5 |
+  | 37  | Not Started | @sustx | 5 |
+  | 38  | Complete 7/18 | @3alanhdez, @kingofspill | 5 |
   
   
   
