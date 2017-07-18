@@ -57,13 +57,13 @@
   | 09 | 02 | The game shall generate non playable characters pseudo-randomly  | @kingofspill |8|
   | 10 | 10 | The game shall allow the player to collect collectable items     | @suxstx   |5|
   | 11 | 11 | The game shall generate food pseudo-randomly                     | @sustx |8|
-  | 12 | 05 | The game shall provide a method for changing common graphical settings | Unassigned   |1|
+  | 12 | 05 | The game shall provide a method for changing common graphical settings | @mohammadh94 |1|
   | 13 | 03 | The game shall allow the player to see the available poop | @mohammadh94 |5|
   | 14 | 07 | The game shall store persistent player progress                  | @kingofspill   |8|
   | 15 | 07 | The game shall allow the player to load previously stored progress | @kingofspill   |5|
-  | 16 | 12 | The game shall allow the player to change the bird's poop cosmetically | Unassigned   |5|
+  | 16 | 12 | The game shall allow the player to change the bird's poop cosmetically | @mohammadh94   |5|
   | 17 | 03 | The game shall track the total number of coins the player has collected | @sustx |1|
-  | 18 | 14 | The game shall allow players to spend in-game currency on alternative skins for the bird and poop | unassigned |13|
+  | 18 | 14 | The game shall allow players to spend in-game currency on alternative skins for the bird and poop | @kingofspill |13|
   | 19 | 09 | The game shall end play when the bird collides with environment objects | @marcburrell   |3|
   | 20 | 08 | The pause screen shall give a way to exit the game | @kingofspill | 3 |
   | 21 | 01 | The pause screen shall allow the player to quit to a main menu | @kingofspill | 3 |
@@ -82,7 +82,7 @@
   | 34 | 02 | The game shall have a set of obstacles to spawn | @kingofspill | 8 |
   | 35 | 02 | The game shall spawn obstacles pseudo-randomly | @kingofspill | 3 |
   | 36 | 15 | The customization page shall allow the player to spend coins on locked customization options | @marcburrell | 5 |
-  | 37 | 16 | The game shall play music during gameplay | Unassigned | 5 |
+  | 37 | 16 | The game shall play music during gameplay | @sustx | 5 |
   | 38 | 17 | The game shall have a set of buildings to make up the city tiles | @3alanhdez, @kingofspill | 5 |
   
   
