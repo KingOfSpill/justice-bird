@@ -24,6 +24,8 @@ public class BirdController : MonoBehaviour {
     void Start ()
     {
 
+        setSkin();
+
         gridX = grid.getXCenter();
         gridY = grid.getYCenter();
     }
@@ -44,6 +46,13 @@ public class BirdController : MonoBehaviour {
 
 	    updatePosition();
 
+    }
+
+    public void setSkin()
+    {
+        int curskin = SaveLoad.loadCurrentBirdSkin();
+
+        gameObject.GetComponentInChildren<Renderer>().material = Resources.LoadAll<Material>("BirdSkins")[curskin];
     }
 
     public void updateRotation(float verticalInput, float horizontalInput)
