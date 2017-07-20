@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 54059265593981426}
   - component: {fileID: 114387508636348474}
   m_Layer: 0
-  m_Name: Poop Basic
+  m_Name: Poop 1
   m_TagString: Poop
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118,7 +118,7 @@ RectTransform:
   m_GameObject: {fileID: 1098651368567908}
   m_LocalRotation: {x: 0.13052616, y: -0, z: -0, w: 0.9914449}
   m_LocalPosition: {x: 0, y: 0, z: 29.95414}
-  m_LocalScale: {x: 2, y: 1, z: 2}
+  m_LocalScale: {x: 1.5, y: 2.5, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0

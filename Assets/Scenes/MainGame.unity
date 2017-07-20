@@ -969,7 +969,7 @@ Prefab:
         type: 2}
       propertyPath: poop
       value: 
-      objectReference: {fileID: 1165040671469872, guid: 508f0138aa495564e8a4143d2487feac,
+      objectReference: {fileID: 1895301059282034, guid: aa53382f4a21cb84caf6ca77373bb8fa,
         type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4a9d0c094f39d01498eb52ce8ec47147, type: 2}
@@ -4926,7 +4926,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1259742776
 GameObject:
