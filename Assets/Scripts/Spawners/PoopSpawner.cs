@@ -15,6 +15,7 @@ public class PoopSpawner : MonoBehaviour {
     {
         source = this.gameObject.AddComponent<AudioSource>();
         source.clip = fart;
+        poop = Resources.LoadAll<GameObject>("PoopSkins")[SaveLoad.loadCurrentPoopSkin()];
     }
 
     void Update ()
