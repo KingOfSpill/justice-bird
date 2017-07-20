@@ -186,14 +186,14 @@
   | 21  | Complete 07/16 | @kingofspill | 3 |
   | 25  | Complete 07/18 | @marcburrell | 3 |
   | 29  | In Progress | @3alanhdez, @kingofspill | 5 |
-  | 30  | Not Started | @sustx     | 3 |
+  | 30  | Complete 07/19 | @sustx     | 3 |
   | 31  | Complete 7/18 | @marcburrell | 3 |
   | 32  | Not Started | @marcburrell | 3 |
   | 33  | Complete 7/18 | @marcburrell | 1 |
   | 34  | Complete 7/18 | @3alanhdez, @kingofspill | 8 |
   | 35  | Complete 07/14 | @kingofspill | 3 |
   | 36  | Not Started | @marcburrell | 5 |
-  | 37  | Not Started | @sustx | 5 |
+  | 37  | Complete 7/19 | @sustx | 5 |
   | 38  | Complete 7/18 | @3alanhdez, @kingofspill | 5 |
   
   
