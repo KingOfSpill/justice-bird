@@ -70,7 +70,7 @@ public class ObstacleSpawner : MonoBehaviour {
     public GameObject spawn( Quaternion rotation)
     {
 
-        int randWeighted = Random.Range(0, totalSumOfWeights);
+        int randWeighted = Random.Range(0, totalSumOfWeights+1);
         int randIndex = 0;
 
         while (continuousSumOfWeights[randIndex] < randWeighted)

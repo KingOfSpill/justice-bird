@@ -73,7 +73,7 @@ public class ModuleSpawner : MonoBehaviour {
 
     public GameObject spawnRandomModule( Vector3 position, Quaternion rotation)
     {
-        int randWeighted = Random.Range(0, totalSumOfWeights);
+        int randWeighted = Random.Range(0, totalSumOfWeights+1);
 
         int randIndex = 0;
 
