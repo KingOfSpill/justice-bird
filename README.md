@@ -176,7 +176,7 @@
   |:----:|:------:|:------:|:----:|
   | 05  | Complete 07/18 | @3alanhdez, @kingofspill | 8 |
   | 08  | Complete 07/16 | @kingofspill | 1 |
-  | 10  | Complete | @sustx | 5 |
+  | 10  | Complete 07/20 | @sustx | 5 |
   | 12  | Complete 07/20 | @mohammadh | 1 |
   | 14  | Complete 07/15 | @kingofspill | 8 |
   | 15  | Complete 07/15 | @kingofspill | 5 |
