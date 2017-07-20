@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class FoodSpawner : MonoBehaviour {
 
-	public GameObject food;
+	public GameObject[] food;
 	public float delay = 3.0f;
 	public bool active = true;
 	public Grid spawnerGrid;
+	int f;
 
 	void Start ()
     {
@@ -21,6 +22,7 @@ public class FoodSpawner : MonoBehaviour {
 
 		if (active)
         {
+			f = Random.Range(0, food.Length);
 
             int randX = Random.Range(0, spawnerGrid.gridWidth);
             int randY = Random.Range(0, spawnerGrid.gridWidth);
@@ -37,9 +39,9 @@ public class FoodSpawner : MonoBehaviour {
 
 	}
 
-    public GameObject spawn( Vector3 position, Quaternion rotation)
+	public GameObject spawn( Vector3 position, Quaternion rotation)
     {
-        return Instantiate(food, position, rotation);
+		return Instantiate(food[f], position, rotation);
     }
 		
 }
