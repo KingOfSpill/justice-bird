@@ -185,7 +185,7 @@
   | 20  | Complete 07/16 | @kingofspill | 3 |
   | 21  | Complete 07/16 | @kingofspill | 3 |
   | 25  | Complete 07/18 | @marcburrell | 3 |
-  | 29  | In Progress | @3alanhdez, @kingofspill | 5 |
+  | 29  | Complete 07/20 | @3alanhdez, @kingofspill | 5 |
   | 30  | Complete 07/19 | @sustx     | 3 |
   | 31  | Complete 07/18 | @marcburrell | 3 |
   | 32  | Complete 07/20 | @marcburrell | 3 |
