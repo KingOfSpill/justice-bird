@@ -177,10 +177,10 @@
   | 05  | Complete 7/18 | @3alanhdez, @kingofspill | 8 |
   | 08  | Complete | @kingofspill | 1 |
   | 10  | Complete | @sustx | 5 |
-  | 12  | Not Started | @mohammadh | 1 |
+  | 12  | In Progress | @mohammadh | 1 |
   | 14  | Complete 07/15 | @kingofspill | 8 |
   | 15  | Complete 07/15 | @kingofspill | 5 |
-  | 16  | Not Started | @mohammadh | 5 |
+  | 16  | Complete 07/19 | @mohammadh | 5 |
   | 18  | In Progress | @kingofspill | 13 |
   | 20  | Complete 07/16 | @kingofspill | 3 |
   | 21  | Complete 07/16 | @kingofspill | 3 |
