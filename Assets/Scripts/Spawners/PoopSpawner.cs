@@ -19,7 +19,7 @@ public class PoopSpawner : MonoBehaviour {
 
     void Update ()
     {
-        if ((Input.GetButton("Fire1") || Input.GetKeyDown("space")))
+        if (Input.GetKeyDown("space"))
             spawnPoop();
     }
 

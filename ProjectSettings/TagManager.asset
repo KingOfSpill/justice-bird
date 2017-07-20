@@ -15,6 +15,7 @@ TagManager:
   - Building
   - Poop
   - Obstacle
+  - Poop2
   layers:
   - Default
   - TransparentFX
