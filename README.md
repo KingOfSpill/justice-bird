@@ -181,7 +181,7 @@
   | 14  | Complete 07/15 | @kingofspill | 8 |
   | 15  | Complete 07/15 | @kingofspill | 5 |
   | 16  | Complete 07/19 | @mohammadh | 5 |
-  | 18  | In Progress | @kingofspill | 13 |
+  | 18  | Complete 07/20 | @kingofspill | 13 |
   | 20  | Complete 07/16 | @kingofspill | 3 |
   | 21  | Complete 07/16 | @kingofspill | 3 |
   | 25  | Complete 07/18 | @marcburrell | 3 |
