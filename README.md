@@ -53,7 +53,7 @@
   | 05 | 02 | The game shall have a set of modular city tiles                  | @3alanhdez, @kingofspill   |8|
   | 06 | 04 | The game shall allow the player to view total collected coins    | @marcburrell |3|
   | 07 | 06 | The game shall display a score, dependant on the player's actions| @marcburrell |2|
-  | 08 | 08 | The game shall allow the player to exit the application          | Unassigned   |1|
+  | 08 | 08 | The game shall allow the player to exit the application          | @kingofspill   |1|
   | 09 | 02 | The game shall generate non playable characters pseudo-randomly  | @kingofspill |8|
   | 10 | 10 | The game shall allow the player to collect collectable items     | @suxstx   |5|
   | 11 | 11 | The game shall generate food pseudo-randomly                     | @sustx |8|
@@ -174,10 +174,10 @@
    
   | Feature RID | Status | Assigned To | Points |
   |:----:|:------:|:------:|:----:|
-  | 05  | Complete 7/18 | @3alanhdez, @kingofspill | 8 |
-  | 08  | Complete | @kingofspill | 1 |
+  | 05  | Complete 07/18 | @3alanhdez, @kingofspill | 8 |
+  | 08  | Complete 07/16 | @kingofspill | 1 |
   | 10  | Complete | @sustx | 5 |
-  | 12  | In Progress | @mohammadh | 1 |
+  | 12  | Complete 07/20 | @mohammadh | 1 |
   | 14  | Complete 07/15 | @kingofspill | 8 |
   | 15  | Complete 07/15 | @kingofspill | 5 |
   | 16  | Complete 07/19 | @mohammadh | 5 |
@@ -187,14 +187,14 @@
   | 25  | Complete 07/18 | @marcburrell | 3 |
   | 29  | In Progress | @3alanhdez, @kingofspill | 5 |
   | 30  | Complete 07/19 | @sustx     | 3 |
-  | 31  | Complete 7/18 | @marcburrell | 3 |
+  | 31  | Complete 07/18 | @marcburrell | 3 |
   | 32  | Not Started | @marcburrell | 3 |
-  | 33  | Complete 7/18 | @marcburrell | 1 |
-  | 34  | Complete 7/18 | @3alanhdez, @kingofspill | 8 |
+  | 33  | Complete 07/18 | @marcburrell | 1 |
+  | 34  | Complete 07/18 | @3alanhdez, @kingofspill | 8 |
   | 35  | Complete 07/14 | @kingofspill | 3 |
   | 36  | Not Started | @marcburrell | 5 |
-  | 37  | Complete 7/19 | @sustx | 5 |
-  | 38  | Complete 7/18 | @3alanhdez, @kingofspill | 5 |
+  | 37  | Complete 07/19 | @sustx | 5 |
+  | 38  | Complete 07/18 | @3alanhdez, @kingofspill | 5 |
   
   
   
