@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TrackChangeTrigger : MonoBehaviour {
 
-    public float rotationAmount = 0.0f;
+    public float rotationAmount = 90.0f;
     public Vector3 rotationAxis = Vector3.up;
 
     public Vector3 getRotationCenter( Vector3 inPosition )

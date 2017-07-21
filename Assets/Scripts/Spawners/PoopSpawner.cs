@@ -11,14 +11,14 @@ public class PoopSpawner : MonoBehaviour {
     public GameObject poop;
     public UIscript ui;
 
-    void Start()
+    public void Start()
     {
         source = this.gameObject.AddComponent<AudioSource>();
         source.clip = fart;
         poop = Resources.LoadAll<GameObject>("PoopSkins")[SaveLoad.loadCurrentPoopSkin()];
     }
 
-    void Update ()
+    public void Update ()
     {
         if (Input.GetKeyDown("space"))
             spawnPoop();

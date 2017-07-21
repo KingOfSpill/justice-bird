@@ -12,7 +12,7 @@ public class Grid : MonoBehaviour {
 
     public Camera gridCamera;
     
-	void Start ()
+	public void Start ()
     {
 		
 		grid = new GameObject[gridWidth,gridHeight];

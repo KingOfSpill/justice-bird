@@ -9,15 +9,20 @@ public class CoinCollector : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
 
-		if (other.gameObject.CompareTag("Coin"))
+        if (other.gameObject.CompareTag("Coin"))
         {
-
-            other.gameObject.SetActive(false);
-			Destroy(other.gameObject);
-			ui.getCoin ();
-
-		}
+            DestroyCoin(other.gameObject);
+            Destroy(other.gameObject);
+        }
 
 	}
+
+    public void DestroyCoin(GameObject other)
+    {
+
+        other.SetActive(false);
+        ui.getCoin();
+
+    }
 
 }

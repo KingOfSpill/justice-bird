@@ -29,7 +29,6 @@
    [Functional Tests](https://github.com/KingOfSpill/justice-bird/blob/master/Documentation/Functional_Tests.md)
 
    [Unit Tests](https://github.com/KingOfSpill/justice-bird/blob/master/Documentation/Unit_Tests.md)
-     
 
 ## Development Plans
 

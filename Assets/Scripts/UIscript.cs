@@ -11,7 +11,7 @@ public class UIscript : MonoBehaviour {
 
     private int score = 0;
     private int delay = 0;
-    private int coins = 0;
+    public int coins = 0;
     public int pooAmount = 0;
     
 	void Start ()

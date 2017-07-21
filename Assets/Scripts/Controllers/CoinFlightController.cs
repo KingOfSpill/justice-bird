@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CoinFlyToBird : MonoBehaviour {
+public class CoinFlightController : MonoBehaviour {
 
     public GameObject bird;
 

@@ -8,7 +8,7 @@ public class PauseController : MonoBehaviour {
     public bool isPaused = false;
 
     // Use this for initialization
-    void Start ()
+    public void Start ()
     {
 
         // Make the pause screen invisible when the level loads
@@ -17,7 +17,7 @@ public class PauseController : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update ()
+	public void Update ()
     {
 
         if (Input.GetKeyDown("escape"))

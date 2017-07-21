@@ -7,12 +7,12 @@ public class CrashScript : MonoBehaviour {
     public GameObject deadScreen;
 
     //Make Sure it isn't active
-    void Start()
+    public void Start()
     {
         deadScreen.SetActive(false);
     }
 
-    void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Building") || other.gameObject.CompareTag("NPC") || other.gameObject.CompareTag("Obstacle"))
         {

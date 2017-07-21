@@ -6,10 +6,10 @@ public class CoinSpawner : MonoBehaviour {
 
     public GameObject coin;
 
-    public void CreateCoin ()
+    public GameObject CreateCoin ()
     {
 
-        Instantiate(coin, transform.position, transform.rotation * Quaternion.Euler(90, 0, 0));
+        return Instantiate(coin, transform.position, transform.rotation * Quaternion.Euler(90, 0, 0));
        
     }
 	

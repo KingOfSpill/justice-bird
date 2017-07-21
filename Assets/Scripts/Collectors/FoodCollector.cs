@@ -9,17 +9,24 @@ public class FoodCollector : MonoBehaviour {
 	void OnTriggerEnter(Collider other)
     {
 
-		AudioSource pickUp = GetComponent<AudioSource>();
-
 		if (other.gameObject.CompareTag ("Food"))
         {
 
-			other.gameObject.SetActive (false);
+            DestroyFood(other.gameObject);
 			Destroy(other.gameObject);
-			pickUp.Play ();
-			ui.foodCollected ();
 
 		}
 	}
+
+    public void DestroyFood(GameObject other)
+    {
+
+        AudioSource pickUp = GetComponent<AudioSource>();
+        pickUp.Play();
+
+        other.SetActive(false);
+        ui.foodCollected();
+
+    }
 
 }
