@@ -19,7 +19,7 @@
 
 ## Product Backlog
 
-  [User Stories](https://raw.githubusercontent.com/KingOfSpill/justice-bird/master/Documentation/User_Stories)
+  [User Stories](https://raw.githubusercontent.com/KingOfSpill/justice-bird/master/Documentation/User_Stories.md)
 
   ### User Stories
   
