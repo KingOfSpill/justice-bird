@@ -1,4 +1,6 @@
-  | RID | UID | Feature | Assigned To | Points |
+ ### Functional Requirements
+ 
+ | RID | UID | Feature | Assigned To | Points |
   |---:|--------------:|:--------|:------:|:-----:|
   | 00 | 01 | The game shall allow the player to pause the game                | @kingofspill |1|
   | 01 | 01 | The game shall allow the player to un-pause the game             | @kingofspill |1|
