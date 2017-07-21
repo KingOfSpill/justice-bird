@@ -1,0 +1,7 @@
+Test Procedure 19:
+
+1) Open the game
+2) Press the button on screen labelled "START"
+3) Using the arrow keys, move the bird to hit an NPC or other obstacle
+4) Pass if
+	- The words "You Died" appear on screen

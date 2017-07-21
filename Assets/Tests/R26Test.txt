@@ -1,0 +1,8 @@
+Test Procedure 26:
+
+1) Open the game
+2) Press the button on screen labelled "START"
+3) Using the arrow keys, move the bird to collide with the food, which should be floating and spin
+4) Collide with a food object
+5) Pass if
+	- The empty box on the left side of the screen partially fills

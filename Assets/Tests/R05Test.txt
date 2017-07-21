@@ -1,0 +1,5 @@
+Test Procedure 05:
+
+1) Within the project directory, open /Assets/Resources/Tiles/
+2) Pass if
+	- There are any .prefab files in this folder

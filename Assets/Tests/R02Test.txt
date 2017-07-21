@@ -1,5 +1,42 @@
 Test Procedure 02:
 
-1)
-2)
-3)
+
+Test for moving left
+	1) Open the game
+	2) Press the button on screen labelled "START"
+	3) Press the "Left" key on your Keyboard
+	4) Pass if
+		- The bird moves left
+	5) Once the bird stops moving left, press the "Left" key on your Keyboard again
+	6) Pass if
+		- The bird does not move off the screen
+
+Test for moving right
+	1) Open the game
+	2) Press the button on screen labelled "START"
+	3) Press the "Right" key on your Keyboard
+	4) Pass if
+		- The bird moves right
+	5) Once the bird stops moving right, press the "Right" key on your Keyboard again
+	6) Pass if
+		- The bird does not move off the screen
+
+Test for moving up
+	1) Open the game
+	2) Press the button on screen labelled "START"
+	3) Press the "Up" key on your Keyboard
+	4) Pass if
+		- The bird moves up
+	5) Once the bird stops moving up, press the "Up" key on your Keyboard again
+	6) Pass if
+		- The bird does not move off the screen
+
+Test for moving down
+	1) Open the game
+	2) Press the button on screen labelled "START"
+	3) Press the "Down" key on your Keyboard
+	4) Pass if
+		- The bird moves down
+	5) Once the bird stops moving down, press the "Down" key on your Keyboard again
+	6) Pass if
+		- The bird does not move off the screen

@@ -1,0 +1,9 @@
+Test Procedure 07:
+
+1) Open the game
+2) Press the button on screen labelled "START"
+3) Pass if
+	- There is a number in the upper left hand corner of the game window
+4) Using the arrow keys, move the bird to avoid hitting things for 10 seconds
+5) Pass if
+	- The number in the upper left hand corner changes

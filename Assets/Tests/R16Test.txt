@@ -1,0 +1,22 @@
+Test Procedure 16:
+
+Test For Purchase Persistence
+	1) Open the game
+	2) If the number in the upper right hand corner is less than 100, continue, otherwise go to 
+	3) Press the button on screen labelled "START"
+	4) Using the arrow keys, move the bird to collide with the food, which should be floating and spin
+	5) After colliding with a food object, use the arrow keys to move above an npc
+	6) Press the "Spacebar" key on your Keyboard
+	7) If a coin appears and increases the coin counter, continue , otherwise go to 4)
+	8) If the number in the upper right hand corner is less than 100, go to 4) otherwise continue
+	8) Press the "ESC" key on your keyboard
+	9) Click on the "Return To Title Menu" button on-screen
+	10) Click on the "Customize" button on-screen
+	11) Click on any poop with a lock icon, noting which item had it
+	12) Click on the "Back" button on-screen
+	13) Press the button on screen labelled "START"
+	14) Using the arrow keys, move the bird to collide with the food, which should be floating and spin
+	15) Collide with a food object
+	17) Press the "Spacebar" key on your Keyboard
+	16) Pass if
+		- The poop that spawns lloks like the poop from 11)

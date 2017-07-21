@@ -1,0 +1,5 @@
+Test Procedure 22:
+
+1) Open the game
+2) Pass if
+	- There is a screen with the words "Justice Bird" visible

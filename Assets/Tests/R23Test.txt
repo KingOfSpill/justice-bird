@@ -1,0 +1,6 @@
+Test Procedure 23:
+
+1) Open the game
+2) Press the button on screen labelled "START"
+3) Pass if
+	- The game begins play

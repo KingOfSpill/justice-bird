@@ -1,0 +1,14 @@
+Test Procedure 17:
+
+1) Open the game
+2) Take note of the number in the upper right corner
+3) Press the button on screen labelled "START"
+4) Using the arrow keys, move the bird to collide with the food, which should be floating and spin
+5) After colliding with a food object, use the arrow keys to move above an npc
+6) Press the "Spacebar" key on your Keyboard
+7) If a coin appears and increases the coin counter, continue, otherwise go to 4)
+8) Press the "ESC" key on your keyboard
+9) Click on the "Exit" button on-screen
+10) Open the game
+11) Pass if
+	- The number in the upper right hand corner has increased compared to at 2)

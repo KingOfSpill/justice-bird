@@ -1,0 +1,7 @@
+Test Procedure 12:
+
+1) Launch the game
+2) Wait for the launcher to open
+3) Pass if
+	- There is a dropdown box labelled "Screen Resolution"
+	- There is a dropdown box labelled "Graphics Quality"

@@ -1,0 +1,9 @@
+Test Procedure 10:
+
+1) Open the game
+2) Press the button on screen labelled "START"
+3) Using the arrow keys, move the bird to collide with the food, which should be floating and spin
+4) Wait for the bird to collide with it
+5) Pass if
+	- The object dissapears
+	- The food bar on the left side of the screen fills

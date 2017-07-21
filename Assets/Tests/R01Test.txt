@@ -1,5 +1,14 @@
 Test Procedure 01:
 
-1)
-2)
-3)
+1) Open the game
+2) Press the button on screen labelled "START"
+3) Press the "ESC" Key on your Keyboard
+4) Once the word "Pause" appears on screen and the bird stops moving, press the "ESC" key again
+5) Pass if
+	- The bird begins moving again
+	- The word "Pause" dissapears from the screen
+6) Press the "ESC" Key on your Keyboard
+7) Once the word "Pause" appears on screen and the bird stops moving, press the button on screen labelled "Resume"
+8) Pass if
+	- The bird begins moving again
+	- The word "Pause" dissapears from the screen

@@ -1,0 +1,5 @@
+Test Procedure 06:
+
+1) Open the game
+2) Pass if
+	- There is a number in the upper right corner of the screen

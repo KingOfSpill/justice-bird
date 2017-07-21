@@ -1,0 +1,6 @@
+Test Procedure 24:
+
+1) Open the game
+2) Press the button on screen labelled "EXIT"
+3) Pass if
+	- The game closes

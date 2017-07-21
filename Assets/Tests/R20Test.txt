@@ -1,8 +1,8 @@
-Test Procedure 00:
+Test Procedure 20:
 
 1) Open the game
 2) Press the button on screen labelled "START"
 3) Press the "ESC" Key on your Keyboard
-4) Pass if
-	- The bird stops moving
-	- The word "Pause" appears on screen
+4) Press the "Exit" button on-screen
+5) Pass if
+	- The game closes

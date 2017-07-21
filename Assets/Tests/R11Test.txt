@@ -1,7 +1,7 @@
-Test Procedure 04:
+Test Procedure 11:
 
 1) Open the game
 2) Press the button on screen labelled "START"
 3) Using the arrow keys, move the bird to avoid hitting things until the bird turns a corner twice
 4) Pass if
-	- There is still a road and buildings on screen
+	- At any point there were floating, spinning objects on-screen

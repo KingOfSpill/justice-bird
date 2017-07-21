@@ -1,5 +1,16 @@
 Test Procedure 03:
 
-1)
-2)
-3)
+Test for not being able to poop without food
+	1) Open the game
+	2) Press the button on screen labelled "START"
+	3) Press the "Spacebar" key on your Keyboard
+	4) Pass if
+		- No poop appears
+
+Test for being able to poop with food
+	1) Open the game
+	2) Press the button on screen labelled "START"
+	3) Using the arrow keys, move the bird to collide with the food, which should be floating and spin
+	4) After colliding with a food object, press the "Spacebar" key on your Keyboard
+	5) Pass if
+		- Poop appears near the bird

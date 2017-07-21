@@ -1,0 +1,6 @@
+Test Procedure 25:
+
+1) Open the game
+2) Press the button on screen labelled "CUSTOMIZATION"
+3) Pass if
+	- The word "Customization" is now at the top of the screen
