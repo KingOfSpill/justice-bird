@@ -144,7 +144,7 @@
   
   ### Sprint 1 Burndown Chart
  
- ![Very UML!](Documentation/burndown1.PNG)
+ [Sprint 1](https://raw.githubusercontent.com/KingOfSpill/justice-bird/master/Documentation/burndown1.png)
   
   ### Sprint 2 
   
@@ -175,7 +175,7 @@
   
   ### Sprint 2 Burndown Chart
  
- ![Very UML!](Documentation/sprintBurndown.PNG)
+ [Burndown Chart](https://raw.githubusercontent.com/KingOfSpill/justice-bird/master/Documentation/sprintBurndown.png)
  
  
   
