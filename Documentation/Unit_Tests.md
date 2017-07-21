@@ -1,6 +1,5 @@
 ### Unit Tests
 
-  [](Assets/Tests/Editor/)
   | File Being Tested | File Of Tests |
   |:-----------------:|:--------------|
   | BirdController.cs | [BirdControllerTests.cs](Assets/Tests/Editor/BirdControllerTests.cs) |
