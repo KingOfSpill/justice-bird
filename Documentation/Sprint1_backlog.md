@@ -1,5 +1,5 @@
 
-  ### Sprint 1 Bscklog
+  ### Sprint 1 Backlog
   
   | Feature RID | Status | Assigned To | Points |
   |:----:|:------:|:------:|:----:|
