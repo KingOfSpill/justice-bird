@@ -1,4 +1,6 @@
-  | TID | Test Description | RID Being Tested | Method Of Testing |
+### Unit Tests
+
+| TID | Test Description | RID Being Tested | Method Of Testing |
   |:---:|:-----------------|:----------------:|:------------------|
   | 00  | The pause button pauses the game                                          | 00 | [PauseControllerTests.cs](Assets/Tests/Editor/PauseControllerTests.cs) |
   | 01  | The unpause button unpauses the game                                      | 01 | [PauseControllerTests.cs](Assets/Tests/Editor/PauseControllerTests.cs) |
