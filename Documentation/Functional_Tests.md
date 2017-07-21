@@ -1,3 +1,5 @@
+  ### Functional Tests
+  
   | RID Being Tested | Method Of Testing |
   |:----------------:|:------------------|
   | 00 | [Assets/Tests/R00Test.txt](Assets/Tests/R00Test.txt) |
