@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CoinCollector : MonoBehaviour {
+public class CoinCollector : MonoBehaviour
+{
 
-	public UIscript ui;
-    
+    public UIscript ui;
+
     void OnTriggerEnter(Collider other)
     {
 
@@ -15,7 +16,7 @@ public class CoinCollector : MonoBehaviour {
             Destroy(other.gameObject);
         }
 
-	}
+    }
 
     public void DestroyCoin(GameObject other)
     {
