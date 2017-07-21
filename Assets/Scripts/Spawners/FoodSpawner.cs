@@ -8,7 +8,6 @@ public class FoodSpawner : MonoBehaviour {
 	public float delay = 3.0f;
 	public bool active = true;
 	public Grid spawnerGrid;
-	int f;
 
 	void Start ()
     {
@@ -22,14 +21,14 @@ public class FoodSpawner : MonoBehaviour {
 
 		if (active)
         {
-			f = Random.Range(0, food.Length);
+			int f = Random.Range(0, food.Length);
 
             int randX = Random.Range(0, spawnerGrid.gridWidth);
             int randY = Random.Range(0, spawnerGrid.gridWidth);
 
             for (int i = 0; i < 5; i++)
             {
-                GameObject bread = spawn(spawnerGrid.gridToWorldPosition(randX, randY), Quaternion.identity);
+                GameObject bread = spawn(spawnerGrid.gridToWorldPosition(randX, randY), Quaternion.identity, f);
                 yield return new WaitForSeconds(0.2f);
                 Destroy(bread, 30.0f);
             }
@@ -39,9 +38,9 @@ public class FoodSpawner : MonoBehaviour {
 
 	}
 
-	public GameObject spawn( Vector3 position, Quaternion rotation)
+	public GameObject spawn( Vector3 position, Quaternion rotation, int index)
     {
-		return Instantiate(food[f], position, rotation);
+		return Instantiate(food[index], position, rotation);
     }
 		
 }

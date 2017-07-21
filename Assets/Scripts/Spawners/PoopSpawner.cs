@@ -20,7 +20,7 @@ public class PoopSpawner : MonoBehaviour {
 
     public void Update ()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space") & Time.timeScale != 0.0f)
             spawnPoop();
     }
 
