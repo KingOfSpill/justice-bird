@@ -1,0 +1,5 @@
+Test Procedure 30:
+
+1) Within the project directory, open /Assets/Prefabs/Food/
+2) Pass if
+	- There are any .prefab files in this folder

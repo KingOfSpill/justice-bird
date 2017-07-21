@@ -2,7 +2,7 @@ Test Procedure 27:
 
 1) Open the game
 2) Press the button on screen labelled "START"
-3) Using the arrow keys, move the bird to collide with the food, which should be floating and spin
+3) Using the arrow keys, move the bird to collide with the food, which should be floating and spinning
 4) After colliding with a food object, use the arrow keys to move above an npc
 5) Press the "Spacebar" key on your Keyboard
 6) If it hits the NPC, continue, otherwise go to 3)

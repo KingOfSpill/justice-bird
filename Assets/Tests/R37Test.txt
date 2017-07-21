@@ -1,0 +1,6 @@
+Test Procedure 37:
+
+1) Open the game
+2) Press the button on screen labelled "START"
+3) Pass if
+	- Music begins playing

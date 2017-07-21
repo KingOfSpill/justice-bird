@@ -1,0 +1,7 @@
+Test Procedure 28:
+
+1) Open the game
+2) Press the button on screen labelled "START"
+4) Using the arrow keys, move the bird to avoid hitting things for 10 seconds
+5) Pass if
+	- The number in the upper left hand corner changes

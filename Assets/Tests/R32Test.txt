@@ -1,0 +1,6 @@
+Test Procedure 32:
+
+1) Open The Game
+2) Click on the "Customize" button on-screen
+3) Pass if
+	- There are multiple poops that look different on screen

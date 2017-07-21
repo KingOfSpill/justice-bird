@@ -1,0 +1,5 @@
+Test Procedure 29:
+
+1) Within the project directory, open /Assets/Resources/Obstacles/
+2) Pass if
+	- There are any .prefab files with a human model in this folder

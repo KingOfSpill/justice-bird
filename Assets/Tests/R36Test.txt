@@ -1,4 +1,5 @@
-Test Procedure 18:
+Test Procedure 36:
+
 
 1) Open the game
 2) If the number in the upper right hand corner is less than 100, continue, otherwise go to 
@@ -14,3 +15,4 @@ Test Procedure 18:
 11) Click on any item with a lock icon, noting which item had it
 12) Pass if
 	- The item you clicked on has no lock icon
+	- The coin counter in the upper right hand corner of the screen decremented
