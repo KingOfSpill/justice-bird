@@ -55,4 +55,5 @@
 ## Design Specification
 
 [Class Diagram](https://raw.githubusercontent.com/KingOfSpill/justice-bird/master/Documentation/DesignDoc.png)
+
 [Use-Case Diagram](https://raw.githubusercontent.com/KingOfSpill/justice-bird/master/Documentation/UseCaseDiagram.png)
