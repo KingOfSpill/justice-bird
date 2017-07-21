@@ -19,8 +19,10 @@
 
 ## Product Backlog
 
+  [User Stories](https://raw.githubusercontent.com/KingOfSpill/justice-bird/master/Documentation/User_Stories)
+
   ### User Stories
- 
+  
   | UID | User Story |
   |---:|:-----------|
   | 00 | “As a player, I want to be able to start the game, so I can play.” |
@@ -41,6 +43,8 @@
   | 15 | "As a player, I want a central location that displays my choices, so I can choose what to do." |
   | 16 | "As a player, I want to hear music while I play, so I don't get bored." |
   
+  [Functional Requirements](https://raw.githubusercontent.com/KingOfSpill/justice-bird/master/Documentation/Functional_Requirements)
+
   ### Functional Requirements
 
   | RID | UID | Feature | Assigned To | Points |
@@ -85,7 +89,10 @@
   | 37 | 16 | The game shall play music during gameplay | @sustx | 5 |
   | 38 | 17 | The game shall have a set of buildings to make up the city tiles | @3alanhdez, @kingofspill | 5 |
 
-  ### Functional Test
+ [Functional Tests](https://raw.githubusercontent.com/KingOfSpill/justice-bird/master/Documentation/Functional_Tests.md)
+  ### Functional Tests
+  
+  
   | RID Being Tested | Method Of Testing |
   |:----------------:|:------------------|
   | 00 | [Assets/Tests/R00Test.txt](Assets/Tests/R00Test.txt) |
@@ -95,7 +102,10 @@
   | 04 | [Assets/Tests/R04Test.txt](Assets/Tests/R04Test.txt) |
   | 05 | etc... |
 
+   [Unit Tests](https://raw.githubusercontent.com/KingOfSpill/justice-bird/master/Documentation/Unit_Tests.md)
+   
   ### Unit Tests
+    
   | TID | Test Description | RID Being Tested | Method Of Testing |
   |:---:|:-----------------|:----------------:|:------------------|
   | 00  | The pause button pauses the game                                          | 00 | [PauseControllerTests.cs](Assets/Tests/Editor/PauseControllerTests.cs) |
