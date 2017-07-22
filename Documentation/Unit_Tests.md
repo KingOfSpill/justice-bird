@@ -1,7 +1,7 @@
 ### Unit Tests
 
   | File Being Tested | File Of Tests |
-  |:-----------------:|:--------------|
+  |:------------------|:--------------|
   | [CoinCollector.cs](/Assets/Scripts/Collectors/CoinCollector.cs)                           | [CoinCollectorTests.cs](/Assets/Tests/Editor/CoinCollectorTests.cs) |
   | [FoodCollector.cs](/Assets/Scripts/Collectors/FoodCollector.cs)                           | [FoodCollectorTests.cs](/Assets/Tests/Editor/FoodCollectorTests.cs) |
   | [BirdController.cs](/Assets/Scripts/Controllers/BirdController.cs)                        | [BirdControllerTests.cs](/Assets/Tests/Editor/BirdControllerTests.cs) |
