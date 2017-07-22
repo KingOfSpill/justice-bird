@@ -8,7 +8,6 @@ public class BirdCustomizationLoader : MonoBehaviour {
     public string folder;
     public Material[] materials;
     public GameObject customizationOption;
-    public int customizationType;
     public List<GameObject> spawned;
     public List<bool> unlocked;
     public CoinLoader coins;

@@ -7,7 +7,6 @@ public class PoopCustomizationLoader : MonoBehaviour {
     public string folder;
     public GameObject[] prefabs;
     public GameObject customizationOption;
-    public int customizationType;
     public List<GameObject> spawned;
     public List<bool> unlocked;
     public CoinLoader coins;
