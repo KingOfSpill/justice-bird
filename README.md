@@ -10,8 +10,12 @@
   | @mohammadh94 - Mohammad Hammad |
   | @sustx - William Tyback Rojas |
   
+  
+  
 ## Demo Video
-    https://www.youtube.com/watch?v=gQmSUSPGisU (Link formatting will not work)
+  [Sprint 2](https://youtube.com/watch?v=gQmSUSPGisU/)
+    
+  [Sprint 3](https://youtu.be/GVTLpk_tQ0M/)
 
 ## Vision Statement
 
