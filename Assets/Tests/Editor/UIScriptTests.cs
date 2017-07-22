@@ -3,8 +3,10 @@ using UnityEditor;
 using UnityEngine.TestTools;
 using NUnit.Framework;
 using System.Collections;
+using UnityEngine.UI;
 
-public class UIScriptTests {
+public class UIScriptTests
+{
 
 	[Test]
 	public void getCoinChangesCoinCounterText() {
@@ -40,6 +42,40 @@ public class UIScriptTests {
         ui.changeScore(100);
 
         Assert.AreNotEqual(scoreText, ui.scoreText.text);
+
+    }
+
+    [Test]
+    public void poopingReducesPoopAmount()
+    {
+
+        GameObject uiContainer = new GameObject();
+        UIscript ui = uiContainer.AddComponent<UIscript>();
+        ui.poopFill = uiContainer.AddComponent<Image>();
+
+        ui.pooAmount = 1;
+        ui.poopFill.enabled = true;
+
+        ui.bowelMovement();
+
+        Assert.IsTrue(ui.pooAmount < 1 && !ui.poopFill.enabled);
+
+    }
+
+    [Test]
+    public void collectingFoodIncreasesPoopAmount()
+    {
+
+        GameObject uiContainer = new GameObject();
+        UIscript ui = uiContainer.AddComponent<UIscript>();
+        ui.poopFill = uiContainer.AddComponent<Image>();
+
+        ui.pooAmount = 0;
+        ui.poopFill.enabled = false;
+
+        ui.foodCollected();
+
+        Assert.IsTrue(ui.pooAmount > 0 && ui.poopFill.enabled);
 
     }
 

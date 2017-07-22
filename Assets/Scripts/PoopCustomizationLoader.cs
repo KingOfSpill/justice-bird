@@ -13,7 +13,7 @@ public class PoopCustomizationLoader : MonoBehaviour {
     public CoinLoader coins;
 
 	// Use this for initialization
-	void Start () {
+	public void Start () {
 
         loadResources(folder);
         setPanelSize();
@@ -21,7 +21,7 @@ public class PoopCustomizationLoader : MonoBehaviour {
 		
 	}
 
-    void spawnItems()
+    public void spawnItems()
     {
         for (int i = 0; i < prefabs.Length; i++)
         {
@@ -42,14 +42,14 @@ public class PoopCustomizationLoader : MonoBehaviour {
         }
     }
 
-    void setPanelSize()
+    public void setPanelSize()
     {
         RectTransform transform = gameObject.GetComponent<RectTransform>();
 
         transform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, prefabs.Length * 30f);
     }
 
-    void pressOption(int i)
+    public void pressOption(int i)
     {
 
         if( !unlocked[i] && coins.coins >= 100)
@@ -69,12 +69,12 @@ public class PoopCustomizationLoader : MonoBehaviour {
 
     }
 
-    void setCurrentSkin(int i)
+    public void setCurrentSkin(int i)
     {
         SaveLoad.saveCurrentPoopSkin(i);
     }
 
-    void setLock( int i, bool locked)
+    public void setLock( int i, bool locked)
     {
         foreach (RawImage img in spawned[i].GetComponentsInChildren<RawImage>())
         {
@@ -83,7 +83,7 @@ public class PoopCustomizationLoader : MonoBehaviour {
         }
     }
 
-    void loadResources(string folder)
+    public void loadResources(string folder)
     {
 
         prefabs = Resources.LoadAll<GameObject>(folder);

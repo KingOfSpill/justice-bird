@@ -5,19 +5,28 @@ using NUnit.Framework;
 using System.Collections;
 using UnityEngine.UI;
 
-public class BirdCustomizationLoaderTests {
+public class PoopCustomizationLoaderTests {
 
-	[Test]
-	public void spawnItemsSpawnsItems() {
+    [Test]
+    public void spawnItemsSpawnsItems()
+    {
 
         GameObject customizationLoaderObject = new GameObject();
-        BirdCustomizationLoader loader = customizationLoaderObject.AddComponent<BirdCustomizationLoader>();
-        loader.materials = new Material[] { new Material(Shader.Find("Diffuse"))};
+        PoopCustomizationLoader loader = customizationLoaderObject.AddComponent<PoopCustomizationLoader>();
+
+        GameObject poop = new GameObject();
+        poop.AddComponent<PoopController>();
+
+        loader.prefabs = new GameObject[] { poop };
         loader.unlocked = new System.Collections.Generic.List<bool> { true };
 
         GameObject customizationOption = new GameObject();
         customizationOption.AddComponent<RectTransform>();
         customizationOption.AddComponent<Button>();
+
+        GameObject custChild = new GameObject();
+        custChild.transform.parent = customizationOption.transform;
+
         GameObject renderHolder = new GameObject();
         renderHolder.AddComponent<MeshRenderer>();
         renderHolder.transform.SetParent(customizationOption.transform);
@@ -29,6 +38,6 @@ public class BirdCustomizationLoaderTests {
 
         Assert.Less(0, loader.spawned.Count);
 
-	}
+    }
 
 }
